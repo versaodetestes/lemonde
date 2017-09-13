@@ -1,0 +1,24 @@
+@import 'bootstrap/bootstrap';
+
+$white: #fff;
+$color-primary: #302b6c;
+
+.sub-header {
+	background: $white;
+}
+.main-header {
+	background: $color-primary;
+	padding: 10px 5%;
+}
+.nav-header {
+	ul {
+		li {
+			 display: inline;
+			 margin-left: 30px;
+			a {
+				color: $white;
+			}
+		}
+	}
+
+}
