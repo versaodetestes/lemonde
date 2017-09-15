@@ -1,0 +1,34 @@
+@import "style-general.scss";
+
+.implantacao {
+	max-width: 1120px;
+	width: 100%;
+	margin: 80px 0;
+}
+.implantacao-info {
+	padding: 20px 50px;
+	background: $color-primary; 
+	margin: 0;
+}
+.implantacao-item {
+	display: inherit;
+	font-size: 18px;
+	font-family: $font-light;
+	letter-spacing: 0.5px;
+	color: $white;
+	margin-bottom: 5px;
+	> span {
+		color: $color-secundary;
+		font-family: $font-bold-italic;
+	}
+}
+.img-inspiracao {
+	margin-bottom: 20px;
+}
+
+.ficha-tecnica {
+	background: $color-primary;
+	color: $white;
+	padding: 50px 0;
+	margin-bottom: 50px;
+}

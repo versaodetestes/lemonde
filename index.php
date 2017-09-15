@@ -8,33 +8,7 @@
 </head>
 <body>
 	<!-- HEADER -->
-	<div class="header">
-		<div class="sub-header">
-			<div class="container">
-				<img src="assets/img/logo-crb.svg" class="logo-crb-header float-right">
-			</div>
-		</div>
-		<div class="main-header">
-		<div class="container">
-			<div class="navbar">
-				<div class="brand">
-					<img src="assets/img/logo-lemonde.svg">
-				</div>
-				<div class="nav-header">
-					<ul>
-						<li><a href="">Empreendimento</a></li>
-						<li><a href="">Apartamentos</a></li>
-						<li><a href="">Lazer</a></li>
-						<li><a href="">Localização</a></li>
-						<li><a href="">Contato</a></li>
-					</ul>
-				</div>
-			</div>
-
-		</div>
-
-		</div>
-	</div>
+	<?php include ("header.php"); ?>
 	<!-- FIM HEADER -->
 	<!-- HERO -->
 	<div class="hero hero-home">
@@ -47,6 +21,7 @@
 				<div class="title-group">
 					<h1>O empreendimento</h1>
 					<p class="lead">Tendência internacional de moradia</p>
+					<span class="line line-blue"></span>
 				</div>
 		</div>
 		<div class="row justify-content-center">
@@ -72,20 +47,22 @@
 			</div>
 		</div>
 
-		<div class="row justify-content-center">
+		<div class="row justify-content-center text-center">
 			<div class="midia">
 				<div class="midia-player">
 					<img src="assets/img/youtube-cover.jpg" class="img-fluid" id="youtubecover">
 					<div id="ytplayer" style="display:none;">
 					</div>
+				<span class="bar-color"></span>
 				</div>
 				<div class="midia-text">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam repellendus assumenda ex deleniti voluptatibus.
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>Quisquam repellendus assumenda ex deleniti voluptatibus.
 				</div>
 				<div class="midia-cta">
 					<a class="btn btn-cta" href="./empreendimento">Veja mais informações</a>
 				</div>
 			</div>
+			<span class="line line-blue line-full line-mr-bottom"></span>
 		</div>
 
 
@@ -99,7 +76,7 @@
 					<a class="btn btn-cta btn-inverse" href="./apartamentos">Escolha sua planta ideal</a>
 				  </div>
 				</div>
- 				<span class="card-color"></span>
+ 				<span class="bar-color"></span>
 			</div>
 
 			<div class="cards col-md-4">
@@ -109,7 +86,7 @@
 						<a class="btn btn-cta btn-inverse" href="./lazer">Um mundo de possibilidades</a>
 					</div>
 				</div>
- 				<span class="card-color"></span>
+ 				<span class="bar-color"></span>
 			</div>
 
 			<div class="cards col-md-4">
@@ -120,7 +97,7 @@
 				  </div>
 				 
 				</div>
- 				<span class="card-color"></span>
+ 				<span class="bar-color"></span>
 			</div>
 
 		</div>
@@ -136,56 +113,12 @@
 				</div>
 			</div>
 		</div>
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="cta-stand media">
-						<img src="assets/img/cta-maquete.jpg" class="img-fluid d-flex align-self-start mr-3">
-					<div class="media-body stand-text">
-						<h3 class="cta-stand-title">Stand de vendas</h3>
-						<p>
-							Visite nosso Stand de vendas e aproveite para conhecer o Apartamento Decorado
-						</p>
-						<a href="./contato" class="btn btn-cta">Entre em contato</a>
-					</div>
-					
-				</div>
-			</div>
-		</div>
-		<div class="container">
-			<div class="row">
-				<footer>
-					<div class="col-md-6">
-						<ul class="nav-footer">
-							<li><a href="./">Home</a></li>
-							<li><a href="./empreendimentos">Empreendimento</a></li>
-							<li><a href="./apartamentos">Apartamentos</a></li>
-							<li><a href="./lazer">Lazer</a></li>
-							<li><a href="./localização">Localiazação</a></li>
-							<li><a href="./contato">Contato</a></li>
-						</ul>
-					</div>
-					<div class="col-md-6">
-						<div class="about-company">
-							<img src="">
-							<p>
-								A CRB Construtora é uma empresa de Sorocaba, interior de São Paulo, que permanece há mais de 10 anos com as atividades focadas na cidade. Realiza empreendimentos de padrão elevado, inovadores e com foco na qualidade e entrega com diferenciais.
-							</p>
-							<a href="#" class="btn">Saiba mais sobre nós</a>
-						</div>
-					</div>
-				</footer>
-			</div>
-		</div>
-		<div class="container-fluid">
-			<div class="memorial">
-				<small>
-					*Consulte memorial descritivo no stand de vendas.
-Perspectivas meramente ilustrativas. Consulte memorial descritivo nos stand de vendas. Incorporação conforme matrícula
-nº 25.522 do 2º Cartório de Registro de Imóveis de Sorocaba/SP.  Alvará de Licença nº 533/16SEMOB/DLCON/SEP 
-Política de Privacidade
-				</small>
-			</div>
-		</div>
+		<!-- CTA -->
+		<?php include ("cta-stand.php"); ?>
+		<!-- FIM CTA -->
+		<!-- FOOTER -->
+		<?php include ("footer.php"); ?>
+		<!-- FIM FOOTER -->
 
 <script type="text/javascript" src="assets/js/jquery-1.9.1.min.js"></script>
 <script type="text/javascript" src="assets/js/main-script.js"></script>
