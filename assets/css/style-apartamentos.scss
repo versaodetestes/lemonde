@@ -1,0 +1,21 @@
+@import "style-general.scss";
+
+.paulo {
+	z-index: 2;
+}
+.bar-color-depoimento {
+    margin-left: -110px;
+    position: absolute;
+    width: 730px;
+    margin-top: 50px;
+    z-index: 1;
+	font-family: $font-regular;
+}
+.paulo-depoimento {
+	font-size: 20px;
+}
+.paulo-nome {
+	font-family: $font-bold-italic;
+}
+
+// CARDS APTO

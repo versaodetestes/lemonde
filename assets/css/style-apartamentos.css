@@ -7243,41 +7243,19 @@ ul > li {
   background: #f5f5f5;
   font-size: 14px; }
 
-.fachada-noturna {
-  width: 100%;
-  max-width: 909px;
-  margin-bottom: 50px; }
+.paulo {
+  z-index: 2; }
 
-.implantacao {
-  max-width: 1120px;
-  width: 100%;
-  margin: 80px 0; }
-
-.implantacao-info {
-  padding: 20px 50px;
-  background: #302b6c;
-  margin: 0; }
-
-.implantacao-item {
-  display: inherit;
-  font-size: 18px;
-  font-family: "supermolotlight";
-  letter-spacing: 0.5px;
-  color: #fff;
-  margin-bottom: 5px; }
-  .implantacao-item > span {
-    color: #53e3af;
-    font-family: "supermolotbold_italic"; }
-
-.img-inspiracao {
-  margin-bottom: 20px; }
-
-.ficha-tecnica {
-  background: #302b6c;
-  color: #fff;
-  padding: 50px 0;
+.bar-color-depoimento {
+  margin-left: -110px;
+  position: absolute;
+  width: 730px;
   margin-top: 50px;
-  margin-bottom: 50px; }
+  z-index: 1;
+  font-family: "supermolotregular"; }
 
-.text-equipe {
-  margin: 50px 0; }
+.paulo-depoimento {
+  font-size: 20px; }
+
+.paulo-nome {
+  font-family: "supermolotbold_italic"; }

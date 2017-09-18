@@ -19,8 +19,11 @@
 				</div>
 		</div>
 		<div class="row justify-content-center">
-			<img src="assets/img/le-monde-fachada-noturna.jpg" class="img-fluid">
-			<span class="bar-color"></span>
+			<div class="fachada-noturna">
+				<img src="assets/img/le-monde-fachada-noturna.jpg" class="img-fluid">
+				<span class="bar-color"></span>
+			</div>
+
 		</div>
 
 		<div class="row justify-content-center">
@@ -128,14 +131,62 @@
 	</div>
 	<div class="container-fluid">
 
-		<div class="row no-gutter ficha-tecnica">
+		<div class="row no-gutter ficha-tecnica d-flex justify-content-center">
 			<div class="col-md-12 text-center">
-				<h3 class="ficha-title">O Empreendimento</h3>
+				<h3 class="ficha-title">Diferenciais do empreendimento</h3>
 				<span class="line line-green"></span>
-			</div>	
+			</div>
+			<div class="col-md-4">
+				<h4>Diferenciais áreas comuns</h4>
+				<ul>
+					<li>Lazer na cobertura e área externa</li>
+					<li>Garagens Subsolo, térreo e sobressolo</li>
+					<li>Vagas para visitantes e serviços</li>
+					<li>Elevador social e serviços, 02 por torre</li>
+					<li>Construção em concreto armado</li>
+					<li>Infraestrutura para sistema de segurança</li>
+					<li>Acessibilidade para portadores de necessidade especiais</li>
+				</ul>
+			</div>
+			<div class="col-md-4">
+				<h4>Diferenciais áreas privativas</h4>
+				<ul>
+					<li>Lazer na cobertura e área externa</li>
+					<li>Garagens Subsolo, térreo e sobressolo</li>
+					<li>Vagas para visitantes e serviços</li>
+					<li>Elevador social e serviços, 02 por torre</li>
+					<li>Construção em concreto armado</li>
+					<li>Infraestrutura para sistema de segurança</li>
+					<li>Acessibilidade para portadores de necessidade especiais</li>
+				</ul>
+			</div>
 
 		</div>
 
+	</div>
+	<div class="container">
+			<div class="row justify-content-center">
+				<div class="title-group text-center">
+					<h3 class="h1">Realização</h3>
+					<p class="lead">Do Projeto Ao acabamento</p>
+					<span class="line line-blue"></span>				
+				</div>
+			</div>
+			<div class="row justify-content-center">
+				<img src="assets/img/equipe-crb.jpg" class="img-fluid">
+				<div class="col-md-8 text-equipe">
+
+				<p>
+					O Le Monde Campolim é uma realização da CRB Construtora, que consolida sua marca como uma empresa que alia inovação e profissionalismo a um atendimento personalizado aos clientes. 
+				</p>
+				<p>
+Nossos empreendimentos são projetados por uma equipe capacitada, com arquitetura autêntica, diversidade de plantas, localização privilegiada e fino acabamento. Isso porque a CRB tem consciência do papel que exerce em relação à formação da paisagem urbana da cidade, junto ao intuito de construir imóveis que traduzam o sentimento de morar bem.
+				</p>
+				<p>
+Para nós da CRB Construtora, morar bem significa ter a certeza que seu investimento está em constante valorização, desenvolvendo-se no mesmo ritmo do seu bairro. Morar bem representa a garantia de durabilidade, com manutenção e suporte a qualquer momento. Morar bem é para quem escolhe o melhor que a vida pode proporcionar.
+				</p>				
+				</div>
+			</div>
 	</div>
 
 

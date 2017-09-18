@@ -37,14 +37,14 @@ $font-regular: 'supermolotregular';
 $font-italic: 'supermolotitalic';
 $font-bold-italic: 'supermolotbold_italic';
 
-h1{
+h1, .h1{
 	font-family: $font-bold-italic;
 	font-size: 50px;
 	color: $grey-light;
 	text-transform: uppercase;
 	letter-spacing: 5px;
 }
-h2 {
+h2, .h2 {
 	font-family: $font-light;
 	font-size: 35px;
 	text-transform: uppercase;

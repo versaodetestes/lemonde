@@ -13,8 +13,8 @@
 				</div>
 				<div class="nav-header">
 					<ul>
-						<li><a href="">Empreendimento</a></li>
-						<li><a href="">Apartamentos</a></li>
+						<li><a href="./empreendimento.php">Empreendimento</a></li>
+						<li><a href="./apartamentos.php">Apartamentos</a></li>
 						<li><a href="">Lazer</a></li>
 						<li><a href="">Localização</a></li>
 						<li><a href="">Contato</a></li>
