@@ -38,32 +38,84 @@
 
 			<div class="row justify-content-center">
 				<div class="card-planta">
-						<img src="assets/img/apartamento-48.jpg" class="img-fluid d-flex align-self-start mr-3">
-					<div class="card-apto-info">
-						<h3 class="cta-apto-title">Apartamento 48m²</h3>
+					<div class="card-planta-image">
+						<img src="assets/img/apartamento-48.jpg" class="img-fluid">
+					</div>						
+					<div class="card-planta-info">
+						<h3 class="card-planta-title">APARTAMENTO 48m²</h3>
 						<span class="line line-blue"></span>
-						<p>
+						<p class="card-planta-lead">
 							Para aqueles que estão conquistando seu espaço
 						</p>
-						<a href="./contato" class="btn btn-cta">Entre em contato</a>
+						<span class="card-planta-feature">4 versões de plantas</span>
+						<ul class="card-planta-list">
+							<li>• 1 ou 2 Dorms*</li>
+							<li>• Varanda Gourmet com churrasqueira grill</li>
+							<li>• 1 vaga de garagem</li>
+						</ul>
+						<a href="./contato" class="btn btn-cta">Veja mais detalhes</a>
 					</div>
 					
 				</div>
 			</div>
-			<div class="row">
+			<div class="row plantas-small">
 				<div class="col-md-4">
 					<div class="card card-planta">
-						
+						<img src="assets/img/card-planta-129.jpg" class="img-fluid">
+						<span class="card-small-title">DUPLEX<span class="card-small-title-number">129</span>m²</span>
+						<div class="card-planta-body">
+							<ul class="card-planta-list">
+								<li>• 3 Dormitórios (3 suítes)</li>
+								<li>• Varanda Gourmet</li>
+								<li>• Depósito privativo</li>
+								<li>• 3 vagas de garagem</li>
+							</ul>
+						</div>
+						<a href="./contato" class="btn btn-cta">Veja mais detalhes</a>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="card card-planta">
-						
+						<img src="assets/img/card-planta-101.jpg" class="img-fluid">
+						<span class="card-small-title">DUPLEX<span class="card-small-title-number">101</span>m²</span>
+						<div class="card-planta-body">
+							<ul class="card-planta-list">
+								<li>• 3 Dormitórios (1 suíte)</li>
+								<li>• Varanda Gourmet</li>
+								<li>• Depósito privativo</li>
+								<li>• 2 vagas de garagem</li>
+							</ul>
+						</div>
+						<a href="./contato" class="btn btn-cta">Veja mais detalhes</a>
 					</div>
 				</div>
 				<div class="col-md-4">
 					<div class="card card-planta">
-						
+						<img src="assets/img/card-planta-62.jpg" class="img-fluid">
+						<span class="card-small-title">APTO<span class="card-small-title-number">62</span>m²</span>
+						<div class="card-planta-body">
+							<ul class="card-planta-list">
+								<li>• 2 Dormitórios  (1 suíte)</li>
+								<li>• Varanda Gourmet</li>
+								<li>• Depósito privativo</li>
+								<li>• 2 vagas de garagem</li>
+							</ul>
+						</div>
+						<a href="./contato" class="btn btn-cta">Veja mais detalhes</a>
 					</div>
 				</div>
 			</div>
+
+		<!-- CTA -->
+		<?php include ("cta-stand.php"); ?>
+		<!-- FIM CTA -->
+		<!-- FOOTER -->
+		<?php include ("footer.php"); ?>
+		<!-- FIM FOOTER -->
+
+<script type="text/javascript" src="assets/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="assets/js/main-script.js"></script>
+
+
+</body>
+</html>

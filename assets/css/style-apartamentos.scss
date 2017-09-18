@@ -19,3 +19,66 @@
 }
 
 // CARDS APTO
+.plantas-small {
+	margin-bottom: 50px;
+}
+.card-planta {
+	max-width: 1250px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-content: start;
+	box-shadow: $shadow;
+	border-radius: 5px;
+	overflow: hidden;
+	margin: 50px 0;
+}
+.card-planta-body {
+	padding: 0px 30px;
+}
+.card-planta-info {
+	margin: auto;
+}
+.card-planta-title {
+	font-size: 30px;
+	font-family: $font-bold-italic;
+	color: $grey-medium;
+	letter-spacing: 0.5px;
+}
+.card-planta-lead {
+	font-family: $font-light;
+	font-size: 18px;
+	color: $grey-medium;
+	letter-spacing: 0.5px;
+	margin-top: -18px;
+}
+
+.card-planta-feature {
+	font-size: 22px;
+	font-family: $font-bold-italic;
+	color: $grey-medium;
+	box-shadow: inset 0px -10px 0px #52dfae;
+	margin-bottom: 20px;
+}
+.card-small-title {
+    color: #fff;
+    font-size: 27px;
+    font-family: "supermolotlight";
+    letter-spacing: 0.5px;
+    position: absolute;
+    top: 65px;
+    margin-left: 30px;
+
+}
+.card-small-title-number {
+	font-size: 80px;
+}
+.card-planta-list {
+	font-size: 20px;
+	list-style-type: none;
+	padding: 0;
+	margin: 20px 0 30px 0;
+	> li {
+		margin-bottom: 15px;
+	}
+}
