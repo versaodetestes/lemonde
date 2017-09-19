@@ -2,7 +2,7 @@
 <html lang="pt_BR">
 <head>
 	<meta charset="UTF-8">
-	<title>Apartamento 62m² - Le Monde Campolim</title>
+	<title>Apartamento 48m² - Le Monde Campolim</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<link rel="stylesheet" type="text/css" href="assets/css/style-apartamentos.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/swiper.min.css">
@@ -13,11 +13,11 @@
 	<?php include ("header.php"); ?>
 	<!-- FIM HEADER -->
 	<!-- HERO -->
-	<div class="hero hero-apto hero-62">
+	<div class="hero hero-apto hero-48">
 		<div class="hero-info">
-			<h1>Apartamento 62m²</h1>
+			<h1>Apartamento 48m²</h1>
 			<span class="line line-green"></span>
-			<p class="lead lead-hero">Para quem sonha cada detalhe para ser perfeito.</p>
+			<p class="lead lead-hero">Para aqueles que estão conquistando seu espaço</p>
 		</div>
 	</div>
 	<!-- FIM HERO -->
@@ -49,7 +49,7 @@
 		<div class="row banner-wrap">
 
 			<div class="col-md-6">
-				<div class="banner banner-pet banner-pet_2">
+				<div class="banner banner-pet banner-pet_1">
 					<div class="banner-pet_info">
 						<span class="banner-pet_title">Personalização de Piso</span>
 						<span class="banner-pet_text">3 tipos de piso para você escolher</span>
@@ -74,7 +74,7 @@ Aproveite todos os dias para viver ainda melhor no seu novo apartamento.
 		</div>
 
 		<div class="row">
-			<img src="assets/banners/Banners-imagens-internas-aptos-1336-62.jpg" class="img-fluid">
+			<img src="assets/banners/Banners-imagens-internas-aptos-1336-48.jpg" class="img-fluid">
 		</div>
 
 		<div class="row galeria-plantas justify-content-center">
@@ -129,9 +129,9 @@ Aproveite todos os dias para viver ainda melhor no seu novo apartamento.
 			<div class="col-md-5">
 				<ul class="ficha-list">
 					<li>Cozinha Americana</li>
-					<li>2 dormitórios (1 suíte)</li>
+					<li>01 ou 02 Dorms.* (4 versões de plantas)</li>
 					<li>Varanda gourmet com churrasqueira grill</li>
-					<li>2 Vagas cobertas</li>
+					<li>1 vaga coberta</li>
 				</ul>
 			</div>
 			<div class="col-md-5">
@@ -153,11 +153,20 @@ Aproveite todos os dias para viver ainda melhor no seu novo apartamento.
 			</div>
 			<div class="galeria" id="slider-apartamento">
 				<div class="swiper-container" id="slider-perspectivas">
-					<div class="swiper-wrapper">
+<div class="swiper-wrapper">
 						<div class="swiper-slide">
 							<picture>
-								<source media="(max-width: 425px)" srcset="galeria/perspectiva/apto-62/mobile/apto-62m-living.jpg" class="img-responsive">
-						<img src="galeria/perspectiva/apto-62/apto-62m-living.jpg" class="img-responsive inline img-100">
+								<source media="(max-width: 425px)" srcset="galeria/perspectiva/apto-48/mobile/apto-48m-living-2.jpg" class="img-responsive">
+						<img src="galeria/perspectiva/apto-48/apto-48m-living-cozinha-home-office.jpg" class="img-responsive inline img-100">
+						</picture>
+							<span class="slider-ilustra-caption">
+								perspectiva ilustrativa living
+							</span>
+						</div>
+						<div class="swiper-slide">
+							<picture>
+								<source media="(max-width: 425px)" srcset="galeria/perspectiva/apto-48/mobile/apto-48m-living.jpg" class="img-responsive">
+						<img src="galeria/perspectiva/apto-48/apto-48m-living-home-office.jpg" class="img-responsive inline img-100">
 					</picture>
 							<span class="slider-ilustra-caption">
 								perspectiva ilustrativa living e jantar
@@ -165,20 +174,31 @@ Aproveite todos os dias para viver ainda melhor no seu novo apartamento.
 						</div>
 						<div class="swiper-slide">
 							<picture>
-								<source media="(max-width: 425px)" srcset="galeria/perspectiva/apto-62/mobile/apto-62m-quarto-infantil.jpg" class="img-responsive">
-						<img src="galeria/perspectiva/apto-62/apto-62m-quarto-pokemon.jpg" class="img-responsive inline img-100">
+								<source media="(max-width: 425px)" srcset="galeria/perspectiva/apto-48/mobile/apto-48m-home-office.jpg" class="img-responsive">
+						<img src="galeria/perspectiva/apto-48/apto-48m-home-office.jpg" class="img-responsive inline img-100">
 						</picture>
 							<span class="slider-ilustra-caption">
-								perspectiva ilustrativa quarto infantil
+								perspectiva ilustrativa home office
 							</span>
 						</div>
+
 						<div class="swiper-slide">
 							<picture>
-								<source media="(max-width: 425px)" srcset="galeria/perspectiva/apto-62/mobile/apto-62m-quarto-infanti-2.jpg" class="img-responsive">
-						<img src="galeria/perspectiva/apto-62/apto-62m-quarto-pokemon-2.jpg" class="img-responsive inline img-100">
+								<source media="(max-width: 425px)" srcset="galeria/perspectiva/apto-48/mobile/apto-48m-living-3.jpg" class="img-responsive">
+						<img src="galeria/perspectiva/apto-48/apto-48m-living-2-dormitorios.jpg" class="img-responsive inline img-100">
 						</picture>
 							<span class="slider-ilustra-caption">
-								perspectiva ilustrativa quarto infantil
+								perspectiva ilustrativa living
+							</span>
+						</div>
+
+						<div class="swiper-slide">
+							<picture>
+								<source media="(max-width: 425px)" srcset="galeria/perspectiva/apto-48/mobile/apto-48m-suite.jpg" class="img-responsive">
+						<img src="galeria/perspectiva/apto-48/apto-48m-suite-closet.jpg" class="img-responsive inline img-100">
+						</picture>
+							<span class="slider-ilustra-caption">
+								perspectiva ilustrativa dormitório com closet
 							</span>
 						</div>
 					</div>
