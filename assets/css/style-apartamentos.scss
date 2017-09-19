@@ -82,3 +82,102 @@
 		margin-bottom: 15px;
 	}
 }
+
+// HEROS 
+.hero {
+	height: 500px;
+	width: 100%;
+	background: -moz-linear-gradient(45deg, rgb(48,43,108) 0%, rgb(83,227,175) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg, rgb(48,43,108) 0%,rgb(83,227,175) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg, rgb(48,43,108) 0%,rgb(83,227,175) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#302b6c', endColorstr='#53e3af',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	display: flex;
+	justify-content: center;
+	align-content: start;
+	margin-bottom: 80px;
+	background-size: cover;
+}
+.hero-129 {
+	background-image: url("../img/hero-129.jpg");
+}
+.hero-info {
+	margin: auto;
+	text-align: center;
+}
+.lead-hero {
+	color: $white !important;
+}
+
+.feature-apto {
+	font-size: 16px;
+}
+
+.banner-wrap {
+	display: flex;
+	justify-content: center;
+	align-content: start;
+	margin: 50px 0;
+	> div {
+		margin: auto;
+	}
+}
+.banner {
+	border-radius: 5px;
+}
+.banner-pet {
+	width: 100%;
+	max-width: 625px;
+	height: 306px;
+	padding: 50px 0 0 30px;
+	color: $white;
+}
+.banner-pet_title {
+	font-size: 22px;
+	font-family: $font-bold-italic;
+}
+.banner-pet_text {
+	display: inline-block;
+	font-family: $font-regular;
+	font-size: 20px;
+	margin-top: 10px;
+	width: 100%;
+	> ul {
+		padding: 0;
+	}
+}
+.banner-pet_4 {
+	background-image: url("../banners/banners-pet-4.jpg");
+	background-size: cover;
+}
+
+
+// SLIDER PLANTAS
+.galeria-plantas {
+	margin-bottom: 50px;
+}
+.title-group-slider {
+	padding: 90px 0 0 0;
+}
+
+.galeria {
+	width: 100%;
+	max-width: 1200px;
+	position: relative;
+	margin: 20px auto;
+	text-align: center;
+	box-shadow: $shadow;
+	@media #{$laptop-l} {
+		max-width: 950px;
+	}		
+}
+
+
+// DOWNLOAD PLANTAS 
+.download-plantas {
+	width: 100%;
+	padding: 10px 0;
+	background: -moz-linear-gradient(45deg, rgb(48,43,108) 0%, rgb(83,227,175) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(45deg, rgb(48,43,108) 0%,rgb(83,227,175) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(45deg, rgb(48,43,108) 0%,rgb(83,227,175) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#302b6c', endColorstr='#53e3af',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}

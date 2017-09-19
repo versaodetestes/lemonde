@@ -71,7 +71,7 @@
 								<li>• 3 vagas de garagem</li>
 							</ul>
 						</div>
-						<a href="./contato" class="btn btn-cta">Veja mais detalhes</a>
+						<a href="./apartamento-duplex-129.php" class="btn btn-cta">Veja mais detalhes</a>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -86,7 +86,7 @@
 								<li>• 2 vagas de garagem</li>
 							</ul>
 						</div>
-						<a href="./contato" class="btn btn-cta">Veja mais detalhes</a>
+						<a href="./apartamento-duplex-101.php" class="btn btn-cta">Veja mais detalhes</a>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -101,7 +101,7 @@
 								<li>• 2 vagas de garagem</li>
 							</ul>
 						</div>
-						<a href="./contato" class="btn btn-cta">Veja mais detalhes</a>
+						<a href="./apartamento-62.php" class="btn btn-cta">Veja mais detalhes</a>
 					</div>
 				</div>
 			</div>

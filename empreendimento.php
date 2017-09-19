@@ -133,12 +133,12 @@
 
 		<div class="row no-gutter ficha-tecnica d-flex justify-content-center">
 			<div class="col-md-12 text-center">
-				<h3 class="ficha-title">Diferenciais do empreendimento</h3>
+				<h3 class="h2 ficha-title">Diferenciais do empreendimento</h3>
 				<span class="line line-green"></span>
 			</div>
 			<div class="col-md-4">
 				<h4>Diferenciais áreas comuns</h4>
-				<ul>
+				<ul class="ficha-list">
 					<li>Lazer na cobertura e área externa</li>
 					<li>Garagens Subsolo, térreo e sobressolo</li>
 					<li>Vagas para visitantes e serviços</li>
@@ -150,7 +150,7 @@
 			</div>
 			<div class="col-md-4">
 				<h4>Diferenciais áreas privativas</h4>
-				<ul>
+				<ul class="ficha-list">
 					<li>Lazer na cobertura e área externa</li>
 					<li>Garagens Subsolo, térreo e sobressolo</li>
 					<li>Vagas para visitantes e serviços</li>

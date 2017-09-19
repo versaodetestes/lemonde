@@ -1,4 +1,13 @@
 @import 'bootstrap/bootstrap';
+// QUERIES
+$mobile-s: "only screen and (max-width : 320px)";
+$mobile-m: "only screen and (max-width : 375px)";
+$mobile-l: "only screen and (max-width : 425px)";
+$tablet:   "only screen and (max-width : 768px)";
+$laptop-s: "only screen and (max-width : 1024px)";
+$laptop-m: "only screen and (max-width : 1366px)";
+$laptop-l: "only screen and (max-width : 1440px)";
+
 /*FONT FAMILY*/
 @font-face {
     font-family: 'supermolotregular';
@@ -55,6 +64,9 @@ h2, .h2 {
 p {
 	font-family: $font-regular;
 }
+ul > li {
+	list-style-type: none;
+}
 p.lead {
 	font-family: $font-light;
 	font-size: 23px;
@@ -62,14 +74,31 @@ p.lead {
 	color: $grey-medium;
 	letter-spacing: 3px;
 }
+p.text-spot {
+	font-family: $font-light;
+	font-size: 20px;
+	color: $grey-medium;
+	letter-spacing: 0.5px;
+}
 ul > li {
 	font-family: $font-regular;
 	font-size: 16px;
 }
 
+
 .title-group {
 	text-align: center;
 	padding: 50px 0; 
+}
+.ficha-title {
+	color: $white;
+}
+.ficha-list {
+	padding: 0;
+	margin-top: 30px;
+	li {
+		margin-bottom: 15px;
+	}
 }
 
 .external-link {
@@ -215,6 +244,14 @@ $shadow: 2px 2px 12px 3px rgba(48, 43, 108, 0.15);
 	display:flex;
 	justify-content:center;
 	align-items:center;
+}
+
+.ficha-tecnica {
+	background: $color-primary;
+	color: $white;
+	padding: 50px 0;
+	margin-top: 50px;
+	margin-bottom: 50px;
 }
 
 // MIDIA

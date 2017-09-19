@@ -6981,12 +6981,21 @@ h2, .h2 {
 p {
   font-family: "supermolotregular"; }
 
+ul > li {
+  list-style-type: none; }
+
 p.lead {
   font-family: "supermolotlight";
   font-size: 23px;
   text-transform: uppercase;
   color: #434244;
   letter-spacing: 3px; }
+
+p.text-spot {
+  font-family: "supermolotlight";
+  font-size: 20px;
+  color: #434244;
+  letter-spacing: 0.5px; }
 
 ul > li {
   font-family: "supermolotregular";
@@ -6995,6 +7004,15 @@ ul > li {
 .title-group {
   text-align: center;
   padding: 50px 0; }
+
+.ficha-title {
+  color: #fff; }
+
+.ficha-list {
+  padding: 0;
+  margin-top: 30px; }
+  .ficha-list li {
+    margin-bottom: 15px; }
 
 .external-link {
   font-family: "supermolotregular";
@@ -7124,6 +7142,13 @@ ul > li {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center; }
+
+.ficha-tecnica {
+  background: #302b6c;
+  color: #fff;
+  padding: 50px 0;
+  margin-top: 50px;
+  margin-bottom: 50px; }
 
 .midia {
   margin: 50px 0; }
@@ -7271,13 +7296,6 @@ ul > li {
 
 .img-inspiracao {
   margin-bottom: 20px; }
-
-.ficha-tecnica {
-  background: #302b6c;
-  color: #fff;
-  padding: 50px 0;
-  margin-top: 50px;
-  margin-bottom: 50px; }
 
 .text-equipe {
   margin: 50px 0; }
