@@ -2,7 +2,7 @@
 <html lang="pt_BR">
 <head>
 	<meta charset="UTF-8">
-	<title>Duplex 129m² - Le Monde Campolim</title>
+	<title>Apartamento 62m² - Le Monde Campolim</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<link rel="stylesheet" type="text/css" href="assets/css/style-apartamentos.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/swiper.min.css">
@@ -13,11 +13,11 @@
 	<?php include ("header.php"); ?>
 	<!-- FIM HEADER -->
 	<!-- HERO -->
-	<div class="hero hero-apto hero-129">
+	<div class="hero hero-apto hero-101">
 		<div class="hero-info">
-			<h1>Apartamento 129m²</h1>
+			<h1>Apartamento 62m²</h1>
 			<span class="line line-green"></span>
-			<p class="lead lead-hero">Perfeito para a família que não para de crescer</p>
+			<p class="lead lead-hero">Ideal para quem vive momentos especiais.</p>
 		</div>
 	</div>
 	<!-- FIM HERO -->
@@ -48,7 +48,13 @@
 
 		<div class="row banner-wrap">
 			<div class="col-md-6">
-				<div class="banner banner-pet banner-pet_4">
+				<p class="text-spot">
+Modernidade e aconchego para atender as suas necessidades.
+Projetado para atender quem busca praticidade, mas não quer abrir mão da comodidade. Bem-vindo ao seu novo lar.
+				</p>
+			</div>
+			<div class="col-md-6">
+				<div class="banner banner-pet banner-pet_2">
 					<div class="banner-pet_info">
 						<span class="banner-pet_title">Personalização de Piso</span>
 						<span class="banner-pet_text">3 tipos de piso para você escolher</span>
@@ -63,16 +69,11 @@
 				</div>
 				
 			</div>
-			<div class="col-md-6">
-				<p class="text-spot">
-					Conforto e exclusividade para os melhores momentos em família.
-Amplo espaço com sala dois ambientes, projetado para que você desfrute do melhor da vida ao lado de quem você mais ama.
-				</p>
-			</div>
+
 		</div>
 
 		<div class="row">
-			<img src="assets/banners/Banners-imagens-internas-aptos-1336-129.jpg" class="img-fluid">
+			<img src="assets/banners/Banners-imagens-internas-aptos-1336-62.jpg" class="img-fluid">
 		</div>
 
 		<div class="row galeria-plantas justify-content-center">
@@ -81,7 +82,7 @@ Amplo espaço com sala dois ambientes, projetado para que você desfrute do melh
 				<span class="line line-blue"></span>
 			</div>
 
-			<img src="galeria/plantas/129/galeria-plantas-129.jpg" class="img-fluid">
+			<img src="galeria/plantas/62/galeria-plantas-62.jpg" class="img-fluid">
 		</div>
 	</div>
 	
@@ -126,19 +127,18 @@ Amplo espaço com sala dois ambientes, projetado para que você desfrute do melh
 			</div>
 			<div class="col-md-5">
 				<ul class="ficha-list">
-					<li>Sala com 2 ambientes e lavabo</li>
-					<li>3 suítes (1 master)</li>
-					<li>Preparação completa para ar condicionado*</li>
-					<li>Personalização de piso inclusa*</li>
-					<li>Medição individual de água e energia</li>
+					<li>Cozinha Americana</li>
+					<li>2 dormitórios (1 suíte)</li>
+					<li>Varanda gourmet com churrasqueira grill</li>
+					<li>2 Vagas cobertas</li>
 				</ul>
 			</div>
 			<div class="col-md-5">
 				<ul class="ficha-list">
+					<li>Personalização de piso inclusa*</li>
+					<li>Medição individual de água e energia</li>
 					<li>Isolamento acústico para redução de ruídos</li>
-					<li>Varanda gourmet com churrasqueira a carvão</li>
-					<li>3 Vagas cobertas</li>
-					<li>Depósito privativo</li>
+					<li>Preparação completa para ar condicionado*</li>
 					<li>Laje técnica sem exposição</li>
 				</ul>
 			</div>
@@ -152,29 +152,38 @@ Amplo espaço com sala dois ambientes, projetado para que você desfrute do melh
 			</div>
 			<div class="galeria" id="slider-apartamento">
 				<div class="swiper-container" id="slider-perspectivas">
-					<div class="swiper-wrapper">
+<div class="swiper-wrapper">
 						<div class="swiper-slide">
 							<picture>
-								<source media="(max-width: 425px)" srcset="galeria/perspectiva/duplex-129/mobile/duplex-129m-estar.jpg" class="img-responsive">
-						<img src="galeria/perspectiva/duplex-129/duplex-129m-sala-de-estar.jpg" class="img-responsive inline img-100">
+								<source media="(max-width: 425px)" srcset="galeria/duplex-101/mobile/duplex-101m-jantar-living.jpg" class="img-responsive">
+						<img src="galeria/perspectiva/duplex-101/duplex-101m-jantar-estar.jpg" class="img-responsive inline img-100">
 					</picture>
 							<span class="slider-ilustra-caption">
-								perspectiva ilustrativa sala de estar
+								perspectiva ilustrativa living e jantar
 							</span>
 						</div>
 						<div class="swiper-slide">
 							<picture>
-								<source media="(max-width: 425px)" srcset="galeria/perspectiva/duplex-129/mobile/duplex-129m-living.jpg" class="img-responsive">
-						<img src="galeria/perspectiva/duplex-129/duplex-129m-sala-de-jantar.jpg" class="img-responsive inline img-100">
+								<source media="(max-width: 425px)" srcset="galeria/perspectiva/duplex-101/mobile/duplex-101m-living-jantar.jpg" class="img-responsive">
+						<img src="galeria/perspectiva/duplex-101/duplex-101m-living-jantar.jpg" class="img-responsive inline img-100">
 						</picture>
 							<span class="slider-ilustra-caption">
-								perspectiva ilustrativa sala de jantar
+								perspectiva ilustrativa living e jantar
 							</span>
 						</div>
 						<div class="swiper-slide">
 							<picture>
-								<source media="(max-width: 425px)" srcset="galeria/perspectiva/duplex-129/mobile/duplex-129m-suíte_2.jpg" class="img-responsive">
-						<img src="galeria/perspectiva/duplex-129/duplex-129m-suite_1.jpg" class="img-responsive inline img-100">
+								<source media="(max-width: 425px)" srcset="galeria/perspectiva/duplex-101/mobile/duplex-101m-cozinha.jpg" class="img-responsive">
+						<img src="galeria/perspectiva/duplex-101/duplex-101m-cozinha.jpg" class="img-responsive inline img-100">
+						</picture>
+							<span class="slider-ilustra-caption">
+								perspectiva ilustrativa cozinha
+							</span>
+						</div>
+						<div class="swiper-slide">
+							<picture>
+								<source media="(max-width: 425px)" srcset="galeria/perspectiva/duplex-101/mobile/duplex-101m-suite-master.jpg" class="img-responsive">
+						<img src="galeria/perspectiva/duplex-101/duplex-101m-suite-master.jpg" class="img-responsive inline img-100">
 						</picture>
 							<span class="slider-ilustra-caption">
 								perspectiva ilustrativa suíte master
@@ -182,11 +191,11 @@ Amplo espaço com sala dois ambientes, projetado para que você desfrute do melh
 						</div>
 						<div class="swiper-slide">
 							<picture>
-								<source media="(max-width: 425px)" srcset="galeria/perspectiva/duplex-129/mobile/duplex-129m-suíte.jpg" class="img-responsive">
-						<img src="galeria/perspectiva/duplex-129/duplex-129m-suite_2.jpg" class="img-responsive inline img-100">
+								<source media="(max-width: 425px)" srcset="galeria/perspectiva/duplex-101/mobile/duplex-101m-varanda-churrasqueira.jpg" class="img-responsive">
+						<img src="galeria/perspectiva/duplex-101/duplex-101m-varanda-gourmet-churrasqueira.jpg" class="img-responsive inline img-100">
 						</picture>
 							<span class="slider-ilustra-caption">
-								perspectiva ilustrativa suíte
+								perspectiva ilustrativa varanda gourmet churrasqueira
 							</span>
 						</div>
 					</div>

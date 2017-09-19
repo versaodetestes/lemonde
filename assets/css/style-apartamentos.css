@@ -7057,6 +7057,9 @@ ul > li {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#302b6c', endColorstr='#53e3af',GradientType=1 );
   /* IE6-9 fallback on horizontal gradient */ }
 
+.bar-color_small {
+  height: 4px; }
+
 .btn {
   border-radius: 3px;
   font-family: "supermolotregular"; }
@@ -7384,6 +7387,15 @@ ul > li {
 .hero-129 {
   background-image: url("../img/hero-129.jpg"); }
 
+.hero-101 {
+  background-image: url("../img/hero-101.jpg"); }
+
+.hero-62 {
+  background-image: url("../img/hero-62.jpg"); }
+
+.hero-48 {
+  background-image: url("../img/hero-48.jpg"); }
+
 .hero-info {
   margin: auto;
   text-align: center; }
@@ -7437,6 +7449,18 @@ ul > li {
   background-image: url("../banners/banners-pet-4.jpg");
   background-size: cover; }
 
+.banner-pet_3 {
+  background-image: url("../banners/banners-pet-3.jpg");
+  background-size: cover; }
+
+.banner-pet_2 {
+  background-image: url("../banners/banners-pet-2.jpg");
+  background-size: cover; }
+
+.banner-pet_1 {
+  background-image: url("../banners/banners-pet-1.jpg");
+  background-size: cover; }
+
 .galeria-plantas {
   margin-bottom: 50px; }
 
@@ -7447,7 +7471,7 @@ ul > li {
   width: 100%;
   max-width: 1200px;
   position: relative;
-  margin: 20px auto;
+  margin: 20px auto 80px auto;
   text-align: center;
   -webkit-box-shadow: 2px 2px 12px 3px rgba(48, 43, 108, 0.15);
   box-shadow: 2px 2px 12px 3px rgba(48, 43, 108, 0.15); }
@@ -7455,9 +7479,54 @@ ul > li {
     .galeria {
       max-width: 950px; } }
 
-.download-plantas {
+.slider-ilustra-caption {
   width: 100%;
-  padding: 10px 0;
+  height: 70px;
+  padding-top: 20px;
+  display: inline-block;
+  text-transform: capitalize;
+  font-family: "supermolotregular";
+  color: #434244; }
+
+.swiper-pagination, .swiper-pagination-fraction {
+  border: 2px solid #302b6c;
+  border-radius: 3px;
+  width: 50px !important;
+  left: 50% !important;
+  margin-left: -25px;
+  margin-top: 20px;
+  position: relative; }
+
+.bar-color_slider {
+  position: absolute;
+  bottom: 86px; }
+
+.nav-arrow {
+  width: 100%;
+  padding: 0 30px;
+  height: 40px;
+  position: absolute;
+  top: 45%;
+  z-index: 999; }
+
+.nav-icon {
+  display: inline-block;
+  width: 20px;
+  height: 35px; }
+
+.nav-prev, .nav-next {
+  cursor: pointer; }
+
+.nav-prev {
+  background: url(../img/arrow-left.svg) no-repeat;
+  float: left; }
+
+.nav-next {
+  background: url(../img/arrow-right.svg) no-repeat;
+  float: right; }
+
+.download-plantas {
+  padding: 20px 0;
   background: -moz-linear-gradient(45deg, #302b6c 0%, #53e3af 100%);
   /* FF3.6-15 */
   background: -webkit-linear-gradient(45deg, #302b6c 0%, #53e3af 100%);
@@ -7466,4 +7535,73 @@ ul > li {
   background: linear-gradient(45deg, #302b6c 0%, #53e3af 100%);
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#302b6c', endColorstr='#53e3af',GradientType=1 );
-  /* IE6-9 fallback on horizontal gradient */ }
+  /* IE6-9 fallback on horizontal gradient */
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.download-plantas-wrap {
+  width: 100%;
+  max-width: 980px; }
+
+.icon-download, .download-info, .download-form {
+  float: left;
+  color: #fff; }
+
+.download-info {
+  display: inline-block;
+  margin-left: 30px; }
+  .download-info > span {
+    color: #53e3af;
+    font-family: "supermolotregular";
+    text-transform: uppercase; }
+
+.form-down-input {
+  float: left;
+  margin-left: 15px; }
+  .form-down-input > label {
+    font-family: "supermolotregular";
+    letter-spacing: 0.3px;
+    display: inline-block; }
+  .form-down-input > input {
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin-top: -2px; }
+
+.btn-download {
+  margin-top: 30px;
+  margin-left: 10px;
+  cursor: pointer; }
+
+.decorado {
+  background: #302b6c;
+  padding-bottom: 50px;
+  margin-bottom: 80px; }
+
+.decorado-title {
+  color: #fff;
+  font-family: "supermolotbold_italic"; }
+
+.lead-decorado, .decorado-info, .decorado-endereco {
+  color: #fff !important;
+  letter-spacing: 0.3px;
+  font-family: "supermolotregular"; }
+
+.decorado-agendar {
+  color: #53e3af;
+  font-size: 22px;
+  font-family: "supermolotbold_italic";
+  margin-top: 50px; }
+
+.decorado-endereco {
+  border-left: 2px solid #53e3af;
+  padding-left: 10px;
+  display: inline-block;
+  margin-top: 15px; }

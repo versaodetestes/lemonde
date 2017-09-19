@@ -7057,6 +7057,9 @@ ul > li {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#302b6c', endColorstr='#53e3af',GradientType=1 );
   /* IE6-9 fallback on horizontal gradient */ }
 
+.bar-color_small {
+  height: 4px; }
+
 .btn {
   border-radius: 3px;
   font-family: "supermolotregular"; }

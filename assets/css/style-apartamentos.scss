@@ -100,6 +100,16 @@
 .hero-129 {
 	background-image: url("../img/hero-129.jpg");
 }
+.hero-101 {
+	background-image: url("../img/hero-101.jpg");
+}
+.hero-62 {
+	background-image: url("../img/hero-62.jpg");
+}
+.hero-48 {
+	background-image: url("../img/hero-48.jpg");
+}
+
 .hero-info {
 	margin: auto;
 	text-align: center;
@@ -149,6 +159,18 @@
 	background-image: url("../banners/banners-pet-4.jpg");
 	background-size: cover;
 }
+.banner-pet_3 {
+	background-image: url("../banners/banners-pet-3.jpg");
+	background-size: cover;
+}
+.banner-pet_2 {
+	background-image: url("../banners/banners-pet-2.jpg");
+	background-size: cover;
+}
+.banner-pet_1 {
+	background-image: url("../banners/banners-pet-1.jpg");
+	background-size: cover;
+}
 
 
 // SLIDER PLANTAS
@@ -163,21 +185,138 @@
 	width: 100%;
 	max-width: 1200px;
 	position: relative;
-	margin: 20px auto;
+	margin: 20px auto 80px auto;
 	text-align: center;
 	box-shadow: $shadow;
 	@media #{$laptop-l} {
 		max-width: 950px;
 	}		
 }
+.slider-ilustra-caption {
+	width: 100%;
+	height: 70px;
+	padding-top: 20px;
+	display: inline-block;
+	text-transform: capitalize;
+	font-family: $font-regular;
+	color: $grey-medium;
+}
+.swiper-pagination, .swiper-pagination-fraction {
+	border: 2px solid $color-primary;
+	border-radius: 3px;
+	width: 50px !important;
+	left: 50% !important;
+	margin-left: -25px;
+	margin-top: 20px;
+	position: relative;
+	
+}
 
+.bar-color_slider {
+	position: absolute;
+	bottom: 86px;
+}
+
+.nav-arrow {
+    width: 100%;
+    padding: 0 30px;
+    height: 40px;
+    position: absolute;
+    top: 45%;
+    z-index: 999;
+}
+.nav-icon {
+    display: inline-block;
+    width: 20px;
+    height: 35px;
+}
+.nav-prev, .nav-next {
+	cursor: pointer;
+}
+.nav-prev {
+	background: url(../img/arrow-left.svg) no-repeat;
+	float: left;
+}
+.nav-next {
+	background: url(../img/arrow-right.svg) no-repeat;
+	float: right;
+}
 
 // DOWNLOAD PLANTAS 
 .download-plantas {
-	width: 100%;
-	padding: 10px 0;
+	padding: 20px 0;
 	background: -moz-linear-gradient(45deg, rgb(48,43,108) 0%, rgb(83,227,175) 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(45deg, rgb(48,43,108) 0%,rgb(83,227,175) 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(45deg, rgb(48,43,108) 0%,rgb(83,227,175) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#302b6c', endColorstr='#53e3af',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	display: flex;
+	justify-content: center;
+}
+.download-plantas-wrap {
+	width: 100%;
+	max-width: 980px;
+}
+.icon-download, .download-info, .download-form {
+	float: left;
+	color: $white;
+}
+.download-info {
+	display: inline-block;
+	margin-left: 30px; 
+	> span {
+		color: $color-secundary;
+		font-family: $font-regular;
+		text-transform: uppercase;
+	}
+}
+
+.form-down-input {
+	float: left;
+	margin-left: 15px;
+	> label {
+		font-family: $font-regular;
+		letter-spacing: 0.3px;
+		display: inline-block;
+	}
+	> input {
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin-top: -2px;
+	}
+}
+
+.btn-download {
+	margin-top: 30px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+// DECORADO 
+.decorado {
+	background: $color-primary;
+	padding-bottom: 50px;
+	margin-bottom: 80px;
+}
+.decorado-title {
+	color: $white;
+	font-family: $font-bold-italic;
+}
+.lead-decorado, .decorado-info, .decorado-endereco {
+	color: $white !important;
+	letter-spacing: 0.3px;
+	font-family: $font-regular;
+}
+.decorado-agendar {
+	color: $color-secundary;
+	font-size: 22px;
+	font-family: $font-bold-italic;
+	margin-top: 50px;
+}
+.decorado-endereco {
+	border-left: 2px solid $color-secundary;
+	padding-left: 10px;
+	display: inline-block;
+	margin-top: 15px;
 }

@@ -14,8 +14,8 @@ $('#youtubecover').hide();
  			prevButton: '#prev-ilustra',
       loop: true,
       pagination: '.swiper-pagination',
-      paginationClickable: true,
-      autoplay: 2500,
+   	  paginationType: 'fraction',
+      autoplay: 3500,
       autoplayDisableOnInteraction: true,
     });
  });
