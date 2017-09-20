@@ -132,10 +132,10 @@ até o cursinho pré-vestibular.
 		</div>
 		<div class="row">
 			<div class="col-md-6">
-				<img src="assets/img/respire-natureza.jpg" class="img-fluid">
+				<img src="assets/img/respire-natureza.jpg" class="img-fluid reveal">
 			</div>
 			<div class="col-md-6">
-				<img src="assets/img/aproveite-cidade.jpg" class="img-fluid">
+				<img src="assets/img/aproveite-cidade.jpg" class="img-fluid reveal">
 			</div>
 		</div>
 
@@ -156,8 +156,14 @@ até o cursinho pré-vestibular.
 
 	<div class="container-fluid">
 		<div class="row map-container justify-content-center">
+
 			<div class="map">
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.7939922023147!2d-47.47542138447872!3d-23.53991078469354!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c58a420f5146fd%3A0x936cf76fdc04752b!2sLe+Monde+-+R.+Ant%C3%B4nio+Perez+Hernandez%2C+Sorocaba+-+SP!5e0!3m2!1spt-BR!2sbr!4v1505940711781" width="1200" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+			</div>
+			<div class="map-adress">
+				<h4 class="map-title">Rua Antônio Pereza Hernandez, 333</h4>
+				<span>Campolim, Sorocaba/SP</span><br>
+				<span>(Ao lado do Mercado Campolim)</span>
 			</div>
 		</div>	
 	</div>

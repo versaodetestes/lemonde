@@ -23,5 +23,5 @@ $('#youtubecover').hide();
 window.sr = ScrollReveal();
 sr.reveal('.reveal', {
   viewFactor: 0.4,
-  duration: 600,
+  duration: 700,
 } );

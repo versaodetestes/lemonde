@@ -134,11 +134,27 @@ text-transform: uppercase;
 		color: $white;
 	}
 }
-
+.vista-linda-title {
+	margin: 50px 0;
+}
 .map-container {
 	width: 100%;
 	padding: 50px 0;
 	background: $color-primary;
 	margin-top: 80px;
 	margin-bottom: 80px;
+}
+.map-adress {
+	width: 1200px;
+	background: $white;
+	margin-top: -6px;
+	padding: 50px 20px;
+	> span {
+		font-family: $font-regular;
+	} 
+}
+.map-title {
+	font-size: 20px;
+	font-family: $font-bold-italic;
+	color: $color-secundary;
 }

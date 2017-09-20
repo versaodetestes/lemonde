@@ -7068,7 +7068,8 @@ ul > li {
   background: #302b6c;
   color: #fff;
   border: 2px solid #302b6c;
-  letter-spacing: 0.5px; }
+  letter-spacing: 0.5px;
+  cursor: pointer; }
   .btn-cta:hover {
     background: #fff;
     color: #302b6c; }
@@ -7394,9 +7395,25 @@ ul > li {
   .local-text p {
     color: #fff; }
 
+.vista-linda-title {
+  margin: 50px 0; }
+
 .map-container {
   width: 100%;
   padding: 50px 0;
   background: #302b6c;
   margin-top: 80px;
   margin-bottom: 80px; }
+
+.map-adress {
+  width: 1200px;
+  background: #fff;
+  margin-top: -6px;
+  padding: 50px 20px; }
+  .map-adress > span {
+    font-family: "supermolotregular"; }
+
+.map-title {
+  font-size: 20px;
+  font-family: "supermolotbold_italic";
+  color: #53e3af; }

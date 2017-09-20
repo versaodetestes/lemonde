@@ -7068,7 +7068,8 @@ ul > li {
   background: #302b6c;
   color: #fff;
   border: 2px solid #302b6c;
-  letter-spacing: 0.5px; }
+  letter-spacing: 0.5px;
+  cursor: pointer; }
   .btn-cta:hover {
     background: #fff;
     color: #302b6c; }
