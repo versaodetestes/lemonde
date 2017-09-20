@@ -71,10 +71,17 @@ Amplo espaço com sala dois ambientes, projetado para que você desfrute do melh
 			</div>
 		</div>
 
+	</div>
+	<div class="container-fluid">
 		<div class="row">
-			<img src="assets/banners/Banners-imagens-internas-aptos-1336-129.jpg" class="img-fluid">
+			<picture>
+				<source media="(max-width: 1366px)" srcset="assets/banners/Banners-imagens-internas-aptos-1336-129.jpg.jpg" class="img-responsive">
+				<img src="assets/banners/Banners-imagens-internas-aptos-1920-129.jpg" class="img-fluid">
+			</picture>
 		</div>
+	</div>
 
+	<div class="container">
 		<div class="row galeria-plantas justify-content-center">
 			<div class="title-group title-group-slider">
 				<h2>Plantas</h2>

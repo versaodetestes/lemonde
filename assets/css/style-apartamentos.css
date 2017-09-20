@@ -7479,6 +7479,10 @@ ul > li {
     .galeria {
       max-width: 950px; } }
 
+.galeria-plantas {
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+
 .slider-ilustra-caption {
   width: 100%;
   height: 70px;
@@ -7524,6 +7528,34 @@ ul > li {
 .nav-next {
   background: url(../img/arrow-right.svg) no-repeat;
   float: right; }
+
+.wrap-360 {
+  border-radius: 5px;
+  -webkit-box-shadow: 2px 2px 12px 3px rgba(48, 43, 108, 0.15);
+  box-shadow: 2px 2px 12px 3px rgba(48, 43, 108, 0.15);
+  height: 730px;
+  margin-bottom: 80px; }
+
+.img-360 {
+  height: 600px !important; }
+
+.img-360_caption {
+  position: relative;
+  margin-top: -40px;
+  width: 100%;
+  max-width: 1200px;
+  padding: 30px;
+  height: 100px;
+  background: url(../img/icon-360.png) no-repeat;
+  background-position: 30px 10px;
+  font-size: 16px;
+  color: #434244;
+  text-align: right;
+  font-family: "supermolotregular"; }
+
+.bar-color_360 {
+  margin-top: -75px;
+  position: absolute; }
 
 .download-plantas {
   padding: 20px 0;

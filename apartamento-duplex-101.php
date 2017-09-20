@@ -71,11 +71,17 @@ Projetado para atender quem busca praticidade, mas não quer abrir mão da comod
 			</div>
 
 		</div>
-
+	</div>
+	<div class="container-fluid">
 		<div class="row">
-			<img src="assets/banners/Banners-imagens-internas-aptos-1336-101.jpg" class="img-fluid">
+			<picture>
+				<source media="(max-width: 1366px)" srcset="assets/banners/Banners-imagens-internas-aptos-1336-101.jpg.jpg" class="img-responsive">
+				<img src="assets/banners/Banners-imagens-internas-aptos-1920-101.jpg" class="img-fluid">
+			</picture>
 		</div>
+	</div>
 
+	<div class="container">
 		<div class="row galeria-plantas justify-content-center">
 			<div class="title-group title-group-slider">
 				<h2>Plantas</h2>
@@ -209,6 +215,23 @@ Projetado para atender quem busca praticidade, mas não quer abrir mão da comod
 					<div class="swiper-pagination"></div>
 				</div>
 			</div>
+		</div>
+
+		<div class="row justify-content-center">
+			<div class="title-group title-group-slider">
+				<h3 class="h2">Imagem 360º</h3>
+				<span class="line line-blue"></span>
+			</div>
+
+			
+				<div class="embed-responsive embed-responsive-16by9 wrap-360">
+				<iframe width="100%" class="embed-responsive-item img-360"  allowfullscreen style="border-style:none;" src="https://cdn.pannellum.org/2.2/pannellum.htm?panorama=https%3A//i.imgur.com/7jLEd6S.jpg&autoLoad=true&autoRotate=-2"></iframe>
+				<span class="bar-color bar-color_small bar-color_360"></span>
+				<div class="img-360_caption">
+
+					Clique e arraste para ver o living por todos os ângulos.
+				</div>
+				</div>
 		</div>
 
 	</div>

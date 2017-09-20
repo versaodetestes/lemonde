@@ -53,7 +53,7 @@
 							<li>• Varanda Gourmet com churrasqueira grill</li>
 							<li>• 1 vaga de garagem</li>
 						</ul>
-						<a href="./contato" class="btn btn-cta">Veja mais detalhes</a>
+						<a href="./apartamento-48.php" class="btn btn-cta">Veja mais detalhes</a>
 					</div>
 					
 				</div>
@@ -115,7 +115,7 @@
 
 <script type="text/javascript" src="assets/js/jquery-1.9.1.min.js"></script>
 <script type="text/javascript" src="assets/js/main-script.js"></script>
-
+<script type="text/javascript" src="assets/js/slider-48.js"></script>
 
 </body>
 </html>

@@ -72,18 +72,63 @@ Aproveite todos os dias para viver ainda melhor no seu novo apartamento.
 			</div>
 
 		</div>
-
+	
+	</div>
+	<div class="container-fluid">
 		<div class="row">
-			<img src="assets/banners/Banners-imagens-internas-aptos-1336-48.jpg" class="img-fluid">
+			<picture>
+				<source media="(max-width: 1366px)" srcset="assets/banners/Banners-imagens-internas-aptos-1336-48.jpg.jpg" class="img-responsive">
+				<img src="assets/banners/Banners-imagens-internas-aptos-1920-48.jpg" class="img-fluid">
+			</picture>
 		</div>
+	</div>
 
+	<div class="container">
 		<div class="row galeria-plantas justify-content-center">
 			<div class="title-group title-group-slider">
 				<h2>Plantas</h2>
 				<span class="line line-blue"></span>
 			</div>
 
-			<img src="galeria/plantas/62/galeria-plantas-62.jpg" class="img-fluid">
+			<div class="galeria galeria-plantas" id="slider-apartamento">
+				<div class="swiper-container" id="slider-plantas">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<picture>
+								<source media="(max-width: 425px)" srcset="galeria/plantas/48/mobile/galeria-plantas-48-2-dormitorios.jpg" class="img-responsive">
+						<img src="galeria/plantas/48/galeria-plantas-48-2-dormitorios.jpg" class="img-responsive inline img-100">
+						</picture>
+
+						</div>
+						<div class="swiper-slide">
+							<picture>
+								<source media="(max-width: 425px)" srcset="galeria/plantas/48/mobile/galeria-plantas-48-closet.jpg" class="img-responsive">
+						<img src="galeria/plantas/48/galeria-plantas-48-closet.jpg" class="img-responsive inline img-100">
+					</picture>
+
+						</div>
+						<div class="swiper-slide">
+							<picture>
+								<source media="(max-width: 425px)" srcset="galeria/plantas/48/mobile/galeria-plantas-48-home-office.jpg" class="img-responsive">
+						<img src="galeria/plantas/48/galeria-plantas-48-home-office.jpg" class="img-responsive inline img-100">
+						</picture>
+
+						</div>
+
+						<div class="swiper-slide">
+							<picture>
+								<source media="(max-width: 425px)" srcset="galeria/plantas/48/mobile/galeria-plantas-48-spa-ofuro.jpg" class="img-responsive">
+						<img src="galeria/plantas/48/galeria-plantas-48-spa-ofuro.jpg" class="img-responsive inline img-100">
+						</picture>
+						</div>
+
+					</div>
+					<div class="nav-arrow nav-arrow_perspectivas">
+			          <a class="nav-icon nav-prev" id="prev-planta"></a>
+			          <a class="nav-icon nav-next" id="next-planta"></a>
+					</div>
+				</div>
+			</div>
 		</div>
 	</div>
 	
@@ -153,7 +198,7 @@ Aproveite todos os dias para viver ainda melhor no seu novo apartamento.
 			</div>
 			<div class="galeria" id="slider-apartamento">
 				<div class="swiper-container" id="slider-perspectivas">
-<div class="swiper-wrapper">
+					<div class="swiper-wrapper">
 						<div class="swiper-slide">
 							<picture>
 								<source media="(max-width: 425px)" srcset="galeria/perspectiva/apto-48/mobile/apto-48m-living-2.jpg" class="img-responsive">
@@ -212,6 +257,23 @@ Aproveite todos os dias para viver ainda melhor no seu novo apartamento.
 				</div>
 			</div>
 		</div>
+		<div class="row justify-content-center">
+			<div class="title-group title-group-slider">
+				<h3 class="h2">Imagem 360º</h3>
+				<span class="line line-blue"></span>
+			</div>
+
+			
+				<div class="embed-responsive embed-responsive-16by9 wrap-360">
+				<iframe width="100%" class="embed-responsive-item img-360"  allowfullscreen style="border-style:none;" src="https://cdn.pannellum.org/2.2/pannellum.htm?panorama=https%3A//i.imgur.com/gw1CYja.jpg&autoLoad=true&autoRotate=-2"></iframe>
+				<span class="bar-color bar-color_small bar-color_360"></span>
+				<div class="img-360_caption">
+
+					Clique e arraste para ver o living por todos os ângulos.
+				</div>
+				</div>
+
+		</div>
 
 	</div>
 
@@ -254,8 +316,10 @@ Aproveite todos os dias para viver ainda melhor no seu novo apartamento.
 	<!-- FIM FOOTER -->
 
 <script type="text/javascript" src="assets/js/jquery-1.9.1.min.js"></script>
-<script type="text/javascript" src="assets/js/main-script.js"></script>
 <script src="assets/js/swiper.min.js"></script>
+<script type="text/javascript" src="assets/js/main-script.js"></script>
+<script type="text/javascript" src="assets/js/slider-48.js"></script>
+
 
 </body>
 </html>
