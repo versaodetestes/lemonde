@@ -19,3 +19,9 @@ $('#youtubecover').hide();
       autoplayDisableOnInteraction: true,
     });
  });
+
+window.sr = ScrollReveal();
+sr.reveal('.reveal', {
+  viewFactor: 0.4,
+  duration: 600,
+} );

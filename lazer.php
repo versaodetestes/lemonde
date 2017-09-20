@@ -3,8 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Lazer - Le Monde Campolim</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/empreendimento.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style-lazer.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" type="text/css" href="assets/css/swiper.min.css">
 </head>
 <body>
 	<!-- HEADER -->
@@ -30,7 +31,7 @@
 		</div>
 
 		<div class="row justify-content-center">
-			<div class="col-md-8 text-equipe">
+			<div class="col-md-8 text-lazer">
 				<p>
 					A área de lazer externa está localizada estrategicamente no lado oposto aos apartamentos, para preservar a tranquilidade de quem prefere um bom sossego, sem limitar a diversão daqueles que não perdem um dia de sol.
 				</p>
@@ -44,6 +45,128 @@
 
 		</div>
 	</div>
+
+
+		
+	<div class="container">
+			<div class="row justify-content-center">
+			<div class="lazer-wrap">
+				<img src="assets/img/lazer-list.jpg" class="img-fluid">
+			</div>
+			<div class="row lazer-itens">
+					<div class="col-md-4">
+						<ul class="lazer-list">
+							<li>Piscinas Adulto e Infantil</li>
+							<li>Academia Multifuncional</li>
+							<li>Playground</li>
+							<li>Quadra Recreativa</li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<ul class="lazer-list">
+							<li>Quadra de Tênis</li>
+							<li>Salão de Festas</li>
+							<li>Salão de Jogos</li>
+							<li>Praça do Bosque</li>
+						</ul>
+					</div>
+					<div class="col-md-4">
+						<ul class="lazer-list">
+							<li class="lazer-list_title">Funcionalidades</li>
+							<li>Bicicletário</li>
+							<li>Brinquedoteca</li>
+							<li>Car Wash Center</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+
+			<div class="row galeria-plantas justify-content-center">
+				<div class="title-group title-group-slider">
+					<h2>Galeria Lazer Externo</h2>
+					<span class="line line-blue"></span>
+				</div>
+			</div>
+
+			<div class="row">
+			<div class="galeria" id="slider-apartamento">
+				<div class="swiper-container" id="slider-perspectivas">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+						<img src="galeria/lazer/01-galeria-perspectivas-academia.jpg" class="img-responsive img-100">
+							<span class="slider-ilustra-caption">
+								Academia - Le Monde Campolim
+							</span>
+						</div>
+						<div class="swiper-slide">
+						<img src="galeria/lazer/02-galeria-perspectivas-brinquedoteca.jpg" class="img-responsive img-100">
+							<span class="slider-ilustra-caption">
+								Brinquedoteca - Le Monde Campolim
+							</span>
+						</div>
+						<div class="swiper-slide">
+						<img src="galeria/lazer/03-galeria-perspectivas-salao-de-jogos.jpg" class="img-responsive img-100">
+							<span class="slider-ilustra-caption">
+								Salão de jogos - Le Monde Campolim
+							</span>
+						</div>
+						<div class="swiper-slide">
+						<img src="galeria/lazer/04-galeria-perspectivas-piscina-adulta-infantil.jpg" class="img-responsive img-100">
+							<span class="slider-ilustra-caption">
+								Pisicina adulto e infantil - Le Monde Campolim
+							</span>
+						</div>
+						<div class="swiper-slide">
+						<img src="galeria/lazer/05-galeria-perspectivas-churrasqueira.jpg" class="img-responsive img-100">
+							<span class="slider-ilustra-caption">
+								Churrasqueira - Le Monde Campolim
+							</span>
+						</div>
+						<div class="swiper-slide">
+						<img src="galeria/lazer/06-galeria-perspectivas-quadra-recreativa.jpg" class="img-responsive img-100">
+							<span class="slider-ilustra-caption">
+								Quadra recreativa - Le Monde Campolim
+							</span>
+						</div>
+						<div class="swiper-slide">
+						<img src="galeria/lazer/07-galeria-perspectivas-quadra-de-tenis.jpg" class="img-responsive img-100">
+							<span class="slider-ilustra-caption">
+								Quadra tênis - Le Monde Campolim
+							</span>
+						</div>
+						<div class="swiper-slide">
+						<img src="galeria/lazer/08-galeria-perspectivas-salao-de-festas.jpg" class="img-responsive img-100">
+							<span class="slider-ilustra-caption">
+								Salão de festas - Le Monde Campolim
+							</span>
+						</div>
+						<div class="swiper-slide">
+						<img src="galeria/lazer/09-galeria-perspectivas-car-wash.jpg" class="img-responsive img-100">
+							<span class="slider-ilustra-caption">
+								Car wash - Le Monde Campolim
+							</span>
+						</div>
+					</div>
+					<div class="nav-arrow">
+			          <a class="nav-icon nav-prev" id="prev-ilustra"></a>
+			          <a class="nav-icon nav-next" id="next-ilustra"></a>
+					</div>
+					<!-- Add Pagination -->
+					<span class="bar-color bar-color_small bar-color_slider"></span>
+					<div class="swiper-pagination"></div>
+				</div>
+			</div>
+		</div>
+
+			<div class="row galeria-plantas justify-content-center">
+				<div class="title-group title-group-slider">
+					<h2>Celebre os melhores<br> momentos da vida</h2>
+					<span class="line line-blue"></span>
+				</div>
+			</div>
+
+	</div>
+
 	<div class="container-fluid">
 		<div class="row">
 			<picture>
@@ -53,13 +176,75 @@
 		</div>
 	</div>
 
-		
 	<div class="container">
+
 		<div class="row justify-content-center">
-			<div class="lazer-wrap">
-				<img src="assets/img/lazer-list.jpg" class="img-fluid">
+			<div class="lazer-exclusivo text-center">
+				<h3 class="lazer-exclusivo_title">Lazer Exclusivo por Torre</h3>
+				<span class="lazer-destaque">Piscina Panorâmica na Cobertura</span>
+				<span class="lazer-destaque">Espaço Gourmet na Cobertura</span>
+				<span class="lazer-destaque">Worstation Offices</span>
+			</div>	
+		</div>
+		
+		<div class="row d-flex align-items-center lazer-cobertura">
+			<div class="col-md-6">
+				<p>
+					Cada torre do Le Monde Campolim possui o Continental Lounge, um espaço de lazer na cobertura, com salão de festas gourmet e piscina, ambos com vista panorâmica da cidade.
+				</p>
+				<p>
+					Para completar a sua comodidade, cada torre conta com um Work Station Office, um espaço montado para que você possa trabalhar, fazer uma reunião ou estudar.
+				</p>
+				<img src="assets/img/lazer-cobertura-title.jpg" class="img-fluid lazer-cobertura-title">
+			</div>	
+			<div class="col-md-6">
+				<img src="assets/img/lazer-implantacao.jpg" class="img-fluid">
 			</div>
 		</div>
+		<div class="row">
+					<div class="galeria" id="slider-apartamento">
+
+				<div class="slider">
+				<div class="swiper-container" id="slider-lazer">
+					<div class="swiper-wrapper">
+
+						<div class="swiper-slide" id="1">
+								<img src="galeria/lazer/01-galeria-perspectivas-lobby.jpg" class="img-reponsive img-100">
+							<div class="slider-ilustra-caption">
+								<p class="title-white">Lobby</p>
+							</div>
+						</div>
+						<div class="swiper-slide" id="2">
+								<img src="galeria/lazer/02-galeria-perspectivas-work-station-office.jpg" class="img-reponsive img-100">
+							<div class="slider-ilustra-caption">
+								<p class="title-white">Work Station Office</p>
+							</div>
+						</div>
+						<div class="swiper-slide" id="3">
+								<img src="galeria/lazer/03-galeria-perspectivas-piscina-panoramica.jpg" class="img-reponsive img-100">
+							<div class="slider-ilustra-caption">
+								<p class="title-white">Piscina Panôramica</p>
+							</div>
+						</div>
+						<div class="swiper-slide" id="4">
+								<img src="galeria/lazer/04-galeria-perspectivas-espaço-gourmet.jpg" class="img-reponsive img-100">
+							<div class="slider-ilustra-caption">
+								<p class="title-white">Espaço Gourmet</p>
+							</div>
+						</div>
+
+					</div>
+					<div class="nav-arrow">
+			          <a class="nav-icon nav-prev" id="prev-lazer"></a>
+			          <a class="nav-icon nav-next" id="next-lazer"></a>
+					</div>
+					<!-- Add Pagination -->
+					<span class="bar-color bar-color_small bar-color_slider"></span>
+					<div class="swiper-pagination" id="pagination-lazer"></div>
+				</div>
+				</div>
+		</div>
+
 	</div>
 
 
@@ -71,6 +256,8 @@
 		<!-- FIM FOOTER -->
 
 <script type="text/javascript" src="assets/js/jquery-1.9.1.min.js"></script>
+<script src="assets/js/swiper.min.js"></script>
 <script type="text/javascript" src="assets/js/main-script.js"></script>
-		</body>
-		</html>	
+<script type="text/javascript" src="assets/js/slider-lazer.js"></script>
+</body>
+</html>	

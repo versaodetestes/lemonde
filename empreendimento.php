@@ -90,7 +90,7 @@
 						<span class="implantacao-item"><span>4-</span> Vagas de Visitantes e portaria</span>
 					</div>
 					<div class="col-md-4">
-						<a href="./lazer" class="btn btn-inverse">Conheça mais sobre o lazer</a>
+						<a href="./lazer.php" class="btn btn-inverse">Conheça mais sobre o lazer</a>
 					</div>
 				</div>
 			</div>
