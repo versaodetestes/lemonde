@@ -207,6 +207,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#302b6c', end
 	height: 306px;
 	padding: 50px 0 0 30px;
 	color: $white;
+	@media #{$mobile-l} {
+		margin-bottom: 20px;
+	}
 }
 .banner-pet_title {
 	font-size: 22px;
