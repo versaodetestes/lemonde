@@ -26,7 +26,7 @@
 		</div>
 
 		<div class="row justify-content-center">
-			<div class="col-md-8 text-lazer">
+			<div class="col-md-8 text">
 				<p>
 Aliado a isso, o empreendimento divide a rua com residenciais de alto padrão, contando com uma completa
 e distinta rede de serviços bem perto de você. São restaurantes, padarias, bares, casas noturnas, centros de compras e lazer como o Shopping Iguatemi/Esplanada, o maior da região de Sorocaba.

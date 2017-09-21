@@ -6970,6 +6970,10 @@ h1, .h1 {
   color: #e1e1e1;
   text-transform: uppercase;
   letter-spacing: 5px; }
+  @media only screen and (max-width: 425px) {
+    h1, .h1 {
+      font-size: 25px;
+      letter-spacing: 3px; } }
 
 h2, .h2 {
   font-family: "supermolotlight";
@@ -6981,8 +6985,16 @@ h2, .h2 {
 p {
   font-family: "supermolotregular"; }
 
+.text {
+  margin-top: 50px; }
+
 ul > li {
-  list-style-type: none; }
+  list-style-type: none;
+  font-family: "supermolotregular";
+  font-size: 16px; }
+  @media only screen and (max-width: 425px) {
+    ul > li {
+      font-size: 15px; } }
 
 p.lead {
   font-family: "supermolotlight";
@@ -6990,16 +7002,16 @@ p.lead {
   text-transform: uppercase;
   color: #434244;
   letter-spacing: 3px; }
+  @media only screen and (max-width: 425px) {
+    p.lead {
+      font-size: 18px;
+      letter-spacing: 2px; } }
 
 p.text-spot {
   font-family: "supermolotlight";
   font-size: 20px;
   color: #434244;
   letter-spacing: 0.5px; }
-
-ul > li {
-  font-family: "supermolotregular";
-  font-size: 16px; }
 
 .title-group {
   text-align: center;
@@ -7065,22 +7077,30 @@ ul > li {
   font-family: "supermolotregular"; }
 
 .btn-cta {
-  background: #302b6c;
   color: #fff;
   border: 2px solid #302b6c;
   letter-spacing: 0.5px;
-  cursor: pointer; }
+  cursor: pointer;
+  padding-right: 50px;
+  background: #302b6c url("../img/arrow-btn.svg") no-repeat;
+  background-position: 100%; }
   .btn-cta:hover {
     background: #fff;
-    color: #302b6c; }
+    color: #302b6c;
+    background: #fff url("../img/arrow-btn-hover.svg") no-repeat;
+    background-position: 100%; }
 
 .btn-inverse {
   background: #fff;
   color: #302b6c;
-  border: 2px solid #fff; }
+  border: 2px solid #fff;
+  padding-right: 50px;
+  background: #fff url("../img/arrow-btn-hover.svg") no-repeat;
+  background-position: 100%; }
   .btn-inverse:hover {
-    background: none;
-    color: #fff; }
+    color: #fff;
+    background: transparent url("../img/arrow-btn.svg") no-repeat;
+    background-position: 100%; }
 
 .blue-line {
   width: 100%;
@@ -7146,6 +7166,10 @@ ul > li {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center; }
+  @media only screen and (max-width: 425px) {
+    .feature {
+      width: 150px;
+      font-size: 18px; } }
 
 .ficha-tecnica {
   background: #302b6c;
@@ -7171,6 +7195,10 @@ ul > li {
 
 #youtubecover:hover {
   cursor: pointer; }
+
+@media only screen and (max-width: 425px) {
+  .cards {
+    margin-bottom: 20px; } }
 
 .card-block {
   width: 100%;
@@ -7231,11 +7259,22 @@ ul > li {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center; }
+  @media only screen and (max-width: 425px) {
+    .cta-stand {
+      display: inline-block;
+      width: 90%;
+      margin-left: 1%; } }
 
 .stand-text {
   width: 300px;
   height: 200px;
   margin-left: 50px; }
+  @media only screen and (max-width: 425px) {
+    .stand-text {
+      margin-left: 5%;
+      height: auto;
+      padding: 50px 0;
+      text-align: center; } }
 
 .cta-stand-title {
   font-family: "supermolotlight";
@@ -7282,12 +7321,23 @@ ul > li {
   margin-top: 50px;
   z-index: 1;
   font-family: "supermolotregular"; }
+  @media only screen and (max-width: 425px) {
+    .bar-color-depoimento {
+      display: none; } }
 
 .paulo-depoimento {
   font-size: 20px; }
+  @media only screen and (max-width: 425px) {
+    .paulo-depoimento {
+      font-size: 18px; } }
 
 .paulo-nome {
   font-family: "supermolotbold_italic"; }
+
+@media only screen and (max-width: 425px) {
+  .paulo-arquiteto {
+    padding-bottom: 20px;
+    display: inline-block; } }
 
 .plantas-small {
   margin-bottom: 50px; }
@@ -7311,18 +7361,30 @@ ul > li {
   border-radius: 5px;
   overflow: hidden;
   margin: 50px 0; }
+  @media only screen and (max-width: 425px) {
+    .card-planta {
+      display: inline-block;
+      width: 90%;
+      margin: 10px 0 0 5%; } }
 
 .card-planta-body {
   padding: 0px 30px; }
 
 .card-planta-info {
   margin: auto; }
+  @media only screen and (max-width: 425px) {
+    .card-planta-info {
+      margin: auto;
+      padding: 17px; } }
 
 .card-planta-title {
   font-size: 30px;
   font-family: "supermolotbold_italic";
   color: #434244;
   letter-spacing: 0.5px; }
+  @media only screen and (max-width: 425px) {
+    .card-planta-title {
+      font-size: 28px; } }
 
 .card-planta-lead {
   font-family: "supermolotlight";
@@ -7347,6 +7409,9 @@ ul > li {
   position: absolute;
   top: 65px;
   margin-left: 30px; }
+  @media only screen and (max-width: 425px) {
+    .card-small-title {
+      top: 48px; } }
 
 .card-small-title-number {
   font-size: 80px; }
@@ -7358,6 +7423,13 @@ ul > li {
   margin: 20px 0 30px 0; }
   .card-planta-list > li {
     margin-bottom: 15px; }
+
+.btn-card {
+  width: 230px;
+  position: relative;
+  margin-left: -125px;
+  left: 50%;
+  margin-bottom: 20px; }
 
 .hero {
   height: 500px;
@@ -7580,7 +7652,7 @@ ul > li {
 
 .download-plantas-wrap {
   width: 100%;
-  max-width: 980px; }
+  max-width: 1020px; }
 
 .icon-download, .download-info, .download-form {
   float: left;

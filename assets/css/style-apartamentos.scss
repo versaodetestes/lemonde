@@ -10,12 +10,24 @@
     margin-top: 50px;
     z-index: 1;
 	font-family: $font-regular;
+	@media #{$mobile-l} {
+		display: none;
+	}
 }
 .paulo-depoimento {
 	font-size: 20px;
+	@media #{$mobile-l} {
+		font-size: 18px;
+	}
 }
 .paulo-nome {
 	font-family: $font-bold-italic;
+}
+.paulo-arquiteto {
+		@media #{$mobile-l} {
+	 padding-bottom: 20px;
+    display: inline-block;
+}
 }
 
 // CARDS APTO
@@ -32,18 +44,30 @@
 	border-radius: 5px;
 	overflow: hidden;
 	margin: 50px 0;
+	@media #{$mobile-l} {
+		display: inline-block;
+		width: 90%;
+  		margin: 10px 0 0 5%;
+	}
 }
 .card-planta-body {
 	padding: 0px 30px;
 }
 .card-planta-info {
 	margin: auto;
+	@media #{$mobile-l} {
+    margin: auto;
+    padding: 17px;
+	}
 }
 .card-planta-title {
 	font-size: 30px;
 	font-family: $font-bold-italic;
 	color: $grey-medium;
 	letter-spacing: 0.5px;
+	@media #{$mobile-l} {
+		font-size: 28px;
+	}
 }
 .card-planta-lead {
 	font-family: $font-light;
@@ -68,6 +92,9 @@
     position: absolute;
     top: 65px;
     margin-left: 30px;
+    @media #{$mobile-l} {
+    	top: 48px;
+    }
 
 }
 .card-small-title-number {
@@ -81,6 +108,14 @@
 	> li {
 		margin-bottom: 15px;
 	}
+}
+
+.btn-card {
+	width: 230px;
+	position: relative;
+	margin-left: -125px;
+	left: 50%;
+	margin-bottom: 20px;
 }
 
 // HEROS 
@@ -286,7 +321,7 @@
 }
 .download-plantas-wrap {
 	width: 100%;
-	max-width: 980px;
+	max-width: 1020px;
 }
 .icon-download, .download-info, .download-form {
 	float: left;

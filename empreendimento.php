@@ -27,34 +27,34 @@
 		</div>
 
 		<div class="row justify-content-center">
-			<div class="col-md-3">
+			<div class="col-md-3 col-6">
 				<div class="feature ">
 					12.760m² de Terreno
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 col-6">
 				<div class="feature">
 					5 Torres
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 col-6">
 				<div class="feature">
 					4 Opções de Planta
 				</div>
 			</div>
 		</div>
 		<div class="row justify-content-center">
-			<div class="col-md-3">
+			<div class="col-md-3 col-6">
 				<div class="feature">
 					27 Pavimentos
 				</div>					
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 col-6">
 				<div class="feature">
 					4 Apartamentos por andar
 				</div>					
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 col-6">
 				<div class="feature">
 					2 Elevadores por torre
 				</div>					
@@ -71,7 +71,7 @@
 		<div class="row">
 			<div class="col-md-6">
 				<img src="assets/img/empreendimento-quadra-poli.jpg" class="img-fluid">
-				<p>
+				<p class="text">
 					A CRB Construtora traz para Sorocaba uma tendência internacional de moradia: reunir opções completas de lazer com funcionalidades, em ótima localização. O residencial Le Monde Campolim reúne os recursos indispensáveis para os gostos mais exigentes com variedade de plantas e personalização que você escolhe de acordo com o seu momento e estilo de vida.
 				</p>
 			</div>
@@ -173,7 +173,10 @@
 				</div>
 			</div>
 			<div class="row justify-content-center">
-				<img src="assets/img/equipe-crb.jpg" class="img-fluid">
+				<div class="col-md-12">
+					<img src="assets/img/equipe-crb.jpg" class="img-fluid">
+				</div>
+				
 				<div class="col-md-8 text-equipe">
 
 				<p>

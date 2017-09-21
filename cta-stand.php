@@ -8,7 +8,7 @@
 						<p>
 							Visite nosso Stand de vendas e aproveite para conhecer o Apartamento Decorado
 						</p>
-						<a href="./contato" class="btn btn-cta">Entre em contato</a>
+						<a href="./contato.php" class="btn btn-cta">Entre em contato</a>
 					</div>
 					
 				</div>

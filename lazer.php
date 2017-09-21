@@ -31,7 +31,7 @@
 		</div>
 
 		<div class="row justify-content-center">
-			<div class="col-md-8 text-lazer">
+			<div class="col-md-8 text">
 				<p>
 					A área de lazer externa está localizada estrategicamente no lado oposto aos apartamentos, para preservar a tranquilidade de quem prefere um bom sossego, sem limitar a diversão daqueles que não perdem um dia de sol.
 				</p>
@@ -168,7 +168,7 @@
 	</div>
 
 	<div class="container-fluid">
-		<div class="row">
+		<div class="row reveal">
 			<picture>
 				<source media="(max-width: 1366px)" srcset="assets/banners/Banners-imagens-internas-aptos-1336-lazer.jpg" class="img-responsive">
 				<img src="assets/banners/Banners-imagens-internas-aptos-1920-lazer.jpg" class="img-fluid">
@@ -183,7 +183,7 @@
 				<h3 class="lazer-exclusivo_title">Lazer Exclusivo por Torre</h3>
 				<span class="lazer-destaque">Piscina Panorâmica na Cobertura</span>
 				<span class="lazer-destaque">Espaço Gourmet na Cobertura</span>
-				<span class="lazer-destaque">Worstation Offices</span>
+				<span class="lazer-destaque">Workstation Offices</span>
 			</div>	
 		</div>
 		
@@ -198,7 +198,7 @@
 				<img src="assets/img/lazer-cobertura-title.jpg" class="img-fluid lazer-cobertura-title">
 			</div>	
 			<div class="col-md-6">
-				<img src="assets/img/lazer-implantacao.jpg" class="img-fluid">
+				<img src="assets/img/lazer-implantacao.jpg" class="img-fluid reveal">
 			</div>
 		</div>
 		<div class="row">

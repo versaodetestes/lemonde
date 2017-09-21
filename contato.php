@@ -84,7 +84,6 @@
 		<!-- FIM FOOTER -->
 
 <script type="text/javascript" src="assets/js/jquery-1.9.1.min.js"></script>
-<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
 <script type="text/javascript" src="assets/js/main-script.js"></script>
 </body>
 </html>	

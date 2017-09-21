@@ -2,7 +2,7 @@
 
 			<footer class="footer row">
 			<span class="line line-full line-blue line-mr-bottom"></span>
-					<div class="col-md-3">
+					<div class="col-md-3 col-6">
 						<ul class="nav-footer">
 							<li><a href="./">Home</a></li>
 							<li><a href="./empreendimentos">Empreendimento</a></li>
@@ -11,7 +11,7 @@
 							<li><a href="./contato">Contato</a></li>
 						</ul>
 					</div>
-					<div class="col-md-3">
+					<div class="col-md-3  col-6">
 						<ul class="nav-footer">
 							<li><a href="./apartamentos">Apartamentos</a></li>
 							<li><a href="./apartamento-duplex-101">Duplex 101m²</a></li>

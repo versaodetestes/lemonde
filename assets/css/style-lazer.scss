@@ -1,8 +1,5 @@
 @import "style-general.scss";
 
-.text-lazer {
-	margin: 50px 0;
-}
 
 .lazer-wrap {
 	margin-top: 20px;
@@ -91,19 +88,18 @@ text-transform: uppercase;
 
 .lazer-exclusivo {
 	width: 100%;
-	background: $color-primary;
 	padding: 50px 20px;
 	margin: 50px 0 50px 0;
 }
 .lazer-exclusivo_title {
 	font-family: $font-bold-italic;
 	font-size: 35px;
-	color: $color-secundary;
+	color: $color-primary;
 	margin-bottom: 30px;
 }
 
 .lazer-destaque {
-	color: $white;
+	color: $color-primary;
 	font-size: 16px;
 	font-family: $font-regular;
 	padding: 10px;
@@ -138,7 +134,6 @@ text-transform: uppercase;
 	margin: 50px 0;
 }
 .map-container {
-	width: 100%;
 	padding: 50px 0;
 	background: $color-primary;
 	margin-top: 80px;

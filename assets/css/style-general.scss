@@ -52,6 +52,10 @@ h1, .h1{
 	color: $grey-light;
 	text-transform: uppercase;
 	letter-spacing: 5px;
+	@media #{$mobile-l} {
+		font-size: 25px;
+		letter-spacing: 3px;
+	}
 }
 h2, .h2 {
 	font-family: $font-light;
@@ -64,8 +68,16 @@ h2, .h2 {
 p {
 	font-family: $font-regular;
 }
+.text {
+	margin-top: 50px;
+}
 ul > li {
 	list-style-type: none;
+	font-family: $font-regular;
+	font-size: 16px;
+	@media #{$mobile-l} {
+		font-size: 15px;
+	}
 }
 p.lead {
 	font-family: $font-light;
@@ -73,6 +85,11 @@ p.lead {
 	text-transform: uppercase;
 	color: $grey-medium;
 	letter-spacing: 3px;
+	@media #{$mobile-l} {
+		font-size: 18px;
+		letter-spacing: 2px;
+
+	}
 }
 p.text-spot {
 	font-family: $font-light;
@@ -80,10 +97,7 @@ p.text-spot {
 	color: $grey-medium;
 	letter-spacing: 0.5px;
 }
-ul > li {
-	font-family: $font-regular;
-	font-size: 16px;
-}
+
 
 
 .title-group {
@@ -151,23 +165,31 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#302b6c', end
 	font-family: $font-regular;
 }
 .btn-cta {
-	background: $color-primary;
 	color: $white;
 	border: 2px solid $color-primary;
 	letter-spacing: 0.5px;
 	cursor: pointer;
+	padding-right: 50px;
+	background: $color-primary url("../img/arrow-btn.svg") no-repeat;
+	background-position: 100%;
 	&:hover {
 	background: $white;
 	color: $color-primary;
+	background: $white url("../img/arrow-btn-hover.svg") no-repeat;
+	background-position: 100%;
 	}
 }
 .btn-inverse {
 	background: $white;
 	color: $color-primary;
 	border: 2px solid $white;
+	padding-right: 50px;
+	background: $white url("../img/arrow-btn-hover.svg") no-repeat;
+	background-position: 100%;
 	&:hover {
-		background: none;
 		color: $white;
+		background: transparent url("../img/arrow-btn.svg") no-repeat;
+		background-position: 100%;
 	}
 }
 
@@ -220,6 +242,7 @@ $shadow: 2px 2px 12px 3px rgba(48, 43, 108, 0.15);
 	}
 }
 
+
 // HEROS
 .hero-home {
 	width: 100%;
@@ -248,6 +271,10 @@ $shadow: 2px 2px 12px 3px rgba(48, 43, 108, 0.15);
 	display:flex;
 	justify-content:center;
 	align-items:center;
+	@media #{$mobile-l} {
+		width: 150px;
+		font-size: 18px;
+	}
 }
 
 .ficha-tecnica {
@@ -281,6 +308,12 @@ $shadow: 2px 2px 12px 3px rgba(48, 43, 108, 0.15);
 
 // CARDS 
 
+.cards {
+	@media #{$mobile-l} {
+		margin-bottom: 20px;
+	}
+
+}
 .card-block {
 	width: 100%;
 	max-width: 404px;
@@ -329,12 +362,25 @@ $shadow: 2px 2px 12px 3px rgba(48, 43, 108, 0.15);
 	border-radius: 5px;
 	overflow: hidden;
 	box-shadow: $shadow;
-	display:flex;justify-content:center;align-items:center;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	@media #{$mobile-l} {
+		display: inline-block;
+		width: 90%;
+		margin-left: 1%;
+	}
 }
 .stand-text {
 	width: 300px;
 	height: 200px;
 	margin-left: 50px;
+	@media #{$mobile-l} {
+		margin-left: 5%;
+		height: auto;
+		padding: 50px 0;
+		text-align: center;
+	}
 }
 .cta-stand-title {
 	font-family: $font-light;

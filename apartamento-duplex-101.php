@@ -73,7 +73,7 @@ Projetado para atender quem busca praticidade, mas não quer abrir mão da comod
 		</div>
 	</div>
 	<div class="container-fluid">
-		<div class="row">
+		<div class="row reveal">
 			<picture>
 				<source media="(max-width: 1366px)" srcset="assets/banners/Banners-imagens-internas-aptos-1336-101.jpg.jpg" class="img-responsive">
 				<img src="assets/banners/Banners-imagens-internas-aptos-1920-101.jpg" class="img-fluid">

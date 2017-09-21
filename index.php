@@ -25,22 +25,22 @@
 				</div>
 		</div>
 		<div class="row justify-content-center">
-			<div class="col-md-3">
-				<div class="feature align-middle">
+			<div class="col-md-3 col-6">
+				<div class="feature">
 					Campolim, Sorocaba/SP
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 col-6">
 				<div class="feature">
 					4 opções de planta
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 col-6">
 				<div class="feature">
 					Quarta torre lançada
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 col-6">
 				<div class="feature">
 					5 torres 
 				</div>					
@@ -59,7 +59,7 @@
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>Quisquam repellendus assumenda ex deleniti voluptatibus.
 				</div>
 				<div class="midia-cta">
-					<a class="btn btn-cta" href="./empreendimento">Veja mais informações</a>
+					<a class="btn btn-cta" href="./empreendimento.php">Veja mais informações</a>
 				</div>
 			</div>
 			<span class="line line-blue line-full line-mr-bottom"></span>

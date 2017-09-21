@@ -75,7 +75,7 @@ Aproveite todos os dias para viver ainda melhor no seu novo apartamento.
 	
 	</div>
 	<div class="container-fluid">
-		<div class="row">
+		<div class="row reveal">
 			<picture>
 				<source media="(max-width: 1366px)" srcset="assets/banners/Banners-imagens-internas-aptos-1336-48.jpg.jpg" class="img-responsive">
 				<img src="assets/banners/Banners-imagens-internas-aptos-1920-48.jpg" class="img-fluid">

@@ -37,6 +37,7 @@
 		</div>
 
 			<div class="row justify-content-center">
+				<div class="col-md-12">
 				<div class="card-planta">
 					<div class="card-planta-image">
 						<img src="assets/img/apartamento-48.jpg" class="img-fluid">
@@ -58,6 +59,7 @@
 					
 				</div>
 			</div>
+			</div>
 			<div class="row plantas-small">
 				<div class="col-md-4">
 					<div class="card card-planta">
@@ -71,7 +73,7 @@
 								<li>• 3 vagas de garagem</li>
 							</ul>
 						</div>
-						<a href="./apartamento-duplex-129.php" class="btn btn-cta">Veja mais detalhes</a>
+						<a href="./apartamento-duplex-129.php" class="btn btn-cta btn-card">Veja mais detalhes</a>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -86,7 +88,7 @@
 								<li>• 2 vagas de garagem</li>
 							</ul>
 						</div>
-						<a href="./apartamento-duplex-101.php" class="btn btn-cta">Veja mais detalhes</a>
+						<a href="./apartamento-duplex-101.php" class="btn btn-cta btn-card">Veja mais detalhes</a>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -101,7 +103,7 @@
 								<li>• 2 vagas de garagem</li>
 							</ul>
 						</div>
-						<a href="./apartamento-62.php" class="btn btn-cta">Veja mais detalhes</a>
+						<a href="./apartamento-62.php" class="btn btn-cta btn-card">Veja mais detalhes</a>
 					</div>
 				</div>
 			</div>
@@ -115,7 +117,6 @@
 
 <script type="text/javascript" src="assets/js/jquery-1.9.1.min.js"></script>
 <script type="text/javascript" src="assets/js/main-script.js"></script>
-<script type="text/javascript" src="assets/js/slider-48.js"></script>
 
 </body>
 </html>
