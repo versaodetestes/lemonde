@@ -244,6 +244,12 @@ $shadow: 2px 2px 12px 3px rgba(48, 43, 108, 0.15);
 
 
 // HEROS
+.hero {
+	background: -moz-linear-gradient(45deg, rgb(48,43,108) 0%, rgb(83,227,175) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, rgb(48,43,108) 0%,rgb(83,227,175) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, rgb(48,43,108) 0%,rgb(83,227,175) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#302b6c', endColorstr='#53e3af',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
 .hero-home {
 	width: 100%;
 	height: 763px;
