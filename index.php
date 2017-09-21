@@ -18,7 +18,7 @@
 	<!-- EMPREENDIMENTO -->
 	<div class="container about-building">
 		<div class="row justify-content-center">
-				<div class="title-group">
+				<div class="title-group reveal-noscale">
 					<h1>O empreendimento</h1>
 					<p class="lead">Tendência internacional de moradia</p>
 					<span class="line line-blue"></span>
@@ -69,7 +69,7 @@
 
 		<div class="row">
 
-			<div class="cards col-md-4">
+			<div class="cards col-md-4 reveal-noscale">
 				<div class="card-block card-apto">
 				  <div class="card-info">
 					<h3 class="card-title">Apartamentos</h3>
@@ -79,7 +79,7 @@
  				<span class="bar-color"></span>
 			</div>
 
-			<div class="cards col-md-4">
+			<div class="cards col-md-4 reveal-noscale">
 				<div class="card-block card-lazer">
 					<div class="card-info">
 						<h3 class="card-title">Lazer completo</h3>
@@ -89,7 +89,7 @@
  				<span class="bar-color"></span>
 			</div>
 
-			<div class="cards col-md-4">
+			<div class="cards col-md-4 reveal-noscale">
 				<div class="card-block card-localizacao">
 				  <div class="card-info">
 					<h3 class="card-title">Localização</h3>

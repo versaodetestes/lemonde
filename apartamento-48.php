@@ -24,22 +24,22 @@
 	<div class="container">
 		
 		<div class="row justify-content-center">
-			<div class="col-md-3">
+			<div class="col-md-3 col-6">
 				<div class="feature feature-apto ">
 					3 Dormitórios (3 suítes)
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 col-6">
 				<div class="feature feature-apto">
 					Varanda Gourmet com churrasqueira carvão
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 col-6">
 				<div class="feature feature-apto">
 					Varanda Gourmet com churrasqueira carvão
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 col-6">
 				<div class="feature feature-apto">
 					3 vagas cobertas
 				</div>
@@ -77,7 +77,7 @@ Aproveite todos os dias para viver ainda melhor no seu novo apartamento.
 	<div class="container-fluid">
 		<div class="row reveal">
 			<picture>
-				<source media="(max-width: 1366px)" srcset="assets/banners/Banners-imagens-internas-aptos-1336-48.jpg.jpg" class="img-responsive">
+				<source media="(max-width: 1366px)" srcset="assets/banners/Banners-imagens-internas-aptos-1336-48.jpg" class="img-fluid">
 				<img src="assets/banners/Banners-imagens-internas-aptos-1920-48.jpg" class="img-fluid">
 			</picture>
 		</div>
@@ -95,30 +95,30 @@ Aproveite todos os dias para viver ainda melhor no seu novo apartamento.
 					<div class="swiper-wrapper">
 						<div class="swiper-slide">
 							<picture>
-								<source media="(max-width: 425px)" srcset="galeria/plantas/48/mobile/galeria-plantas-48-2-dormitorios.jpg" class="img-responsive">
-						<img src="galeria/plantas/48/galeria-plantas-48-2-dormitorios.jpg" class="img-responsive inline img-100">
+								<source media="(max-width: 600px)" srcset="galeria/plantas/48/mobile/galeria-plantas-48-2-dormitorios.jpg" class="img-fluid">
+						<img src="galeria/plantas/48/galeria-plantas-48-2-dormitorios.jpg" class="img-fluid inline img-100">
 						</picture>
 
 						</div>
 						<div class="swiper-slide">
 							<picture>
-								<source media="(max-width: 425px)" srcset="galeria/plantas/48/mobile/galeria-plantas-48-closet.jpg" class="img-responsive">
-						<img src="galeria/plantas/48/galeria-plantas-48-closet.jpg" class="img-responsive inline img-100">
+								<source media="(max-width: 600px)" srcset="galeria/plantas/48/mobile/galeria-plantas-48-closet.jpg" class="img-fluid">
+						<img src="galeria/plantas/48/galeria-plantas-48-closet.jpg" class="img-fluid inline img-100">
 					</picture>
 
 						</div>
 						<div class="swiper-slide">
 							<picture>
-								<source media="(max-width: 425px)" srcset="galeria/plantas/48/mobile/galeria-plantas-48-home-office.jpg" class="img-responsive">
-						<img src="galeria/plantas/48/galeria-plantas-48-home-office.jpg" class="img-responsive inline img-100">
+								<source media="(max-width: 600px)" srcset="galeria/plantas/48/mobile/galeria-plantas-48-home-office.jpg" class="img-fluid">
+						<img src="galeria/plantas/48/galeria-plantas-48-home-office.jpg" class="img-fluid inline img-100">
 						</picture>
 
 						</div>
 
 						<div class="swiper-slide">
 							<picture>
-								<source media="(max-width: 425px)" srcset="galeria/plantas/48/mobile/galeria-plantas-48-spa-ofuro.jpg" class="img-responsive">
-						<img src="galeria/plantas/48/galeria-plantas-48-spa-ofuro.jpg" class="img-responsive inline img-100">
+								<source media="(max-width: 600px)" srcset="galeria/plantas/48/mobile/galeria-plantas-48-spa-ofuro.jpg" class="img-fluid">
+						<img src="galeria/plantas/48/galeria-plantas-48-spa-ofuro.jpg" class="img-fluid inline img-100">
 						</picture>
 						</div>
 
@@ -201,8 +201,8 @@ Aproveite todos os dias para viver ainda melhor no seu novo apartamento.
 					<div class="swiper-wrapper">
 						<div class="swiper-slide">
 							<picture>
-								<source media="(max-width: 425px)" srcset="galeria/perspectiva/apto-48/mobile/apto-48m-living-2.jpg" class="img-responsive">
-						<img src="galeria/perspectiva/apto-48/apto-48m-living-cozinha-home-office.jpg" class="img-responsive inline img-100">
+								<source media="(max-width: 425px)" srcset="galeria/perspectiva/apto-48/mobile/apto-48m-living-2.jpg" class="img-fluid">
+						<img src="galeria/perspectiva/apto-48/apto-48m-living-cozinha-home-office.jpg" class="img-fluid inline img-100">
 						</picture>
 							<span class="slider-ilustra-caption">
 								perspectiva ilustrativa living
@@ -210,8 +210,8 @@ Aproveite todos os dias para viver ainda melhor no seu novo apartamento.
 						</div>
 						<div class="swiper-slide">
 							<picture>
-								<source media="(max-width: 425px)" srcset="galeria/perspectiva/apto-48/mobile/apto-48m-living.jpg" class="img-responsive">
-						<img src="galeria/perspectiva/apto-48/apto-48m-living-home-office.jpg" class="img-responsive inline img-100">
+								<source media="(max-width: 425px)" srcset="galeria/perspectiva/apto-48/mobile/apto-48m-living.jpg" class="img-fluid">
+						<img src="galeria/perspectiva/apto-48/apto-48m-living-home-office.jpg" class="img-fluid inline img-100">
 					</picture>
 							<span class="slider-ilustra-caption">
 								perspectiva ilustrativa living e jantar
@@ -219,8 +219,8 @@ Aproveite todos os dias para viver ainda melhor no seu novo apartamento.
 						</div>
 						<div class="swiper-slide">
 							<picture>
-								<source media="(max-width: 425px)" srcset="galeria/perspectiva/apto-48/mobile/apto-48m-home-office.jpg" class="img-responsive">
-						<img src="galeria/perspectiva/apto-48/apto-48m-home-office.jpg" class="img-responsive inline img-100">
+								<source media="(max-width: 425px)" srcset="galeria/perspectiva/apto-48/mobile/apto-48m-home-office.jpg" class="img-fluid">
+						<img src="galeria/perspectiva/apto-48/apto-48m-home-office.jpg" class="img-fluid inline img-100">
 						</picture>
 							<span class="slider-ilustra-caption">
 								perspectiva ilustrativa home office
@@ -229,8 +229,8 @@ Aproveite todos os dias para viver ainda melhor no seu novo apartamento.
 
 						<div class="swiper-slide">
 							<picture>
-								<source media="(max-width: 425px)" srcset="galeria/perspectiva/apto-48/mobile/apto-48m-living-3.jpg" class="img-responsive">
-						<img src="galeria/perspectiva/apto-48/apto-48m-living-2-dormitorios.jpg" class="img-responsive inline img-100">
+								<source media="(max-width: 425px)" srcset="galeria/perspectiva/apto-48/mobile/apto-48m-living-3.jpg" class="img-fluid">
+						<img src="galeria/perspectiva/apto-48/apto-48m-living-2-dormitorios.jpg" class="img-fluid inline img-100">
 						</picture>
 							<span class="slider-ilustra-caption">
 								perspectiva ilustrativa living
@@ -239,8 +239,8 @@ Aproveite todos os dias para viver ainda melhor no seu novo apartamento.
 
 						<div class="swiper-slide">
 							<picture>
-								<source media="(max-width: 425px)" srcset="galeria/perspectiva/apto-48/mobile/apto-48m-suite.jpg" class="img-responsive">
-						<img src="galeria/perspectiva/apto-48/apto-48m-suite-closet.jpg" class="img-responsive inline img-100">
+								<source media="(max-width: 425px)" srcset="galeria/perspectiva/apto-48/mobile/apto-48m-suite.jpg" class="img-fluid">
+						<img src="galeria/perspectiva/apto-48/apto-48m-suite-closet.jpg" class="img-fluid inline img-100">
 						</picture>
 							<span class="slider-ilustra-caption">
 								perspectiva ilustrativa dormitório com closet
@@ -317,6 +317,7 @@ Aproveite todos os dias para viver ainda melhor no seu novo apartamento.
 
 <script type="text/javascript" src="assets/js/jquery-1.9.1.min.js"></script>
 <script src="assets/js/swiper.min.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <script type="text/javascript" src="assets/js/main-script.js"></script>
 <script type="text/javascript" src="assets/js/slider-48.js"></script>
 

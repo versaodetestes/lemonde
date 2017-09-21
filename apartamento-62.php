@@ -24,22 +24,22 @@
 	<div class="container">
 		
 		<div class="row justify-content-center">
-			<div class="col-md-3">
+			<div class="col-md-3 col-6">
 				<div class="feature feature-apto ">
 					3 Dormitórios (3 suítes)
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 col-6">
 				<div class="feature feature-apto">
 					Varanda Gourmet com churrasqueira carvão
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 col-6">
 				<div class="feature feature-apto">
 					Varanda Gourmet com churrasqueira carvão
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 col-6">
 				<div class="feature feature-apto">
 					3 vagas cobertas
 				</div>
@@ -77,7 +77,7 @@ Aproveite todos os dias para viver ainda melhor no seu novo apartamento.
 	<div class="container-fluid">
 		<div class="row reveal">
 			<picture>
-				<source media="(max-width: 1366px)" srcset="assets/banners/Banners-imagens-internas-aptos-1336-62.jpg.jpg" class="img-responsive">
+				<source media="(max-width: 1366px)" srcset="assets/banners/Banners-imagens-internas-aptos-1336-62.jpg" class="img-fluid">
 				<img src="assets/banners/Banners-imagens-internas-aptos-1920-62.jpg" class="img-fluid">
 			</picture>
 		</div>
@@ -163,8 +163,8 @@ Aproveite todos os dias para viver ainda melhor no seu novo apartamento.
 					<div class="swiper-wrapper">
 						<div class="swiper-slide">
 							<picture>
-								<source media="(max-width: 425px)" srcset="galeria/perspectiva/apto-62/mobile/apto-62m-living.jpg" class="img-responsive">
-						<img src="galeria/perspectiva/apto-62/apto-62m-living.jpg" class="img-responsive inline img-100">
+								<source media="(max-width: 425px)" srcset="galeria/perspectiva/apto-62/mobile/apto-62m-living.jpg" class="img-fluid">
+						<img src="galeria/perspectiva/apto-62/apto-62m-living.jpg" class="img-fluid inline img-100">
 					</picture>
 							<span class="slider-ilustra-caption">
 								perspectiva ilustrativa living e jantar
@@ -172,8 +172,8 @@ Aproveite todos os dias para viver ainda melhor no seu novo apartamento.
 						</div>
 						<div class="swiper-slide">
 							<picture>
-								<source media="(max-width: 425px)" srcset="galeria/perspectiva/apto-62/mobile/apto-62m-quarto-infantil.jpg" class="img-responsive">
-						<img src="galeria/perspectiva/apto-62/apto-62m-quarto-pokemon.jpg" class="img-responsive inline img-100">
+								<source media="(max-width: 425px)" srcset="galeria/perspectiva/apto-62/mobile/apto-62m-quarto-infantil.jpg" class="img-fluid">
+						<img src="galeria/perspectiva/apto-62/apto-62m-quarto-pokemon.jpg" class="img-fluid inline img-100">
 						</picture>
 							<span class="slider-ilustra-caption">
 								perspectiva ilustrativa quarto infantil
@@ -181,8 +181,8 @@ Aproveite todos os dias para viver ainda melhor no seu novo apartamento.
 						</div>
 						<div class="swiper-slide">
 							<picture>
-								<source media="(max-width: 425px)" srcset="galeria/perspectiva/apto-62/mobile/apto-62m-quarto-infanti-2.jpg" class="img-responsive">
-						<img src="galeria/perspectiva/apto-62/apto-62m-quarto-pokemon-2.jpg" class="img-responsive inline img-100">
+								<source media="(max-width: 425px)" srcset="galeria/perspectiva/apto-62/mobile/apto-62m-quarto-infanti-2.jpg" class="img-fluid">
+						<img src="galeria/perspectiva/apto-62/apto-62m-quarto-pokemon-2.jpg" class="img-fluid inline img-100">
 						</picture>
 							<span class="slider-ilustra-caption">
 								perspectiva ilustrativa quarto infantil

@@ -107,7 +107,7 @@
 					</div>
 				</div>
 			</div>
-
+		</div>
 		<!-- CTA -->
 		<?php include ("cta-stand.php"); ?>
 		<!-- FIM CTA -->

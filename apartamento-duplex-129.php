@@ -75,7 +75,7 @@ Amplo espaço com sala dois ambientes, projetado para que você desfrute do melh
 	<div class="container-fluid">
 		<div class="row reveal">
 			<picture>
-				<source media="(max-width: 1366px)" srcset="assets/banners/Banners-imagens-internas-aptos-1336-129.jpg.jpg" class="img-responsive">
+				<source media="(max-width: 1366px)" srcset="assets/banners/Banners-imagens-internas-aptos-1336-129.jpg.jpg" class="img-fluid">
 				<img src="assets/banners/Banners-imagens-internas-aptos-1920-129.jpg" class="img-fluid">
 			</picture>
 		</div>
@@ -162,8 +162,8 @@ Amplo espaço com sala dois ambientes, projetado para que você desfrute do melh
 					<div class="swiper-wrapper">
 						<div class="swiper-slide">
 							<picture>
-								<source media="(max-width: 425px)" srcset="galeria/perspectiva/duplex-129/mobile/duplex-129m-estar.jpg" class="img-responsive">
-						<img src="galeria/perspectiva/duplex-129/duplex-129m-sala-de-estar.jpg" class="img-responsive inline img-100">
+								<source media="(max-width: 425px)" srcset="galeria/perspectiva/duplex-129/mobile/duplex-129m-estar.jpg" class="img-fluid">
+						<img src="galeria/perspectiva/duplex-129/duplex-129m-sala-de-estar.jpg" class="img-fluid inline img-100">
 					</picture>
 							<span class="slider-ilustra-caption">
 								perspectiva ilustrativa sala de estar
@@ -171,8 +171,8 @@ Amplo espaço com sala dois ambientes, projetado para que você desfrute do melh
 						</div>
 						<div class="swiper-slide">
 							<picture>
-								<source media="(max-width: 425px)" srcset="galeria/perspectiva/duplex-129/mobile/duplex-129m-living.jpg" class="img-responsive">
-						<img src="galeria/perspectiva/duplex-129/duplex-129m-sala-de-jantar.jpg" class="img-responsive inline img-100">
+								<source media="(max-width: 425px)" srcset="galeria/perspectiva/duplex-129/mobile/duplex-129m-living.jpg" class="img-fluid">
+						<img src="galeria/perspectiva/duplex-129/duplex-129m-sala-de-jantar.jpg" class="img-fluid inline img-100">
 						</picture>
 							<span class="slider-ilustra-caption">
 								perspectiva ilustrativa sala de jantar
@@ -180,8 +180,8 @@ Amplo espaço com sala dois ambientes, projetado para que você desfrute do melh
 						</div>
 						<div class="swiper-slide">
 							<picture>
-								<source media="(max-width: 425px)" srcset="galeria/perspectiva/duplex-129/mobile/duplex-129m-suíte_2.jpg" class="img-responsive">
-						<img src="galeria/perspectiva/duplex-129/duplex-129m-suite_1.jpg" class="img-responsive inline img-100">
+								<source media="(max-width: 425px)" srcset="galeria/perspectiva/duplex-129/mobile/duplex-129m-suíte_2.jpg" class="img-fluid">
+						<img src="galeria/perspectiva/duplex-129/duplex-129m-suite_1.jpg" class="img-fluid inline img-100">
 						</picture>
 							<span class="slider-ilustra-caption">
 								perspectiva ilustrativa suíte master
@@ -189,8 +189,8 @@ Amplo espaço com sala dois ambientes, projetado para que você desfrute do melh
 						</div>
 						<div class="swiper-slide">
 							<picture>
-								<source media="(max-width: 425px)" srcset="galeria/perspectiva/duplex-129/mobile/duplex-129m-suíte.jpg" class="img-responsive">
-						<img src="galeria/perspectiva/duplex-129/duplex-129m-suite_2.jpg" class="img-responsive inline img-100">
+								<source media="(max-width: 425px)" srcset="galeria/perspectiva/duplex-129/mobile/duplex-129m-suíte.jpg" class="img-fluid">
+						<img src="galeria/perspectiva/duplex-129/duplex-129m-suite_2.jpg" class="img-fluid inline img-100">
 						</picture>
 							<span class="slider-ilustra-caption">
 								perspectiva ilustrativa suíte

@@ -9,11 +9,17 @@
 	max-width: 1120px;
 	width: 100%;
 	margin: 80px 0;
+	@media #{$mobile-l} {
+	margin-bottom: 0;
+	}
 }
 .implantacao-info {
 	padding: 20px 50px;
 	background: $color-primary; 
 	margin: 0;
+	@media #{$mobile-l} {
+		padding: 20px;
+	}
 }
 .implantacao-item {
 	display: inherit;

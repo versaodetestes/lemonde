@@ -19,8 +19,8 @@
 				</div>
 		</div>
 		<div class="row justify-content-center">
-			<div class="fachada-noturna">
-				<img src="assets/img/le-monde-fachada-noturna.jpg" class="img-fluid">
+			<div class="fachada-noturna reveal">
+				<img src="assets/img/le-monde-fachada-noturna.jpg" class="img-fluid ">
 				<span class="bar-color"></span>
 			</div>
 
@@ -70,18 +70,18 @@
 
 		<div class="row">
 			<div class="col-md-6">
-				<img src="assets/img/empreendimento-quadra-poli.jpg" class="img-fluid">
+				<img src="assets/img/empreendimento-quadra-poli.jpg" class="img-fluid reveal-noscale">
 				<p class="text">
 					A CRB Construtora traz para Sorocaba uma tendência internacional de moradia: reunir opções completas de lazer com funcionalidades, em ótima localização. O residencial Le Monde Campolim reúne os recursos indispensáveis para os gostos mais exigentes com variedade de plantas e personalização que você escolhe de acordo com o seu momento e estilo de vida.
 				</p>
 			</div>
 			<div class="col-md-6">
-				<img src="assets/img/le-monde-fachada-posterior.jpg" class="img-fluid">
+				<img src="assets/img/le-monde-fachada-posterior.jpg" class="img-fluid  reveal-noscale">
 			</div>
 		</div>
 		<div class="row">
 			<div class="implantacao">
-				<img src="assets/img/le-monde-implantacao-geral.jpg" class="img-fluid">
+				<img src="assets/img/le-monde-implantacao-geral.jpg" class="img-fluid ">
 				<div class="row implantacao-info d-flex align-items-center justify-content-between">
 					<div class="implantacao-legenda col-md-6"> 
 						<span class="implantacao-item"><span>1-</span> Lazer Externo</span>
@@ -174,7 +174,7 @@
 			</div>
 			<div class="row justify-content-center">
 				<div class="col-md-12">
-					<img src="assets/img/equipe-crb.jpg" class="img-fluid">
+					<img src="assets/img/equipe-crb.jpg" class="img-fluid reveal">
 				</div>
 				
 				<div class="col-md-8 text-equipe">
@@ -199,7 +199,8 @@ Para nós da CRB Construtora, morar bem significa ter a certeza que seu investim
 		<!-- FOOTER -->
 		<?php include ("footer.php"); ?>
 		<!-- FIM FOOTER -->
-
+<script type="text/javascript" src="assets/js/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="assets/js/main-script.js"></script>
 
 		</body>
 		</html>	

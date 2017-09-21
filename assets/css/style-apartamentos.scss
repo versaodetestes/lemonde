@@ -230,6 +230,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#302b6c', end
 }
 .title-group-slider {
 	padding: 90px 0 0 0;
+	@media #{$mobile-l} {
+		padding-top: 20px;
+	}
 }
 
 .galeria {
@@ -241,7 +244,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#302b6c', end
 	box-shadow: $shadow;
 	@media #{$laptop-l} {
 		max-width: 950px;
-	}		
+	}
+	@media #{$mobile-l} {
+		margin-bottom: 10px;
+	}	
 }
 .galeria-plantas {
 	box-shadow: none;
@@ -302,9 +308,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#302b6c', end
 	box-shadow: $shadow;
     height: 730px;
     margin-bottom: 80px;
+    @media #{$mobile-l} {
+    	height: 500px;
+    }
 }
 .img-360 {
 	height: 600px !important;
+    @media #{$mobile-l} {
+    	height: 380px !important;
+    }
 }
 .img-360_caption {
     position: relative;
@@ -319,9 +331,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#302b6c', end
     color: $grey-medium;
     text-align: right;
     font-family: $font-regular;
-}
+    @media #{$mobile-l} {
+    	background-position: 50% 15px;
+    	margin-top: 160px;
+    	padding-top: 70px;
+    	text-align: center;
+    }
+    }
 .bar-color_360 {
-    margin-top: -75px;
+    margin-top: 165px;
     position: absolute;
 }
 

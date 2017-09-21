@@ -6981,6 +6981,12 @@ h2, .h2 {
   text-transform: uppercase;
   letter-spacing: 3.5px;
   color: #434244; }
+  @media only screen and (max-width: 425px) {
+    h2, .h2 {
+      font-size: 30px; } }
+
+h4 {
+  font-family: "supermolotregular"; }
 
 p {
   font-family: "supermolotregular"; }
@@ -7188,6 +7194,9 @@ p.text-spot {
   padding: 50px 0;
   margin-top: 50px;
   margin-bottom: 50px; }
+  @media only screen and (max-width: 425px) {
+    .ficha-tecnica {
+      margin-bottom: 0; } }
 
 .midia {
   margin: 50px 0; }
@@ -7198,6 +7207,14 @@ p.text-spot {
 
 #ytplayer {
   margin-bottom: -6px; }
+
+.ytplayer {
+  width: 911px;
+  height: 627px; }
+  @media only screen and (max-width: 425px) {
+    .ytplayer {
+      width: 100%;
+      height: 230px; } }
 
 .midia-text {
   font-family: "supermolotregular";
@@ -7297,6 +7314,11 @@ p.text-spot {
 .footer {
   padding: 80px 0; }
 
+@media only screen and (max-width: 425px) {
+  .nav-footer {
+    padding-left: 10px;
+    margin-bottom: 10px; } }
+
 .nav-footer li {
   list-style-type: none;
   margin-bottom: 20px; }
@@ -7321,6 +7343,9 @@ p.text-spot {
   padding: 20px 100px;
   background: #f5f5f5;
   font-size: 14px; }
+  @media only screen and (max-width: 425px) {
+    .memorial {
+      padding: 20px; } }
 
 .paulo {
   z-index: 2; }
@@ -7586,6 +7611,9 @@ p.text-spot {
 
 .title-group-slider {
   padding: 90px 0 0 0; }
+  @media only screen and (max-width: 425px) {
+    .title-group-slider {
+      padding-top: 20px; } }
 
 .galeria {
   width: 100%;
@@ -7598,6 +7626,9 @@ p.text-spot {
   @media only screen and (max-width: 1440px) {
     .galeria {
       max-width: 950px; } }
+  @media only screen and (max-width: 425px) {
+    .galeria {
+      margin-bottom: 10px; } }
 
 .galeria-plantas {
   -webkit-box-shadow: none;
@@ -7655,9 +7686,15 @@ p.text-spot {
   box-shadow: 2px 2px 12px 3px rgba(48, 43, 108, 0.15);
   height: 730px;
   margin-bottom: 80px; }
+  @media only screen and (max-width: 425px) {
+    .wrap-360 {
+      height: 500px; } }
 
 .img-360 {
   height: 600px !important; }
+  @media only screen and (max-width: 425px) {
+    .img-360 {
+      height: 380px !important; } }
 
 .img-360_caption {
   position: relative;
@@ -7672,9 +7709,15 @@ p.text-spot {
   color: #434244;
   text-align: right;
   font-family: "supermolotregular"; }
+  @media only screen and (max-width: 425px) {
+    .img-360_caption {
+      background-position: 50% 15px;
+      margin-top: 160px;
+      padding-top: 70px;
+      text-align: center; } }
 
 .bar-color_360 {
-  margin-top: -75px;
+  margin-top: 165px;
   position: absolute; }
 
 .download-plantas {

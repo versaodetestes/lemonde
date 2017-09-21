@@ -24,22 +24,22 @@
 	<div class="container">
 		
 		<div class="row justify-content-center">
-			<div class="col-md-3">
+			<div class="col-md-3 col-6">
 				<div class="feature feature-apto ">
 					3 Dormitórios (3 suítes)
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 col-6">
 				<div class="feature feature-apto">
 					Varanda Gourmet com churrasqueira carvão
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 col-6">
 				<div class="feature feature-apto">
 					Varanda Gourmet com churrasqueira carvão
 				</div>
 			</div>
-			<div class="col-md-3">
+			<div class="col-md-3 col-6">
 				<div class="feature feature-apto">
 					3 vagas cobertas
 				</div>
@@ -75,7 +75,7 @@ Projetado para atender quem busca praticidade, mas não quer abrir mão da comod
 	<div class="container-fluid">
 		<div class="row reveal">
 			<picture>
-				<source media="(max-width: 1366px)" srcset="assets/banners/Banners-imagens-internas-aptos-1336-101.jpg.jpg" class="img-responsive">
+				<source media="(max-width: 1366px)" srcset="assets/banners/Banners-imagens-internas-aptos-1336-101.jpg.jpg" class="img-fluid">
 				<img src="assets/banners/Banners-imagens-internas-aptos-1920-101.jpg" class="img-fluid">
 			</picture>
 		</div>
@@ -162,8 +162,8 @@ Projetado para atender quem busca praticidade, mas não quer abrir mão da comod
 <div class="swiper-wrapper">
 						<div class="swiper-slide">
 							<picture>
-								<source media="(max-width: 425px)" srcset="galeria/duplex-101/mobile/duplex-101m-jantar-living.jpg" class="img-responsive">
-						<img src="galeria/perspectiva/duplex-101/duplex-101m-jantar-estar.jpg" class="img-responsive inline img-100">
+								<source media="(max-width: 425px)" srcset="galeria/duplex-101/mobile/duplex-101m-jantar-living.jpg" class="img-fluid">
+						<img src="galeria/perspectiva/duplex-101/duplex-101m-jantar-estar.jpg" class="img-fluid inline img-100">
 					</picture>
 							<span class="slider-ilustra-caption">
 								perspectiva ilustrativa living e jantar
@@ -171,8 +171,8 @@ Projetado para atender quem busca praticidade, mas não quer abrir mão da comod
 						</div>
 						<div class="swiper-slide">
 							<picture>
-								<source media="(max-width: 425px)" srcset="galeria/perspectiva/duplex-101/mobile/duplex-101m-living-jantar.jpg" class="img-responsive">
-						<img src="galeria/perspectiva/duplex-101/duplex-101m-living-jantar.jpg" class="img-responsive inline img-100">
+								<source media="(max-width: 425px)" srcset="galeria/perspectiva/duplex-101/mobile/duplex-101m-living-jantar.jpg" class="img-fluid">
+						<img src="galeria/perspectiva/duplex-101/duplex-101m-living-jantar.jpg" class="img-fluid inline img-100">
 						</picture>
 							<span class="slider-ilustra-caption">
 								perspectiva ilustrativa living e jantar
@@ -180,8 +180,8 @@ Projetado para atender quem busca praticidade, mas não quer abrir mão da comod
 						</div>
 						<div class="swiper-slide">
 							<picture>
-								<source media="(max-width: 425px)" srcset="galeria/perspectiva/duplex-101/mobile/duplex-101m-cozinha.jpg" class="img-responsive">
-						<img src="galeria/perspectiva/duplex-101/duplex-101m-cozinha.jpg" class="img-responsive inline img-100">
+								<source media="(max-width: 425px)" srcset="galeria/perspectiva/duplex-101/mobile/duplex-101m-cozinha.jpg" class="img-fluid">
+						<img src="galeria/perspectiva/duplex-101/duplex-101m-cozinha.jpg" class="img-fluid inline img-100">
 						</picture>
 							<span class="slider-ilustra-caption">
 								perspectiva ilustrativa cozinha
@@ -189,8 +189,8 @@ Projetado para atender quem busca praticidade, mas não quer abrir mão da comod
 						</div>
 						<div class="swiper-slide">
 							<picture>
-								<source media="(max-width: 425px)" srcset="galeria/perspectiva/duplex-101/mobile/duplex-101m-suite-master.jpg" class="img-responsive">
-						<img src="galeria/perspectiva/duplex-101/duplex-101m-suite-master.jpg" class="img-responsive inline img-100">
+								<source media="(max-width: 425px)" srcset="galeria/perspectiva/duplex-101/mobile/duplex-101m-suite-master.jpg" class="img-fluid">
+						<img src="galeria/perspectiva/duplex-101/duplex-101m-suite-master.jpg" class="img-fluid inline img-100">
 						</picture>
 							<span class="slider-ilustra-caption">
 								perspectiva ilustrativa suíte master
@@ -198,8 +198,8 @@ Projetado para atender quem busca praticidade, mas não quer abrir mão da comod
 						</div>
 						<div class="swiper-slide">
 							<picture>
-								<source media="(max-width: 425px)" srcset="galeria/perspectiva/duplex-101/mobile/duplex-101m-varanda-churrasqueira.jpg" class="img-responsive">
-						<img src="galeria/perspectiva/duplex-101/duplex-101m-varanda-gourmet-churrasqueira.jpg" class="img-responsive inline img-100">
+								<source media="(max-width: 425px)" srcset="galeria/perspectiva/duplex-101/mobile/duplex-101m-varanda-churrasqueira.jpg" class="img-fluid">
+						<img src="galeria/perspectiva/duplex-101/duplex-101m-varanda-gourmet-churrasqueira.jpg" class="img-fluid inline img-100">
 						</picture>
 							<span class="slider-ilustra-caption">
 								perspectiva ilustrativa varanda gourmet churrasqueira

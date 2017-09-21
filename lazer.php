@@ -93,55 +93,55 @@
 				<div class="swiper-container" id="slider-perspectivas">
 					<div class="swiper-wrapper">
 						<div class="swiper-slide">
-						<img src="galeria/lazer/01-galeria-perspectivas-academia.jpg" class="img-responsive img-100">
+						<img src="galeria/lazer/01-galeria-perspectivas-academia.jpg" class="img-fluid">
 							<span class="slider-ilustra-caption">
 								Academia - Le Monde Campolim
 							</span>
 						</div>
 						<div class="swiper-slide">
-						<img src="galeria/lazer/02-galeria-perspectivas-brinquedoteca.jpg" class="img-responsive img-100">
+						<img src="galeria/lazer/02-galeria-perspectivas-brinquedoteca.jpg" class="img-fluid">
 							<span class="slider-ilustra-caption">
 								Brinquedoteca - Le Monde Campolim
 							</span>
 						</div>
 						<div class="swiper-slide">
-						<img src="galeria/lazer/03-galeria-perspectivas-salao-de-jogos.jpg" class="img-responsive img-100">
+						<img src="galeria/lazer/03-galeria-perspectivas-salao-de-jogos.jpg" class="img-fluid">
 							<span class="slider-ilustra-caption">
 								Salão de jogos - Le Monde Campolim
 							</span>
 						</div>
 						<div class="swiper-slide">
-						<img src="galeria/lazer/04-galeria-perspectivas-piscina-adulta-infantil.jpg" class="img-responsive img-100">
+						<img src="galeria/lazer/04-galeria-perspectivas-piscina-adulta-infantil.jpg" class="img-fluid">
 							<span class="slider-ilustra-caption">
 								Pisicina adulto e infantil - Le Monde Campolim
 							</span>
 						</div>
 						<div class="swiper-slide">
-						<img src="galeria/lazer/05-galeria-perspectivas-churrasqueira.jpg" class="img-responsive img-100">
+						<img src="galeria/lazer/05-galeria-perspectivas-churrasqueira.jpg" class="img-fluid">
 							<span class="slider-ilustra-caption">
 								Churrasqueira - Le Monde Campolim
 							</span>
 						</div>
 						<div class="swiper-slide">
-						<img src="galeria/lazer/06-galeria-perspectivas-quadra-recreativa.jpg" class="img-responsive img-100">
+						<img src="galeria/lazer/06-galeria-perspectivas-quadra-recreativa.jpg" class="img-fluid">
 							<span class="slider-ilustra-caption">
 								Quadra recreativa - Le Monde Campolim
 							</span>
 						</div>
 						<div class="swiper-slide">
-						<img src="galeria/lazer/07-galeria-perspectivas-quadra-de-tenis.jpg" class="img-responsive img-100">
+						<img src="galeria/lazer/07-galeria-perspectivas-quadra-de-tenis.jpg" class="img-fluid">
 							<span class="slider-ilustra-caption">
 								Quadra tênis - Le Monde Campolim
 							</span>
 						</div>
 						<div class="swiper-slide">
-						<img src="galeria/lazer/08-galeria-perspectivas-salao-de-festas.jpg" class="img-responsive img-100">
+						<img src="galeria/lazer/08-galeria-perspectivas-salao-de-festas.jpg" class="img-fluid">
 							<span class="slider-ilustra-caption">
 								Salão de festas - Le Monde Campolim
 							</span>
 						</div>
 						<div class="swiper-slide">
-						<img src="galeria/lazer/09-galeria-perspectivas-car-wash.jpg" class="img-responsive img-100">
+						<img src="galeria/lazer/09-galeria-perspectivas-car-wash.jpg" class="img-fluid">
 							<span class="slider-ilustra-caption">
 								Car wash - Le Monde Campolim
 							</span>
@@ -170,7 +170,7 @@
 	<div class="container-fluid">
 		<div class="row reveal">
 			<picture>
-				<source media="(max-width: 1366px)" srcset="assets/banners/Banners-imagens-internas-aptos-1336-lazer.jpg" class="img-responsive">
+				<source media="(max-width: 1366px)" srcset="assets/banners/Banners-imagens-internas-aptos-1336-lazer.jpg" class="img-fluid">
 				<img src="assets/banners/Banners-imagens-internas-aptos-1920-lazer.jpg" class="img-fluid">
 			</picture>
 		</div>
@@ -209,25 +209,25 @@
 					<div class="swiper-wrapper">
 
 						<div class="swiper-slide" id="1">
-								<img src="galeria/lazer/01-galeria-perspectivas-lobby.jpg" class="img-reponsive img-100">
+								<img src="galeria/lazer/01-galeria-perspectivas-lobby.jpg" class="img-fluid">
 							<div class="slider-ilustra-caption">
 								<p class="title-white">Lobby</p>
 							</div>
 						</div>
 						<div class="swiper-slide" id="2">
-								<img src="galeria/lazer/02-galeria-perspectivas-work-station-office.jpg" class="img-reponsive img-100">
+								<img src="galeria/lazer/02-galeria-perspectivas-work-station-office.jpg" class="img-fluid">
 							<div class="slider-ilustra-caption">
 								<p class="title-white">Work Station Office</p>
 							</div>
 						</div>
 						<div class="swiper-slide" id="3">
-								<img src="galeria/lazer/03-galeria-perspectivas-piscina-panoramica.jpg" class="img-reponsive img-100">
+								<img src="galeria/lazer/03-galeria-perspectivas-piscina-panoramica.jpg" class="img-fluid">
 							<div class="slider-ilustra-caption">
 								<p class="title-white">Piscina Panôramica</p>
 							</div>
 						</div>
 						<div class="swiper-slide" id="4">
-								<img src="galeria/lazer/04-galeria-perspectivas-espaço-gourmet.jpg" class="img-reponsive img-100">
+								<img src="galeria/lazer/04-galeria-perspectivas-espaço-gourmet.jpg" class="img-fluid">
 							<div class="slider-ilustra-caption">
 								<p class="title-white">Espaço Gourmet</p>
 							</div>
@@ -246,7 +246,7 @@
 		</div>
 
 	</div>
-
+		</div>
 
 		<!-- CTA -->
 		<?php include ("cta-stand.php"); ?>

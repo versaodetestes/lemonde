@@ -6981,6 +6981,12 @@ h2, .h2 {
   text-transform: uppercase;
   letter-spacing: 3.5px;
   color: #434244; }
+  @media only screen and (max-width: 425px) {
+    h2, .h2 {
+      font-size: 30px; } }
+
+h4 {
+  font-family: "supermolotregular"; }
 
 p {
   font-family: "supermolotregular"; }
@@ -7188,6 +7194,9 @@ p.text-spot {
   padding: 50px 0;
   margin-top: 50px;
   margin-bottom: 50px; }
+  @media only screen and (max-width: 425px) {
+    .ficha-tecnica {
+      margin-bottom: 0; } }
 
 .midia {
   margin: 50px 0; }
@@ -7198,6 +7207,14 @@ p.text-spot {
 
 #ytplayer {
   margin-bottom: -6px; }
+
+.ytplayer {
+  width: 911px;
+  height: 627px; }
+  @media only screen and (max-width: 425px) {
+    .ytplayer {
+      width: 100%;
+      height: 230px; } }
 
 .midia-text {
   font-family: "supermolotregular";
@@ -7297,6 +7314,11 @@ p.text-spot {
 .footer {
   padding: 80px 0; }
 
+@media only screen and (max-width: 425px) {
+  .nav-footer {
+    padding-left: 10px;
+    margin-bottom: 10px; } }
+
 .nav-footer li {
   list-style-type: none;
   margin-bottom: 20px; }
@@ -7321,6 +7343,9 @@ p.text-spot {
   padding: 20px 100px;
   background: #f5f5f5;
   font-size: 14px; }
+  @media only screen and (max-width: 425px) {
+    .memorial {
+      padding: 20px; } }
 
 .fachada-noturna {
   width: 100%;
@@ -7331,11 +7356,17 @@ p.text-spot {
   max-width: 1120px;
   width: 100%;
   margin: 80px 0; }
+  @media only screen and (max-width: 425px) {
+    .implantacao {
+      margin-bottom: 0; } }
 
 .implantacao-info {
   padding: 20px 50px;
   background: #302b6c;
   margin: 0; }
+  @media only screen and (max-width: 425px) {
+    .implantacao-info {
+      padding: 20px; } }
 
 .implantacao-item {
   display: inherit;
