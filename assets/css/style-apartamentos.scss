@@ -138,6 +138,10 @@ background: -webkit-linear-gradient(45deg, rgb(48,43,108) 0%,rgb(83,227,175) 100
 background: linear-gradient(45deg, rgb(48,43,108) 0%,rgb(83,227,175) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#302b6c', endColorstr='#53e3af',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 	background-image: url("../img/hero-129.jpg");
+		@media #{$mobile-l} {
+			background-image: url("../img/banners-hero-129-mobile.jpg");
+			background-position: center;
+		}
 }
 .hero-101 {
 		background: -moz-linear-gradient(45deg, rgb(48,43,108) 0%, rgb(83,227,175) 100%); /* FF3.6-15 */
@@ -145,6 +149,10 @@ background: -webkit-linear-gradient(45deg, rgb(48,43,108) 0%,rgb(83,227,175) 100
 background: linear-gradient(45deg, rgb(48,43,108) 0%,rgb(83,227,175) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#302b6c', endColorstr='#53e3af',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 	background-image: url("../img/hero-101.jpg");
+		@media #{$mobile-l} {
+			background-image: url("../img/banners-hero-101-mobile.jpg");
+			background-position: center;
+		}
 }
 .hero-62 {
 		background: -moz-linear-gradient(45deg, rgb(48,43,108) 0%, rgb(83,227,175) 100%); /* FF3.6-15 */
@@ -152,6 +160,10 @@ background: -webkit-linear-gradient(45deg, rgb(48,43,108) 0%,rgb(83,227,175) 100
 background: linear-gradient(45deg, rgb(48,43,108) 0%,rgb(83,227,175) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#302b6c', endColorstr='#53e3af',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 	background-image: url("../img/hero-62.jpg");
+		@media #{$mobile-l} {
+			background-image: url("../img/banners-hero-62-mobile.jpg");
+			background-position: center;
+		}
 }
 .hero-48 {
 		background: -moz-linear-gradient(45deg, rgb(48,43,108) 0%, rgb(83,227,175) 100%); /* FF3.6-15 */
@@ -159,6 +171,10 @@ background: -webkit-linear-gradient(45deg, rgb(48,43,108) 0%,rgb(83,227,175) 100
 background: linear-gradient(45deg, rgb(48,43,108) 0%,rgb(83,227,175) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#302b6c', endColorstr='#53e3af',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 	background-image: url("../img/hero-48.jpg");
+		@media #{$mobile-l} {
+			background-image: url("../img/banners-hero-48-mobile.jpg");
+			background-position: center;
+		}
 }
 
 .hero-info {
@@ -209,18 +225,30 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#302b6c', end
 .banner-pet_4 {
 	background-image: url("../banners/banners-pet-4.jpg");
 	background-size: cover;
+	@media #{$mobile-l} {
+		background-image: url("../banners/banners-pet-4-mobile.jpg");
+	}
 }
 .banner-pet_3 {
 	background-image: url("../banners/banners-pet-3.jpg");
 	background-size: cover;
+	@media #{$mobile-l} {
+		background-image: url("../banners/banners-pet-3-mobile.jpg");
+	}
 }
 .banner-pet_2 {
 	background-image: url("../banners/banners-pet-2.jpg");
 	background-size: cover;
+	@media #{$mobile-l} {
+		background-image: url("../banners/banners-pet-2-mobile.jpg");
+	}
 }
 .banner-pet_1 {
 	background-image: url("../banners/banners-pet-1.jpg");
 	background-size: cover;
+	@media #{$mobile-l} {
+		background-image: url("../banners/banners-pet-1-mobile.jpg");
+	}
 }
 
 

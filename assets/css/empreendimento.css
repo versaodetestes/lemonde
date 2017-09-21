@@ -6972,8 +6972,8 @@ h1, .h1 {
   letter-spacing: 5px; }
   @media only screen and (max-width: 425px) {
     h1, .h1 {
-      font-size: 25px;
-      letter-spacing: 3px; } }
+      font-size: 30px;
+      letter-spacing: 1px; } }
 
 h2, .h2 {
   font-family: "supermolotlight";
