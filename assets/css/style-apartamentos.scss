@@ -133,15 +133,31 @@
 	background-size: cover;
 }
 .hero-129 {
+	background: -moz-linear-gradient(45deg, rgb(48,43,108) 0%, rgb(83,227,175) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, rgb(48,43,108) 0%,rgb(83,227,175) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, rgb(48,43,108) 0%,rgb(83,227,175) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#302b6c', endColorstr='#53e3af',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 	background-image: url("../img/hero-129.jpg");
 }
 .hero-101 {
+		background: -moz-linear-gradient(45deg, rgb(48,43,108) 0%, rgb(83,227,175) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, rgb(48,43,108) 0%,rgb(83,227,175) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, rgb(48,43,108) 0%,rgb(83,227,175) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#302b6c', endColorstr='#53e3af',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 	background-image: url("../img/hero-101.jpg");
 }
 .hero-62 {
+		background: -moz-linear-gradient(45deg, rgb(48,43,108) 0%, rgb(83,227,175) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, rgb(48,43,108) 0%,rgb(83,227,175) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, rgb(48,43,108) 0%,rgb(83,227,175) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#302b6c', endColorstr='#53e3af',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 	background-image: url("../img/hero-62.jpg");
 }
 .hero-48 {
+		background: -moz-linear-gradient(45deg, rgb(48,43,108) 0%, rgb(83,227,175) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, rgb(48,43,108) 0%,rgb(83,227,175) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, rgb(48,43,108) 0%,rgb(83,227,175) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#302b6c', endColorstr='#53e3af',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 	background-image: url("../img/hero-48.jpg");
 }
 
