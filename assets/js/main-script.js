@@ -1,3 +1,31 @@
+
+$(window).scroll(function(e){ 
+  if ($(this).scrollTop() > 45){ 
+   $(".main-header").addClass("header-fixed");
+  } 
+   if ($(this).scrollTop() < 45) {
+    $(".main-header").removeClass("header-fixed");
+   }
+});
+
+
+
+      // Open sub-menu
+  $('#list-apartamentos').click(function(){
+    $(this).toggleClass('list-apartamentos-open');
+    $('#nav-apartamentos').toggleClass('nav-apartamentos-open');
+  });
+
+    $('#nav-icon1').click(function(){
+      $(this).toggleClass('open');
+      $('#nav-header').toggleClass('nav-header_open');
+    });
+    $('#btncasas').click(function(){
+      $('#nav-icon1').toggleClass('open');
+    });  
+
+
+
   // Open sub-menu
     $(function() {
   $('#list-apartamentos').click(function(){
@@ -9,9 +37,10 @@
 // youtube cover player
 $('#youtubecover').click(function() {
 $('#ytplayer').show();
-$('#ytplayer').append('<iframe class="ytplayer" src="https://www.youtube.com/embed/9ZKEJ6OFCV4?autoplay=1" frameborder="0" allowfullscreen></iframe>');
+$('#ytplayer').append('<iframe class="ytplayer" src="https://www.youtube.com/embed/n6KpfcSY-xQ?autoplay=1;rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>');
 $('#youtubecover').hide();
 });
+
 
 	// SLIDERS
   $(function() {

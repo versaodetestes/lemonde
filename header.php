@@ -1,4 +1,5 @@
 <!-- HEADER -->
+<div id="wraper" class="wraper">
 	<div class="header">
 		<div class="sub-header">
 			<div class="container">
@@ -6,10 +7,9 @@
 			</div>
 		</div>
 		<div class="main-header">
-		<div class="container">
 			<div class="navbar">
 				<div class="brand">
-					<a href="./"><img src="assets/img/logo-lemonde.svg"></a>
+					<a href="./"><img src="assets/img/logo-lemonde.svg" class="img-fluid"></a>
 				</div>
 
 		      <div id="nav-icon1">
@@ -18,7 +18,7 @@
 		          <span></span>
 		      </div>
 		      
-				<div class="nav-header">
+				<div class="nav-header"  id="nav-header">
 					<ul>
 						<li><a href="./empreendimento.php">Empreendimento</a></li>
 						<li><a href="./apartamentos.php">Apartamentos</a></li>
@@ -28,8 +28,6 @@
 					</ul>
 				</div>
 			</div>
-
-		</div>
 
 		</div>
 	</div>

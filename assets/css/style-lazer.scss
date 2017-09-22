@@ -11,6 +11,9 @@
 	background: $color-primary;
 	margin-bottom: 80px;
 	color: #fff;
+	@media #{$mobile-l} {
+		margin-bottom: 0;
+	}
 }
 .lazer-list {
 	li {
@@ -133,6 +136,14 @@ text-transform: uppercase;
 }
 .vista-linda-title {
 	margin: 50px 0;
+}
+#map, .map {
+	width: 100%;
+	max-width: 1200px;
+	height: 600px;
+	@media #{$mobile-l} {
+		height: 380px;
+	}
 }
 .map-container {
 	padding: 50px 0;

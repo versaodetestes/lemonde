@@ -26,35 +26,33 @@
 
 		</div>
 
-		<div class="row justify-content-center">
-			<div class="col-md-3 col-6">
+		<div class="row justify-content-center empreendimento-features">
+			<div class="col-md-4 col-6">
 				<div class="feature ">
 					12.760m² de Terreno
 				</div>
 			</div>
-			<div class="col-md-3 col-6">
+			<div class="col-md-4 col-6">
 				<div class="feature">
 					5 Torres
 				</div>
 			</div>
-			<div class="col-md-3 col-6">
+			<div class="col-md-4 col-6">
 				<div class="feature">
 					4 Opções de Planta
 				</div>
 			</div>
-		</div>
-		<div class="row justify-content-center">
-			<div class="col-md-3 col-6">
+			<div class="col-md-4 col-6">
 				<div class="feature">
 					27 Pavimentos
 				</div>					
 			</div>
-			<div class="col-md-3 col-6">
+			<div class="col-md-4 col-6">
 				<div class="feature">
 					4 Apartamentos por andar
 				</div>					
 			</div>
-			<div class="col-md-3 col-6">
+			<div class="col-md-4 col-6">
 				<div class="feature">
 					2 Elevadores por torre
 				</div>					
