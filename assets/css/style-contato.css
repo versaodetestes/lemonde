@@ -7131,7 +7131,7 @@ p.text-spot {
 
 .main-header {
   background: #302b6c;
-  padding: 10px 5%;
+  padding: 0 5%;
   width: 100%; }
   @media only screen and (max-width: 425px) {
     .main-header {

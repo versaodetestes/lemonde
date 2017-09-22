@@ -7131,7 +7131,7 @@ p.text-spot {
 
 .main-header {
   background: #302b6c;
-  padding: 10px 5%;
+  padding: 0 5%;
   width: 100%; }
   @media only screen and (max-width: 425px) {
     .main-header {
@@ -7578,6 +7578,19 @@ p.text-spot {
 .lazer-cobertura {
   margin-top: 80px;
   margin-bottom: 80px; }
+
+.implantacao {
+  float: right;
+  font-size: 18px;
+  font-family: "supermolotregular";
+  color: #302b6c;
+  margin-top: 30px; }
+
+.bar-color-implantacao {
+  width: 240px;
+  height: 5px;
+  background: #302b6c;
+  display: block; }
 
 .local-beneficios {
   background: #302b6c;

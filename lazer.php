@@ -196,6 +196,10 @@
 					Para completar a sua comodidade, cada torre conta com um Work Station Office, um espaço montado para que você possa trabalhar, fazer uma reunião ou estudar.
 				</p>
 				<img src="assets/img/lazer-cobertura-title.jpg" class="img-fluid lazer-cobertura-title">
+				<div class="implantacao">
+					Implantação Cobertura
+					<span class="bar-color-implantacao"></span>
+				</div>
 			</div>	
 			<div class="col-md-6">
 				<img src="assets/img/lazer-implantacao.jpg" class="img-fluid reveal">

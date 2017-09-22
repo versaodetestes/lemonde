@@ -230,7 +230,7 @@ $shadow: 2px 2px 12px 3px rgba(48, 43, 108, 0.15);
 }
 .main-header {
 	background: $color-primary;
-	padding: 10px 5%;
+	padding: 0 5%;
 	width: 100%;
   	@media #{$mobile-l} {
   		padding: 10px 0;

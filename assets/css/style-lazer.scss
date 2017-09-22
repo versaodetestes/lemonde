@@ -114,7 +114,19 @@ text-transform: uppercase;
 	margin-top: 80px;
 	margin-bottom: 80px;
 }
-
+.implantacao {
+	float: right;
+	font-size: 18px;
+	font-family: $font-regular;
+	color: $color-primary;
+	margin-top: 30px;
+}
+.bar-color-implantacao {
+width: 240px;
+    height: 5px;
+    background: $color-primary;
+    display: block;
+}
 .local-beneficios {
 	background: $color-primary;
 	padding: 50px 0;
