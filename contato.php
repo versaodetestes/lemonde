@@ -16,7 +16,7 @@
 					<h1>Contato</h1>
 					<p class="lead">Corretores Exclusivos</p>
 					<span class="line line-blue"></span><br>
-					<span class="telefone">(15) 3318-7999</span>
+					<a href="tel:1533187999"><span class="telefone">(15) 3318-7999</span></a>
 				</div>
 		</div>
 		<div class="row">

@@ -23,8 +23,8 @@
 		</div>
 		<div class="row justify-content-center">
 				<div class="midia-player">
-					<img src="assets/img/youtube-cover.jpg" class="img-fluid" id="youtubecover">
-					<div id="ytplayer" style="display:none;">
+					<img src="assets/img/youtube-cover.jpg" class="img-fluid" id="youtubelazer">
+					<div id="ytplayerlazer" style="display:none;">
 					</div>
 				<span class="bar-color"></span>
 				</div>

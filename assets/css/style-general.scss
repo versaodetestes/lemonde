@@ -485,7 +485,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#302b6c', end
 	margin: 30px 0;
 	line-height: 28px;
 }
-#youtubecover {
+#youtubecover, #youtubelazer  {
 	&:hover {
 		cursor: pointer;
 	}
@@ -646,6 +646,7 @@ padding: 80px 0;
 	border: 2px solid $color-secundary;
 	opacity: 0;
 	transition: all 0.5s ease-in;
+	z-index: 901;
 	@media #{$mobile-l} {
 		display: none;
 	}
@@ -671,6 +672,7 @@ padding: 80px 0;
  transition: all 0.5s ease-in;
  display: flex;
  justify-content: space-around;
+ z-index: 900;
  	@media #{$desktop} {
  		display: none;
  	}

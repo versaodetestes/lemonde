@@ -43,6 +43,17 @@ $('#ytplayer').append('<iframe class="ytplayer" src="https://www.youtube.com/emb
 $('#youtubecover').hide();
 });
 
+// youtube cover player
+$('#youtubelazer').click(function() {
+$('#ytplayerlazer').show();
+$('#ytplayerlazer').append('<iframe class="ytplayer" src="https://www.youtube.com/embed/rFJKDEDyZOE?autoplay=1;rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>');
+$('#youtubelazer').hide();
+});
+
+$('#plantasdownload').click(function (){
+  event.preventDefault();
+  swal("Sucesso!", "O arquivo em pdf foi enviado para seu e-mail", "success");
+});
 
 	// SLIDERS
   $(function() {

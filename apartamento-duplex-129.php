@@ -116,7 +116,7 @@ Amplo espaço com sala dois ambientes, projetado para que você desfrute do melh
 						<label for="email">Email</label> <br>
 						<input type="email" name="email" id="email">
 						</div>
-						<button type="submit" class="btn btn-cta btn-download">Download plantas</button>
+						<button type="submit" class="btn btn-cta btn-download" id="plantasdownload">Download plantas</button>
 					</form>
 				</div>
 			</div>
@@ -250,6 +250,7 @@ Amplo espaço com sala dois ambientes, projetado para que você desfrute do melh
 	<!-- FIM FOOTER -->
 
 <script type="text/javascript" src="assets/js/jquery-1.9.1.min.js"></script>
+<script src="assets/js/sweetalert.min.js"></script>
 <script type="text/javascript" src="assets/js/main-script.js"></script>
 <script src="assets/js/swiper.min.js"></script>
 
