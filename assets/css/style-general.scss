@@ -118,6 +118,13 @@ p.text-spot {
 	margin-top: 30px;
 	li {
 		margin-bottom: 15px;
+		&:before {
+			content: "•";
+			color: $color-secundary;
+			display: inline-block;
+			font-size: 18px;
+			margin-right: 10px;
+		}
 	}
 }
 

@@ -51,6 +51,12 @@
   		margin: 10px 0 0 5%;
 	}
 }
+.card-planta-image {
+	width: 50%;
+	@media #{$mobile-l} {
+		width: 100%;
+	}
+}
 .card-planta-body {
 	padding: 0px 30px;
 }
@@ -363,6 +369,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#302b6c', end
     color: $grey-medium;
     text-align: right;
     font-family: $font-regular;
+    @media #{$laptop-l} {
+	margin-top: 0;
+    }
     @media #{$mobile-l} {
     	background-position: 50% 15px;
     	margin-top: 160px;
