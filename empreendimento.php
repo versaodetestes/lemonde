@@ -12,7 +12,7 @@
 	<!-- FIM HEADER -->
 	<div class="container">
 		<div class="row justify-content-center">
-				<div class="title-group">
+				<div class="title-group reveal">
 					<h1>Le Monde Campolim</h1>
 					<p class="lead">Tendência internacional de moradia</p>
 					<span class="line line-blue"></span>
