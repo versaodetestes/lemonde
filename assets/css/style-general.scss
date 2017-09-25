@@ -425,7 +425,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#302b6c', end
 	@media #{$laptop-l} {
 		height: 520px;
 	}
+
 	}
+			@media #{$mobile-l} {
+				display: none;
+		}
 }
 
 // FEATURES

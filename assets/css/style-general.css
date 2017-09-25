@@ -2815,6 +2815,8 @@ p.text-spot { font-family: "supermolotlight"; font-size: 20px; color: #434244; l
 
 @media only screen and (max-width: 1440px) { .hero-video video { height: 520px; } }
 
+@media only screen and (max-width: 425px) { .hero-video { display: none; } }
+
 .feature { width: 240px; height: 120px; padding: 0 25px; border-radius: 5px; -webkit-box-shadow: 2px 2px 12px 3px rgba(48, 43, 108, 0.15); box-shadow: 2px 2px 12px 3px rgba(48, 43, 108, 0.15); margin-bottom: 25px; font-family: "supermolotlight"; font-size: 22px; letter-spacing: 0.5px; color: #434244; text-align: center; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -webkit-justify-content: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
 
 @media only screen and (max-width: 425px) { .feature { width: 150px; font-size: 18px; } }
