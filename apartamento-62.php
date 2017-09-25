@@ -77,6 +77,7 @@ Aproveite todos os dias para viver ainda melhor no seu novo apartamento.
 	<div class="container-fluid">
 		<div class="row reveal">
 			<picture>
+				<source media="(max-width: 960px)" srcset="assets/banners/Banners-imagens-internas-aptos-mobile-62.jpg" class="img-fluid">
 				<source media="(max-width: 1366px)" srcset="assets/banners/Banners-imagens-internas-aptos-1336-62.jpg" class="img-fluid">
 				<img src="assets/banners/Banners-imagens-internas-aptos-1920-62.jpg" class="img-fluid">
 			</picture>
@@ -89,8 +90,14 @@ Aproveite todos os dias para viver ainda melhor no seu novo apartamento.
 				<h2>Plantas</h2>
 				<span class="line line-blue"></span>
 			</div>
+			<div class="col-md-12">
+				<picture>
+					<source media="(max-width: 960px)" srcset="galeria/plantas/62/galeria-plantas-62-mobile.jpg" class="img-fluid">
+					<img src="galeria/plantas/62/galeria-plantas-62.jpg" class="img-fluid">
+				</picture>
+			</div>
 
-			<img src="galeria/plantas/62/galeria-plantas-62.jpg" class="img-fluid">
+			
 		</div>
 	</div>
 	
@@ -249,7 +256,7 @@ Aproveite todos os dias para viver ainda melhor no seu novo apartamento.
 
 		</div>
 	</div>
-
+	</div>
 	<!-- CTA -->
 	<?php include ("cta-stand.php"); ?>
 	<!-- FIM CTA -->

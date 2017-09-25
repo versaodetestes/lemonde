@@ -75,6 +75,7 @@ Amplo espaço com sala dois ambientes, projetado para que você desfrute do melh
 	<div class="container-fluid">
 		<div class="row reveal">
 			<picture>
+				<source media="(max-width: 960px)" srcset="assets/banners/Banners-imagens-internas-aptos-mobile-129.jpg" class="img-fluid">
 				<source media="(max-width: 1366px)" srcset="assets/banners/Banners-imagens-internas-aptos-1336-129.jpg.jpg" class="img-fluid">
 				<img src="assets/banners/Banners-imagens-internas-aptos-1920-129.jpg" class="img-fluid">
 			</picture>

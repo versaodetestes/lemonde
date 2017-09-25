@@ -347,13 +347,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#302b6c', end
     height: 730px;
     margin-bottom: 80px;
     @media #{$mobile-l} {
-    	height: 500px;
+    	height: 450px;
     }
 }
 .img-360 {
 	height: 600px !important;
     @media #{$mobile-l} {
-    	height: 380px !important;
+    	height: 320px !important;
     }
 }
 .img-360_caption {
@@ -374,7 +374,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#302b6c', end
     }
     @media #{$mobile-l} {
     	background-position: 50% 15px;
-    	margin-top: 160px;
+    	margin-top: 110px;
     	padding-top: 70px;
     	text-align: center;
     }
@@ -382,6 +382,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#302b6c', end
 .bar-color_360 {
     margin-top: 165px;
     position: absolute;
+    @media #{$mobile-l} {
+    	margin-top: 110px;
+    }
 }
 
 // DOWNLOAD PLANTAS 
@@ -401,6 +404,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#302b6c', end
 .icon-download, .download-info, .download-form {
 	float: left;
 	color: $white;
+}
+.icon-download {
+	    @media #{$mobile-l} {
+	   margin: 0 auto 16px auto;
+    position: relative;
+    display: inherit;
+    float: none;
+	    }
 }
 .download-info {
 	display: inline-block;

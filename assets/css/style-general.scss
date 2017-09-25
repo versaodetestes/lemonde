@@ -126,6 +126,9 @@ p.text-spot {
 			margin-right: 10px;
 		}
 	}
+	@media #{$mobile-l} {
+		margin-top: 0;
+	}
 }
 
 .external-link {
@@ -277,6 +280,7 @@ $shadow: 2px 2px 12px 3px rgba(48, 43, 108, 0.15);
 			   @media #{$mobile-l} {
 			   	display: list-item;
 			   	margin-bottom: 30px;
+			   	font-size: 20px;
 			   }
 			a {
 				text-decoration: none;
