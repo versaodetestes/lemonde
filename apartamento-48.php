@@ -26,22 +26,22 @@
 		<div class="row justify-content-center">
 			<div class="col-md-3 col-6">
 				<div class="feature feature-apto ">
-					3 Dormitórios (3 suítes)
+					01 ou 02 Dorms.*
 				</div>
 			</div>
 			<div class="col-md-3 col-6">
 				<div class="feature feature-apto">
-					Varanda Gourmet com churrasqueira carvão
+					Amplo living
 				</div>
 			</div>
 			<div class="col-md-3 col-6">
 				<div class="feature feature-apto">
-					Varanda Gourmet com churrasqueira carvão
+					Varanda Gourmet com churrasqueira grill
 				</div>
 			</div>
 			<div class="col-md-3 col-6">
 				<div class="feature feature-apto">
-					3 vagas cobertas
+					1 vaga coberta
 				</div>
 			</div>
 		</div>

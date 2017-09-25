@@ -26,7 +26,7 @@
 		<div class="row justify-content-center">
 			<div class="col-md-3">
 				<div class="feature feature-apto ">
-					3 Dormitórios (3 suítes)
+					03 Dorms. (03 Suítes)
 				</div>
 			</div>
 			<div class="col-md-3">
@@ -36,7 +36,7 @@
 			</div>
 			<div class="col-md-3">
 				<div class="feature feature-apto">
-					Varanda Gourmet com churrasqueira carvão
+					Depósito Privativo 5m²
 				</div>
 			</div>
 			<div class="col-md-3">
