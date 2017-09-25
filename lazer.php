@@ -23,7 +23,7 @@
 		</div>
 		<div class="row justify-content-center">
 				<div class="midia-player">
-					<img src="assets/img/youtube-cover.jpg" class="img-fluid" id="youtubelazer">
+					<img src="assets/img/cover-yt-lazer.jpg" class="img-fluid" id="youtubelazer">
 					<div id="ytplayerlazer" style="display:none;">
 					</div>
 				<span class="bar-color"></span>
@@ -51,7 +51,10 @@
 	<div class="container">
 			<div class="row justify-content-center">
 			<div class="lazer-wrap">
+				<picture>
+				<source media="(max-width: 1366px)" srcset="assets/img/banners-lazer-externo-mobile.jpg" class="img-fluid">
 				<img src="assets/img/lazer-list.jpg" class="img-fluid">
+			</picture>
 			</div>
 			<div class="row lazer-itens">
 					<div class="col-md-4">
