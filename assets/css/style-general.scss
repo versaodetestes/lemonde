@@ -8,6 +8,7 @@ $laptop-s: "only screen and (max-width : 1024px)";
 $laptop-m: "only screen and (max-width : 1366px)";
 $laptop-l: "only screen and (max-width : 1440px)";
 
+$desktop:   "only screen and (min-width : 768px)";
 /*FONT FAMILY*/
 @font-face {
     font-family: 'supermolotregular';
@@ -73,6 +74,7 @@ h4 {
 
 p {
 	font-family: $font-regular;
+	line-height: 26px;
 }
 .text {
 	margin-top: 50px;
@@ -208,6 +210,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#302b6c', end
 		background-position: 100%;
 	}
 }
+.btn-header {
+	background: $color-secundary;
+	color: $color-primary;
+	border: 2px solid $color-secundary;
+	padding: 8px 20px;
+	margin-left: 20px;
+	&:hover {
+		background: $color-primary;
+		color: $color-secundary;
+	}
+}
 
 // MISC
 $shadow: 2px 2px 12px 3px rgba(48, 43, 108, 0.15);
@@ -306,6 +319,13 @@ $shadow: 2px 2px 12px 3px rgba(48, 43, 108, 0.15);
   transform: translateX(0%);
 }
 
+.nav-separator {
+ color: $color-secundary;
+ margin-left: 20px;
+   @media #{$mobile-l} {
+   	display: none;
+   }
+}
 
 #nav-icon1  {
   width: 30px;
@@ -398,6 +418,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#302b6c', end
 
 }
 
+.hero-video {
+	width: 100%;
+	video {
+	height: 763px;
+	}
+}
+
 // FEATURES
 .feature {
 	width: 240px;
@@ -456,6 +483,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#302b6c', end
 	font-family: $font-regular;
 	font-size: 16px;
 	margin: 30px 0;
+	line-height: 28px;
 }
 #youtubecover {
 	&:hover {
@@ -471,6 +499,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#302b6c', end
 	}
 
 }
+.card-link {
+}
 .card-block {
 	width: 100%;
 	max-width: 404px;
@@ -478,7 +508,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#302b6c', end
 	border-radius: 8px 8px 0 0;
 	background-repeat: no-repeat;
 	padding: 25px;
-
+	transition: all .5s;
 }
 .card-apto { background: url("../img/b-home-apartamentos.jpg")}
 .card-lazer { background: url("../img/b-home-lazer.jpg")}
@@ -492,10 +522,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#302b6c', end
 	letter-spacing: 0.8px;
 }
 .card-info {
-	bottom: 30px;
+	bottom: 50px;
 	position: absolute; 
 }
-
+.bar-color_card {
+	display: inline-block;
+	position: relative;
+	top: -8px;
+}
 
 // DEPOIMENTO
 .testimonial {
@@ -532,6 +566,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#302b6c', end
 	width: 300px;
 	height: 200px;
 	margin-left: 50px;
+	padding-right: 50px;
 	@media #{$mobile-l} {
 		margin-left: 5%;
 		height: auto;
@@ -578,6 +613,9 @@ padding: 80px 0;
 		
 	}
 }
+.nav-footer_apto {
+	margin-left: 15px;
+}
 .logo-crb-footer {
 	margin-bottom: 20px;
 }
@@ -591,4 +629,65 @@ padding: 80px 0;
 	@media #{$mobile-l} {
 		padding: 20px;
 	}
+}
+
+.float-chat {
+	padding: 15px 25px 10px 20px;
+	border-radius: 35px;
+	background: $color-primary;
+	color: #fff;
+	font-size: 18px;
+	font-family: $font-bold-italic;
+	text-align: center;
+	position: fixed;
+	bottom: 0px;
+	right: 30px;
+	box-shadow: $shadow;
+	border: 2px solid $color-secundary;
+	opacity: 0;
+	transition: all 0.5s ease-in;
+	@media #{$mobile-l} {
+		display: none;
+	}
+	img {
+		width: 35px;
+		margin-right: 5px;
+	}
+
+}
+.float-chat_show {
+	bottom: 30px;
+	opacity: 1;
+}
+.float-cta {
+ position: fixed;
+ bottom: 0;
+ width: 100%;
+ max-width: 250px;
+ left: 50%;
+ margin-left: -125px;
+ text-align: center;
+ opacity: 0;
+ transition: all 0.5s ease-in;
+ display: flex;
+ justify-content: space-around;
+ 	@media #{$desktop} {
+ 		display: none;
+ 	}
+}
+.float-cta_show {
+	bottom: 25px;
+	opacity: 1;
+}
+
+.float-button {
+	width: 50px;
+	height: 50px;
+	padding: 8px;
+	border-radius: 50%;
+	border: 2px solid $color-secundary;
+	background: $color-primary;
+	box-shadow: $shadow;
+	display: inline-block;
+	margin: auto;
 }

@@ -250,7 +250,7 @@ Projetado para atender quem busca praticidade, mas não quer abrir mão da comod
 			<div class="col-md-4">
 				<img src="assets/img/decorado-le-monde.jpg" class="img-fluid">
 			</div>
-			<div class="col-md-4">
+			<div class="col-md-3">
 				<p class="decorado-info">
 					Agora ficou mais fácil imaginar viver 
 					no empreendimento que é a nova definição

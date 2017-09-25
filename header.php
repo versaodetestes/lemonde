@@ -21,10 +21,13 @@
 				<div class="nav-header"  id="nav-header">
 					<ul>
 						<li><a href="./empreendimento.php">Empreendimento</a></li>
+						<span class="nav-separator">|</span>
 						<li><a href="./apartamentos.php">Apartamentos</a></li>
+						<span class="nav-separator">|</span>
 						<li><a href="./lazer.php">Lazer</a></li>
+						<span class="nav-separator">|</span>
 						<li><a href="./localizacao.php">Localização</a></li>
-						<li><a href="./contato.php">Contato</a></li>
+						<a class="btn btn-header" href="./contato.php">Contato</a>
 					</ul>
 				</div>
 			</div>

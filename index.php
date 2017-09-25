@@ -11,9 +11,12 @@
 	<?php include ("header.php"); ?>
 	<!-- FIM HEADER -->
 	<!-- HERO -->
-	<div class="hero hero-home">
-		
+	<div class="hero-video">
+				<video poster="assets/img/hero-home.jpg" id="video" playsinline autoplay muted loop>
+	<source src="assets/video/teste-video-1903x720.mov" type="video/mp4">
+	</video>
 	</div>
+
 	<!-- FIM HEADER -->
 	<!-- EMPREENDIMENTO -->
 	<div class="container about-building">
@@ -37,12 +40,12 @@
 			</div>
 			<div class="col-md-3 col-6">
 				<div class="feature">
-					Quarta torre lançada
+					Lazer completo
 				</div>
 			</div>
 			<div class="col-md-3 col-6">
 				<div class="feature">
-					5 torres 
+					Quarta torre lançada
 				</div>					
 			</div>
 		</div>
@@ -69,35 +72,43 @@
 
 		<div class="row">
 
-			<div class="cards col-md-4 reveal-noscale">
-				<div class="card-block card-apto">
-				  <div class="card-info">
-					<h3 class="card-title">Apartamentos</h3>
-					<a class="btn btn-cta btn-inverse" href="./apartamentos">Escolha sua planta ideal</a>
-				  </div>
-				</div>
- 				<span class="bar-color"></span>
+			
+				<div class="cards col-md-4 reveal-noscale">
+					<a href="./apartamentos.php" class="card-link">
+						<div class="card-block card-apto">
+						  <div class="card-info">
+							<h3 class="card-title">Apartamentos</h3>
+							<span class="btn btn-cta btn-inverse">Escolha sua planta ideal</span>
+						  </div>
+						</div>
+		 				<span class="bar-color bar-color_card"></span>
+ 						</a>
 			</div>
 
+
 			<div class="cards col-md-4 reveal-noscale">
+				<a href="./lazer.php" class="card-link">
 				<div class="card-block card-lazer">
 					<div class="card-info">
 						<h3 class="card-title">Lazer completo</h3>
-						<a class="btn btn-cta btn-inverse" href="./lazer">Um mundo de possibilidades</a>
+						<span class="btn btn-cta btn-inverse" href="./lazer">Um mundo de possibilidades</span>
 					</div>
 				</div>
- 				<span class="bar-color"></span>
+ 				<span class="bar-color bar-color_card"></span>
+ 				</a>
 			</div>
 
 			<div class="cards col-md-4 reveal-noscale">
+				<a href="./localizacao.php" class="card-link">
 				<div class="card-block card-localizacao">
 				  <div class="card-info">
 					<h3 class="card-title">Localização</h3>
-					<a class="btn btn-cta btn-inverse" href="./localizacao">Explore seu novo endereço</a>
+					<span class="btn btn-cta btn-inverse" href="./localizacao">Explore seu novo endereço</span>
 				  </div>
 				 
 				</div>
- 				<span class="bar-color"></span>
+ 				<span class="bar-color bar-color_card"></span>
+ 				</a>
 			</div>
 
 		</div>

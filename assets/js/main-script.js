@@ -2,6 +2,8 @@
 $(window).scroll(function(e){ 
   if ($(this).scrollTop() > 45){ 
    $(".main-header").addClass("header-fixed");
+   $(".float-chat").addClass("float-chat_show");
+    $(".float-cta").addClass("float-cta_show");
   } 
    if ($(this).scrollTop() < 45) {
     $(".main-header").removeClass("header-fixed");

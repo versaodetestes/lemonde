@@ -25,7 +25,8 @@
 			</div>
 			<div class="paulo-depoimento col-md-7">
 				<p>
-					"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates animi error saepe, consequatur debitis praesentium eveniet reprehenderit. Nihil ipsam porro, maxime incidunt."
+					"Imaginamos o apartamento ideal para aqueles que gostam do conforto, mas sem abrir mão do requinte.<br>
+					Um projeto feito pensando em quem deseja morar bem."
 				</p>
 				<span class="paulo-nome">Paulo Ruvina</span><br>
 				<span class="paulo-arquiteto">Arquiteto e Urbanista da CRB Construtora</span>
