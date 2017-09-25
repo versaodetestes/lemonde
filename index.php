@@ -13,7 +13,7 @@
 	<!-- HERO -->
 	<div class="hero-video">
 				<video poster="assets/img/hero-home.jpg" id="video" playsinline autoplay muted loop>
-	<source src="assets/video/teste-video-1903x720.mov" type="video/mp4">
+	<source src="assets/video/video-hero-lemonde.mp4" type="video/mp4">
 	</video>
 	</div>
 
@@ -58,8 +58,8 @@
 					</div>
 				<span class="bar-color"></span>
 				</div>
-				<div class="midia-text">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit.<br>Quisquam repellendus assumenda ex deleniti voluptatibus.
+				<div class="midia-text justify-content-center">
+					Inspirado na modernidade arquitetônica dos cinco continentes, o Le Monde Campolim traz para Sorocaba uma tendência internacional de moradia, onde as funcionalidades e os recursos de lazer estão presentes. Escolha a planta ideal para o seu momento de vida e descubra a nova definição de morar bem.
 				</div>
 				<div class="midia-cta">
 					<a class="btn btn-cta" href="./empreendimento.php">Veja mais informações</a>
@@ -116,11 +116,11 @@
 		</div>
 		<div class="container-fluid">
 			<div class="row no-gutter justify-content-center testimonial">
-				<div class="col-md-2 testimonial-image">
-					
+				<div class="col-md-2 testimonial-image text-center">
+					<img src="assets/img/depoimento.png">
 				</div>
-				<div class="col-md-4 testimonial-text">
-					"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et aliquid fuga voluptatibus fugiat dignissimos facere autem nihil commodi amet ab sed, sequi minima incidunt, doloremque id earum laboriosam delectus ullam!"
+				<div class="col-md-3 testimonial-text">
+					"A CRB Construtora realmente me surpreendeu e tem me supreendido até esse momento"
 				</div>
 			</div>
 		</div>
