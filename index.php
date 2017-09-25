@@ -121,6 +121,7 @@
 				</div>
 				<div class="col-md-3 testimonial-text">
 					"A CRB Construtora realmente me surpreendeu e tem me supreendido até esse momento"
+					<span class="testimonial-autor">Cliente do Residencial Luzes Campolim</span>
 				</div>
 			</div>
 		</div>

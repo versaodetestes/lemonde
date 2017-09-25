@@ -549,8 +549,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#302b6c', end
 	font-size: 22px;
 	line-height: 30px;
 	color: $white;
-	margin-top: 50px;
+	margin-top: 40px;
 }
+.testimonial-autor {
+	font-family: $font-regular;
+	font-size: 18px;
+	color: $color-secundary;
+	margin-top: 10px;
+	display: inline-block;
+	}
 
 // CTA STAND
 
