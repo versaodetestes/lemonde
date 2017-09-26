@@ -420,16 +420,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#302b6c', end
 
 .hero-video {
 	width: 100%;
+	text-align: center;
 	video {
 	height: 721px;
-	@media #{$laptop-l} {
-		height: 520px;
-	}
-
-	}
-			@media #{$mobile-l} {
-				display: none;
+		@media #{$laptop-l} {
+			height: 520px;
 		}
+		@media #{$mobile-l} {
+		 display: none;
+		}
+	}
+}
+
+.hero-home-mobile {
+	@media #{$desktop} {
+		display: none;
+	}
 }
 
 // FEATURES

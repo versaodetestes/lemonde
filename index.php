@@ -11,10 +11,12 @@
 	<?php include ("header.php"); ?>
 	<!-- FIM HEADER -->
 	<!-- HERO -->
-	<div class="hero-video">
-				<video poster="assets/img/hero-home.jpg" id="video" playsinline autoplay muted loop>
-	<source src="assets/video/video-hero-lemonde.mp4" type="video/mp4">
-	</video>
+	<div class="hero-video" id="hero-video">
+		<video poster="assets/img/hero-home.jpg" id="video" playsinline autoplay muted loop>
+		<source src="assets/video/video-hero-lemonde.mp4" type="video/mp4"></video>
+	</div>
+	<div class="hero-home-mobile">
+		<img src="assets/img/banner-le-monde-campolim-mobile.jpg" class="img-fluid">
 	</div>
 
 	<!-- FIM HEADER -->

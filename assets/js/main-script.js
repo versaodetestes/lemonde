@@ -10,7 +10,7 @@ $(window).scroll(function(e){
    }
 });
 
-
+// <video poster="assets/img/hero-home.jpg" id="video" playsinline autoplay muted loop> <source src="assets/video/video-hero-lemonde.mp4" type="video/mp4"></video>
 
       // Open sub-menu
   $('#list-apartamentos').click(function(){

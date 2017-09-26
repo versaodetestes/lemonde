@@ -40,7 +40,7 @@
 					<li><a href="./">Home</a></li>
 					<li><a href="./empreendimentos">Empreendimento</a></li>
 					<li><a href="./lazer">Lazer</a></li>
-					<li><a href="./localização">Localiazação</a></li>
+					<li><a href="./localização">Localização</a></li>
 					<li><a href="./contato">Contato</a></li>
 				</ul>
 			</div>

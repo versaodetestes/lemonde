@@ -103,25 +103,25 @@
 		</div>
 
 		<div class="row d-flex align-items-center">
-			<div class="col-md-6 order-sm-1 order-xl-2">
+			<div class="col-md-6 ">
 				<p>
 					O brilho, as cores e a vibração das metrópoles mais famosas do mundo agora inspiram Sorocaba!  O Le Monde Campolim traz elementos únicos e autênticos para o projeto, preservando as características de cada continente e ressaltando o conceito de multiculturalixso proveniente da mistura dessas culturas.
 				</p>
 			</div>
-			<div class="col-md-6 order-sm-2 order-xl-1">
+			<div class="col-md-6 ">
 				<img src="assets/img/torre-america.jpg" class="img-fluid img-inspiracao">
 			</div>
 
-			<div class="col-md-6 order-xs-3 order-xl-3">
+			<div class="col-md-6">
 				<img src="assets/img/torre-europa.jpg" class="img-fluid img-inspiracao">
 			</div>
-			<div class="col-md-6 order-xs-4 order-xl-4">
+			<div class="col-md-6">
 				<img src="assets/img/torre-africa.jpg" class="img-fluid img-inspiracao">
 			</div>
-			<div class="col-md-6 order-xs-5 order-xl-5">
+			<div class="col-md-6">
 				<img src="assets/img/torre-asia.jpg" class="img-fluid img-inspiracao">
 			</div>
-			<div class="col-md-6 order-xs-6 order-xl-6">
+			<div class="col-md-6">
 				<img src="assets/img/torre-oceania.jpg" class="img-fluid img-inspiracao">
 			</div>
 		</div>
@@ -135,7 +135,7 @@
 				<span class="line line-green"></span>
 			</div>
 			<div class="col-md-4">
-				<h4>Diferenciais áreas comuns</h4>
+				<h4 class="diferenciais-title">Diferenciais áreas comuns</h4>
 				<ul class="ficha-list">
 					<li>Lazer na cobertura e área externa</li>
 					<li>Garagens Subsolo, térreo e sobressolo</li>
@@ -147,7 +147,7 @@
 				</ul>
 			</div>
 			<div class="col-md-4">
-				<h4>Diferenciais áreas privativas</h4>
+				<h4 class="diferenciais-title">Diferenciais áreas privativas</h4>
 				<ul class="ficha-list">
 					<li>Lazer na cobertura e área externa</li>
 					<li>Garagens Subsolo, térreo e sobressolo</li>
