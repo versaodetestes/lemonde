@@ -46,11 +46,13 @@
 			</div>
 			<div class="col-md-3  col-6">
 				<ul class="nav-footer">
-					<li><a href="./apartamentos">Apartamentos</a></li>
+					<li class="nav-footer-title"><a href="./apartamentos">Apartamentos</a></li>
+					<li class="nav-footer_apto"><a href="./apartamento-48" >Apto. 48m²</a></li>
+					<li class="nav-footer_apto"><a href="./apartamento-62" >Apto. 62m²</a></li>
 					<li class="nav-footer_apto"><a href="./apartamento-duplex-101" >Duplex 101m²</a></li>
 					<li class="nav-footer_apto"><a href="./apartamento-duplex-129" >Duplex 129m²</a></li>
-					<li class="nav-footer_apto"><a href="./apartamento-62" >Apto. 62m²</a></li>
-					<li class="nav-footer_apto"><a href="./apartamento-48" >Apto. 48m²</a></li>
+
+
 				</ul>
 			</div>
 			<div class="col-md-5 ml-md-auto text-center">
@@ -59,7 +61,7 @@
 					<p>
 						A CRB Construtora é uma empresa de Sorocaba, interior de São Paulo, que permanece há mais de 10 anos com as atividades focadas na cidade. Realiza empreendimentos de padrão elevado, inovadores e com foco na qualidade e entrega com diferenciais.
 					</p>
-					<a href="#" class="external-link">Saiba mais sobre nós</a>
+					<a href="https://crbconstrutora.com.br" target="_blank" class="external-link">Conheça a CRB Construtora</a>
 				</div>
 			</div>
 		</footer>

@@ -138,6 +138,9 @@
 	align-content: start;
 	margin-bottom: 80px;
 	background-size: cover;
+	> div > h1 {
+		color: $white;
+	}
 }
 .hero-129 {
 	background: -moz-linear-gradient(45deg, rgb(48,43,108) 0%, rgb(83,227,175) 100%); /* FF3.6-15 */
@@ -194,6 +197,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#302b6c', end
 
 .feature-apto {
 	font-size: 16px;
+}
+
+.apto-subtitle {
+	text-transform: none;
+	font-size: 25px;
+	letter-spacing: 0.3px;
+}
+.text-spot {
+	font-size: 16px !important;
 }
 
 .banner-wrap {
@@ -262,6 +274,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#302b6c', end
 }
 
 
+// FICHA TÉCNICA
+.ficha-tecnica_apto {
+	margin-bottom: 0;
+}
+
 // SLIDER PLANTAS
 .galeria-plantas {
 	margin-bottom: 50px;
@@ -280,6 +297,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#302b6c', end
 	margin: 20px auto 80px auto;
 	text-align: center;
 	box-shadow: $shadow;
+	border-radius: 5px;
+	overflow: hidden;
 	@media #{$laptop-l} {
 		max-width: 950px;
 	}
@@ -420,6 +439,19 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#302b6c', end
 		color: $color-secundary;
 		font-family: $font-regular;
 		text-transform: uppercase;
+	}
+	@media #{$mobile-l} {
+		text-align: center;
+		margin-top: 10px;
+		width: 100%;
+		margin-left: 0;
+	}
+}
+.download-form {
+	@media #{$mobile-l} {
+		width: 200px;
+		margin: 0 auto;
+		float: none;
 	}
 }
 

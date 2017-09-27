@@ -32,22 +32,22 @@
 		<div class="row justify-content-center">
 			<div class="col-md-3 col-6">
 				<div class="feature">
-					Campolim, Sorocaba/SP
+					Localização Estratégica
 				</div>
 			</div>
 			<div class="col-md-3 col-6">
 				<div class="feature">
-					4 opções de planta
+					Arquitetura Autêntica
 				</div>
 			</div>
 			<div class="col-md-3 col-6">
 				<div class="feature">
-					Lazer completo
+					Plantas Inteligentes 
 				</div>
 			</div>
 			<div class="col-md-3 col-6">
 				<div class="feature">
-					Quarta torre lançada
+					Lazer Completíssimo
 				</div>					
 			</div>
 		</div>
@@ -61,10 +61,10 @@
 				<span class="bar-color"></span>
 				</div>
 				<div class="midia-text justify-content-center">
-					Inspirado na modernidade arquitetônica dos cinco continentes, o Le Monde Campolim traz para Sorocaba uma tendência internacional de moradia, onde as funcionalidades e os recursos de lazer estão presentes. Escolha a planta ideal para o seu momento de vida e descubra a nova definição de morar bem.
+					A CRB Construtora traz para Sorocaba uma tendência internacional de moradia: reunir opções completas de lazer e funcionalidades, em localização estratégica repleta de serviços. O residencial Le Monde Campolim reúne os recursos indispensáveis para os gostos mais exigentes com variedade de plantas e personalização que você escolhe de acordo com o seu momento e estilo de vida.
 				</div>
 				<div class="midia-cta">
-					<a class="btn btn-cta" href="./empreendimento.php">Veja mais informações</a>
+					<a class="btn btn-cta" href="./empreendimento.php">Tudo sobre o empreendimento</a>
 				</div>
 			</div>
 			<span class="line line-blue line-full line-mr-bottom"></span>
@@ -123,7 +123,8 @@
 				</div>
 				<div class="col-md-3 testimonial-text">
 					"A CRB Construtora realmente me surpreendeu e tem me supreendido até esse momento"
-					<span class="testimonial-autor">Cliente do Residencial Luzes Campolim</span>
+					<span class="testimonial-autor">Rogério Duarte <br>
+						<small>- Empresário (Morador Luzes Campolim)</small></span>
 				</div>
 			</div>
 		</div>

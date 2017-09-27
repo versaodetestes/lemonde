@@ -17,7 +17,7 @@
 		<div class="hero-info">
 			<h1>Apartamento 62m²</h1>
 			<span class="line line-green"></span>
-			<p class="lead lead-hero">Para quem sonha cada detalhe para ser perfeito.</p>
+			<p class="lead lead-hero">Para quem sonha com cada detalhe para ser perfeito.</p>
 		</div>
 	</div>
 	<!-- FIM HERO -->
@@ -31,14 +31,15 @@
 			</div>
 			<div class="col-md-3 col-6">
 				<div class="feature feature-apto">
-					Cozinha americana
+					Varanda Gourmet Grill
 				</div>
 			</div>
 			<div class="col-md-3 col-6">
 				<div class="feature feature-apto">
-					Varanda Gourmet com churrasqueira grill
+					2 Vagas cobertas
 				</div>
 			</div>
+
 			<div class="col-md-3 col-6">
 				<div class="feature feature-apto">
 					2 vagas cobertas
@@ -47,6 +48,16 @@
 		</div>
 
 		<div class="row banner-wrap">
+
+			<div class="col-md-6">
+				<h2 class="apto-subtitle">Ideal para a família que começou a crescer</h2>
+				<p class="text-spot">
+O apartamento de 62m² possui dois dormitórios, sendo uma suíte do casal. E ainda, ambientes integrados da sala, cozinha e varanda gourmet. Distribuição de espaços que privilegiam o convívio social, incluindo o banheiro com lavatório externo.
+</p>
+<p class="text-spot">
+Uma planta na medida para quem deseja viver bem e com conforto, sem abrir mão do requinte.
+				</p>
+			</div>
 
 			<div class="col-md-6">
 				<div class="banner banner-pet banner-pet_2">
@@ -64,12 +75,7 @@
 				</div>
 			</div>
 
-			<div class="col-md-6">
-				<p class="text-spot">
-Sua vida mais tranquila em todas as ocasiões.
-Aproveite todos os dias para viver ainda melhor no seu novo apartamento.
-				</p>
-			</div>
+
 
 		</div>
 
@@ -87,7 +93,7 @@ Aproveite todos os dias para viver ainda melhor no seu novo apartamento.
 
 		<div class="row galeria-plantas justify-content-center">
 			<div class="title-group title-group-slider">
-				<h2>Plantas</h2>
+				<h2>Planta</h2>
 				<span class="line line-blue"></span>
 			</div>
 			<div class="col-md-12">
@@ -101,6 +107,35 @@ Aproveite todos os dias para viver ainda melhor no seu novo apartamento.
 		</div>
 	</div>
 	
+	<div class="container-fluid">
+
+		<div class="row ficha-tecnica  ficha-tecnica_apto d-flex justify-content-center">
+			<div class="col-md-12 text-center">
+				<h3 class="h2 ficha-title">Características</h3>
+				<span class="line line-green"></span>
+			</div>
+			<div class="col-md-3">
+				<ul class="ficha-list">
+					<li>2 dormitórios (1 suíte)</li>
+					<li>Varanda Gourmet Grill</li>
+					<li>2 Vagas cobertas</li>
+					<li>Ambientes Integrados</li>
+					<li>Lavabo com lavatório externo</li>
+				</ul>
+			</div>
+			<div class="col-md-3">
+				<ul class="ficha-list">
+					<li>Personalização de pisos inclusa</li>
+					<li>Preparação completa para ar-condicionado</li>
+					<li>Medição individual de água e energia</li>
+					<li>Isolamento acústico para redução de ruídos</li>
+					<li>Acabamentos finos e materiais de alta qualidade</li>
+				</ul>
+			</div>
+
+		</div>
+	</div>
+
 	<div class="container-fluid">
 		<div class="row no-gutter download-plantas">
 
@@ -134,35 +169,9 @@ Aproveite todos os dias para viver ainda melhor no seu novo apartamento.
 	</div>
 
 	<div class="container">
-
-		<div class="row ficha-tecnica d-flex justify-content-around">
-			<div class="col-md-12 text-center">
-				<h3 class="h2 ficha-title">Características</h3>
-				<span class="line line-green"></span>
-			</div>
-			<div class="col-md-5">
-				<ul class="ficha-list">
-					<li>Cozinha Americana</li>
-					<li>2 dormitórios (1 suíte)</li>
-					<li>Varanda gourmet com churrasqueira grill</li>
-					<li>2 Vagas cobertas</li>
-				</ul>
-			</div>
-			<div class="col-md-5">
-				<ul class="ficha-list">
-					<li>Personalização de piso inclusa*</li>
-					<li>Medição individual de água e energia</li>
-					<li>Isolamento acústico para redução de ruídos</li>
-					<li>Preparação completa para ar condicionado*</li>
-					<li>Laje técnica sem exposição</li>
-				</ul>
-			</div>
-
-		</div>
-
 		<div class="row justify-content-center">
 			<div class="title-group title-group-slider">
-				<h3 class="h2">Galeria de imagens</h3>
+				<h3 class="h2">Galeria de imagens 62m²</h3>
 				<span class="line line-blue"></span>
 			</div>
 			<div class="galeria" id="slider-apartamento">
@@ -215,11 +224,11 @@ Aproveite todos os dias para viver ainda melhor no seu novo apartamento.
 
 			
 				<div class="embed-responsive embed-responsive-16by9 wrap-360">
-				<iframe width="100%" class="embed-responsive-item img-360"  allowfullscreen style="border-style:none;" src="https://cdn.pannellum.org/2.2/pannellum.htm?panorama=https%3A//i.imgur.com/z9Pehvs.jpg&autoLoad=true&autoRotate=-2"></iframe>
+				<iframe width="100%" class="embed-responsive-item img-360"  allowfullscreen style="border-style:none;" src="https://cdn.pannellum.org/2.2/pannellum.htm?panorama=https%3A//i.imgur.com/z9Pehvs.jpg&autoLoad=true&autoRotate=-1"></iframe>
 				<span class="bar-color bar-color_small bar-color_360"></span>
 				<div class="img-360_caption">
 
-					Clique e arraste para ver o living por todos os ângulos.
+					Perspectiva living da planta 62m²
 				</div>
 				</div>
 		</div>

@@ -16,14 +16,14 @@
 				<div class="title-group">
 					<h1>Localização</h1>
 					<p class="lead">Campolim, Sorocaba/SP</p>
-					<p>Rua Antônio Perez Hernandes, 333</p>
+					<p>Rua Antônio Perez Hernandez, 333</p>
 					<span class="line line-blue"></span>
 				</div>
 		</div>
 
 		<div class="row">
 			<div class="col-md-12">
-				<img src="assets/img/le-monde-fotomontagem.jpg" class="img-fluid reveal">
+				<img src="assets/img/localizacao-mapa-lugares.jpg" class="img-fluid reveal">
 			</div>
 			
 		</div>
@@ -31,8 +31,10 @@
 		<div class="row justify-content-center">
 			<div class="col-md-8 text">
 				<p>
-Aliado a isso, o empreendimento divide a rua com residenciais de alto padrão, contando com uma completa
-e distinta rede de serviços bem perto de você. São restaurantes, padarias, bares, casas noturnas, centros de compras e lazer como o Shopping Iguatemi/Esplanada, o maior da região de Sorocaba.
+Para investir com segurança e garantia de valorização, a escolha da localização é fundamental. O empreendimento Le Monde Campolim está estrategicamente posicionado no início da Rua Antônio Perez Hernandez, última via do Parque Campolim em Sorocaba. À poucos passos do Mercadão Campolim e bem em frente ao residencial L’Essence.
+</p>
+<p>
+	O empreendimento divide a rua com residenciais de alto padrão, contando com uma completa e distinta rede de serviços bem perto de você. São restaurantes, padarias, bares, casas noturnas, centros de compras e lazer como o Shopping Iguatemi/Esplanada, o maior da região de Sorocaba.
 </p>
 <p>
 Morando aqui você otimiza seu tempo: o bairro também conta com hipermercados, academias, pista de caminhada, escolas de qualidade, parques naturais e muito contato com a natureza. A proximidade com as saídas para a Rodovia Raposo Tavares também é um ponto positivo.
@@ -48,6 +50,10 @@ Morando aqui você otimiza seu tempo: o bairro também conta com hipermercados, 
 			<div class="container">
 				
 				<div class="row">
+					<div class="col-md-12 text-center">
+						<h3 class="h2 ficha-title">Facilidades do Campolim</h3>
+						<span class="line line-green"></span>
+					</div>
 					<div class="col-md-4 local-text">
 					<h4 class="local-title">Saúde & Bem Estar</h4>
 					<p>
@@ -118,7 +124,7 @@ até o cursinho pré-vestibular.
 
 				<div class="row text-center">
 					<div class="col-md-12">
-							<img src="assets/img/localizacao-mapa-lugares.jpg" class="img-fluid reveal">
+						<img src="assets/img/le-monde-fotomontagem.jpg" class="img-fluid reveal">
 					</div>
 				</div>
 		

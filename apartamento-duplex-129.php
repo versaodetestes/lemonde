@@ -15,7 +15,7 @@
 	<!-- HERO -->
 	<div class="hero hero-apto hero-129">
 		<div class="hero-info">
-			<h1>Apartamento 129m²</h1>
+			<h1>Duplex 129m²</h1>
 			<span class="line line-green"></span>
 			<p class="lead lead-hero">Perfeito para a família que não para de crescer</p>
 		</div>
@@ -64,9 +64,13 @@
 				
 			</div>
 			<div class="col-md-6">
+				<h2 class="apto-subtitle">Morar bem com amplitude de um duplex</h2>
 				<p class="text-spot">
-					Conforto e exclusividade para os melhores momentos em família.
-Amplo espaço com sala dois ambientes, projetado para que você desfrute do melhor da vida ao lado de quem você mais ama.
+Para quem deseja viver com muito espaço e privacidade. A planta do duplex 129m² foi projetada para oferecer conforto extra. São três suítes no pavimento superior, sendo uma suíte máster com varanda e espaço para closet.
+				</p>
+				<p class="text-spot">
+
+No pavimento inferior fica a área social com cozinha e varanda gourmet integradas, ampla sala de jantar com lavabo, living reservado, ideal para relaxar e apreciar bons filmes.
 				</p>
 			</div>
 		</div>
@@ -134,20 +138,20 @@ Amplo espaço com sala dois ambientes, projetado para que você desfrute do melh
 			</div>
 			<div class="col-md-5">
 				<ul class="ficha-list">
-					<li>Sala com 2 ambientes e lavabo</li>
-					<li>3 suítes (1 master)</li>
-					<li>Preparação completa para ar condicionado*</li>
-					<li>Personalização de piso inclusa*</li>
-					<li>Medição individual de água e energia</li>
+					<li>3 Suítes (1 suíte master)</li>
+					<li>3 Vagas cobertas</li>
+					<li>Depósito privativo (5m²)</li>
+					<li>Ambientes sociais integrados</li>
+					<li>Varanda gourmet com churrasqueira a carvão</li>
 				</ul>
 			</div>
 			<div class="col-md-5">
 				<ul class="ficha-list">
+					<li>Personalização de pisos inclusa</li>
+					<li>Preparação completa para ar-condicionado</li>
+					<li>Medição individual de água e energia</li>
 					<li>Isolamento acústico para redução de ruídos</li>
-					<li>Varanda gourmet com churrasqueira a carvão</li>
-					<li>3 Vagas cobertas</li>
-					<li>Depósito privativo</li>
-					<li>Laje técnica sem exposição</li>
+					<li>Acabamentos finos e materiais de alta qualidade</li>
 				</ul>
 			</div>
 

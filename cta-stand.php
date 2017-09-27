@@ -6,9 +6,9 @@
 						<h3 class="cta-stand-title">Stand de vendas</h3>
 						<span class="line line-green"></span>
 						<p>
-							Visite nosso Stand de vendas e aproveite para conhecer o Apartamento Decorado
+							Entenda tudo sobre o projeto com a maquete física do empreendimento. Encante-se com cada detalhe do Apartamento Decorado.
 						</p>
-						<a href="./contato.php" class="btn btn-cta">Entre em contato</a>
+						<a href="./contato.php" class="btn btn-cta">Ver telefone e endereço</a>
 					</div>
 					
 				</div>

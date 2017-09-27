@@ -446,7 +446,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#302b6c', end
 	border-radius: 5px;
 	box-shadow: $shadow;
 
-	margin-bottom: 25px;
+	margin-bottom: 50px;
 
 	font-family: $font-light;
 	font-size: 22px;
@@ -460,6 +460,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#302b6c', end
 	@media #{$mobile-l} {
 		width: 150px;
 		font-size: 18px;
+		margin-bottom: 20px;
 	}
 }
 

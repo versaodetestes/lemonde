@@ -70,7 +70,10 @@
 			<div class="col-md-6">
 				<img src="assets/img/empreendimento-quadra-poli.jpg" class="img-fluid reveal-noscale">
 				<p class="text">
-					A CRB Construtora traz para Sorocaba uma tendência internacional de moradia: reunir opções completas de lazer com funcionalidades, em ótima localização. O residencial Le Monde Campolim reúne os recursos indispensáveis para os gostos mais exigentes com variedade de plantas e personalização que você escolhe de acordo com o seu momento e estilo de vida.
+					O projeto Le Monde Campolim traz soluções arquitetônicas para o ritmo cotidiano atual, onde o conforto e funcionalidade são exigências para quem deseja viver bem.
+				</p>
+				<p>
+					Com design inspirado na arquitetura das obras mais famosas ao redor do mundo, o empreendimento garante autenticidade e muito bom gosto no seu estilo.
 				</p>
 			</div>
 			<div class="col-md-6">
@@ -105,7 +108,13 @@
 		<div class="row d-flex align-items-center">
 			<div class="col-md-6 ">
 				<p>
-					O brilho, as cores e a vibração das metrópoles mais famosas do mundo agora inspiram Sorocaba!  O Le Monde Campolim traz elementos únicos e autênticos para o projeto, preservando as características de cada continente e ressaltando o conceito de multiculturalixso proveniente da mistura dessas culturas.
+					O brilho, as cores e a vibração das metrópoles mais famosas do mundo inspiram o futuro em Sorocaba.
+				</p>
+				<p>
+					 O conceito do multiculturalismo global se faz presente desde a decoração dos ambientes até nas cores da iluminação especial nas coberturas.
+				</p>
+				<p>
+					Cada uma das cinco torres possui elementos distintos que fazem referência à arquitetura do continente representado, ao mesmo tempo em que se harmonizam entre si.
 				</p>
 			</div>
 			<div class="col-md-6 ">
@@ -135,28 +144,27 @@
 				<span class="line line-green"></span>
 			</div>
 			<div class="col-md-4">
-				<h4 class="diferenciais-title">Diferenciais áreas comuns</h4>
+				<h4 class="diferenciais-title">Áreas comuns</h4>
 				<ul class="ficha-list">
-					<li>Lazer na cobertura e área externa</li>
+					<li>Lazer ao ar livre no térreo</li>
+					<li>Lazer na cobertura em cada torre</li>
 					<li>Garagens Subsolo, térreo e sobressolo</li>
-					<li>Vagas para visitantes e serviços</li>
-					<li>Elevador social e serviços, 02 por torre</li>
+					<li>Elevador social e serviços (02 por torre)</li>
 					<li>Construção em concreto armado</li>
 					<li>Infraestrutura para sistema de segurança</li>
-					<li>Acessibilidade para portadores de necessidade especiais</li>
 				</ul>
 			</div>
 			<div class="col-md-4">
-				<h4 class="diferenciais-title">Diferenciais áreas privativas</h4>
+				<h4 class="diferenciais-title">Áreas privativas</h4>
 				<ul class="ficha-list">
-					<li>Lazer na cobertura e área externa</li>
-					<li>Garagens Subsolo, térreo e sobressolo</li>
-					<li>Vagas para visitantes e serviços</li>
-					<li>Elevador social e serviços, 02 por torre</li>
-					<li>Construção em concreto armado</li>
-					<li>Infraestrutura para sistema de segurança</li>
-					<li>Acessibilidade para portadores de necessidade especiais</li>
+					<li>Varanda Gourmet grill e churrasqueira</li>
+					<li>Personalização nos acabamentos de piso</li>
+					<li>Infraestrutura completa para ar-condicionado</li>
+					<li>Isolamento acústico para atenuação de ruídos</li>
+					<li>Acabamentos finos e materiais de alta qualidade</li>
+					<li>Medição individual de água e energia elétrica</li>
 				</ul>
+				<a href="./apartamentos.php" class="btn btn-inverse">Apartamentos: conheça as plantas inteligentes</a>
 			</div>
 
 		</div>

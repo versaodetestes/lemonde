@@ -36,17 +36,28 @@
 			</div>
 			<div class="col-md-3 col-6">
 				<div class="feature feature-apto">
-					Varanda Gourmet com churrasqueira grill
+					Varanda Gourmet Grill
 				</div>
 			</div>
 			<div class="col-md-3 col-6">
 				<div class="feature feature-apto">
-					1 vaga coberta
+					4 Versões de Plantas
 				</div>
 			</div>
 		</div>
 
 		<div class="row banner-wrap">
+
+
+			<div class="col-md-6">
+				<h2 class="apto-subtitle">4 versões para você</h2>
+				<p class="text-spot">
+Closet ou Home Office? Mais um quarto para o bebê ou Ofurô Spa para relaxar? Você escolhe a planta ideal para o seu momento de vida.
+</p>
+<p class="text-spot">
+São quatro versões de plantas na mesma metragem, porque morar com inteligência é otimizar espaços com sofisticação.
+				</p>
+			</div>
 
 			<div class="col-md-6">
 				<div class="banner banner-pet banner-pet_1">
@@ -62,13 +73,6 @@
 						</span>
 					</div>
 				</div>
-			</div>
-
-			<div class="col-md-6">
-				<p class="text-spot">
-Sua vida mais tranquila em todas as ocasiões.
-Aproveite todos os dias para viver ainda melhor no seu novo apartamento.
-				</p>
 			</div>
 
 		</div>
@@ -87,7 +91,7 @@ Aproveite todos os dias para viver ainda melhor no seu novo apartamento.
 	<div class="container">
 		<div class="row galeria-plantas justify-content-center">
 			<div class="title-group title-group-slider">
-				<h2>Plantas</h2>
+				<h2>Versões de Plantas</h2>
 				<span class="line line-blue"></span>
 			</div>
 
@@ -133,6 +137,37 @@ Aproveite todos os dias para viver ainda melhor no seu novo apartamento.
 		</div>
 	</div>
 	
+
+
+	<div class="container-fluid">
+
+		<div class="row ficha-tecnica ficha-tecnica_apto d-flex justify-content-center">
+			<div class="col-md-12 text-center">
+				<h3 class="h2 ficha-title">Características</h3>
+				<span class="line line-green"></span>
+			</div>
+			<div class="col-md-3">
+				<ul class="ficha-list">
+					<li>4 versões de plantas</li>
+					<li>01 ou 02 Dorms.*</li>
+					<li>1 vaga de garagem coberta</li>
+					<li>Varanda gourmet grill</li>
+					<li>Ambientes sociais integrados </li>
+				</ul>
+			</div>
+			<div class="col-md-3">
+				<ul class="ficha-list">
+					<li>Personalização de pisos inclusa</li>
+					<li>Preparação completa para ar condicionado*</li>
+					<li>Medição individual de água e energia</li>
+					<li>Isolamento acústico para redução de ruídos</li>
+					<li>Acabamentos finos e materiais de alta qualidade</li>
+				</ul>
+			</div>
+
+		</div>
+	</div>
+
 	<div class="container-fluid">
 		<div class="row no-gutter download-plantas">
 
@@ -166,35 +201,9 @@ Aproveite todos os dias para viver ainda melhor no seu novo apartamento.
 	</div>
 
 	<div class="container">
-
-		<div class="row ficha-tecnica d-flex justify-content-around">
-			<div class="col-md-12 text-center">
-				<h3 class="h2 ficha-title">Características</h3>
-				<span class="line line-green"></span>
-			</div>
-			<div class="col-md-5">
-				<ul class="ficha-list">
-					<li>Cozinha Americana</li>
-					<li>01 ou 02 Dorms.* (4 versões de plantas)</li>
-					<li>Varanda gourmet com churrasqueira grill</li>
-					<li>1 vaga coberta</li>
-				</ul>
-			</div>
-			<div class="col-md-5">
-				<ul class="ficha-list">
-					<li>Personalização de piso inclusa*</li>
-					<li>Medição individual de água e energia</li>
-					<li>Isolamento acústico para redução de ruídos</li>
-					<li>Preparação completa para ar condicionado*</li>
-					<li>Laje técnica sem exposição</li>
-				</ul>
-			</div>
-
-		</div>
-
 		<div class="row justify-content-center">
 			<div class="title-group title-group-slider">
-				<h3 class="h2">Galeria de imagens</h3>
+				<h3 class="h2">Galeria de imagens 48m²</h3>
 				<span class="line line-blue"></span>
 			</div>
 			<div class="galeria" id="slider-apartamento">
@@ -247,6 +256,15 @@ Aproveite todos os dias para viver ainda melhor no seu novo apartamento.
 								perspectiva ilustrativa dormitório com closet
 							</span>
 						</div>
+						<div class="swiper-slide">
+							<picture>
+								<source media="(max-width: 425px)" srcset="galeria/perspectiva/apto-48/mobile/varanda-48m2.jpg" class="img-fluid">
+						<img src="galeria/perspectiva/apto-48/varanda-48m2.jpg" class="img-fluid inline img-100">
+						</picture>
+							<span class="slider-ilustra-caption">
+								perspectiva ilustrativa varanda gourmet grill
+							</span>
+						</div>
 					</div>
 					<div class="nav-arrow nav-arrow_perspectivas">
 			          <a class="nav-icon nav-prev" id="prev-ilustra"></a>
@@ -266,11 +284,11 @@ Aproveite todos os dias para viver ainda melhor no seu novo apartamento.
 
 			
 				<div class="embed-responsive embed-responsive-16by9 wrap-360">
-				<iframe width="100%" class="embed-responsive-item img-360"  allowfullscreen style="border-style:none;" src="https://cdn.pannellum.org/2.2/pannellum.htm?panorama=https%3A//i.imgur.com/gw1CYja.jpg&autoLoad=true&autoRotate=-2"></iframe>
+				<iframe width="100%" class="embed-responsive-item img-360"  allowfullscreen style="border-style:none;" src="https://cdn.pannellum.org/2.2/pannellum.htm?panorama=https%3A//i.imgur.com/gw1CYja.jpg&autoLoad=true&autoRotate=-1"></iframe>
 				<span class="bar-color bar-color_small bar-color_360"></span>
 				<div class="img-360_caption">
 
-					Clique e arraste para ver o living por todos os ângulos.
+					Perspectiva living da planta 48m² na versão Home Office
 				</div>
 				</div>
 
@@ -305,8 +323,9 @@ Aproveite todos os dias para viver ainda melhor no seu novo apartamento.
 					Rua Antônio Perez Hernandez, 333
 				</span>
 			</div>
-
+		<span class="bar-color"></span>
 		</div>
+
 	</div>
 
 	<!-- CTA -->

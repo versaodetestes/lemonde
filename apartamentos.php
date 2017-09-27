@@ -52,7 +52,7 @@
 						<span class="card-planta-feature">4 versões de plantas</span>
 						<ul class="card-planta-list">
 							<li>• 1 ou 2 Dorms*</li>
-							<li>• Varanda Gourmet com churrasqueira grill</li>
+							<li>• Varanda Gourmet Grill</li>
 							<li>• 1 vaga de garagem</li>
 						</ul>
 						<a href="./apartamento-48.php" class="btn btn-cta">Veja mais detalhes</a>
@@ -69,7 +69,7 @@
 						<div class="card-planta-body">
 							<ul class="card-planta-list">
 								<li>• 3 Dormitórios (3 suítes)</li>
-								<li>• Varanda Gourmet</li>
+								<li>• Varanda Gourmet Churrasqueira</li>
 								<li>• Depósito privativo</li>
 								<li>• 3 vagas de garagem</li>
 							</ul>
@@ -84,7 +84,7 @@
 						<div class="card-planta-body">
 							<ul class="card-planta-list">
 								<li>• 3 Dormitórios (1 suíte)</li>
-								<li>• Varanda Gourmet</li>
+								<li>• Varanda Gourmet Churrasqueira</li>
 								<li>• Depósito privativo</li>
 								<li>• 2 vagas de garagem</li>
 							</ul>
@@ -99,7 +99,7 @@
 						<div class="card-planta-body">
 							<ul class="card-planta-list">
 								<li>• 2 Dormitórios  (1 suíte)</li>
-								<li>• Varanda Gourmet</li>
+								<li>• Varanda Gourmet Grill</li>
 								<li>• Depósito privativo</li>
 								<li>• 2 vagas de garagem</li>
 							</ul>

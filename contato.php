@@ -16,7 +16,7 @@
 					<h1>Contato</h1>
 					<p class="lead">Corretores Exclusivos</p>
 					<span class="line line-blue"></span><br>
-					<a href="tel:1533187999"><span class="telefone">(15) 3318-7999</span></a>
+					<a href="tel:1533187999"><span class="icon-tel-contato"><img src="assets/img/telefone.svg"></span><span class="telefone">(15) 3318-7999</span></a>
 				</div>
 		</div>
 		<div class="row">
@@ -39,22 +39,38 @@
 				    <input type="tel" class="form-control" id="telefone" name="telefone"  placeholder="Digite seu principal telefone">
 				  </div>
 				  <div class="form-group">
+				    <label for="celular">WhatsApp / Celular</label>
+				    <input type="tel" class="form-control" id="celular" name="celular"  placeholder="Digite seu principal celular">
+				  </div>
+				  <div class="form-group">
 				    <label for="estado">Estado</label>
 				    <select class="form-control" name="estado" id="estado">
 				    	<option>Selecione um Estado</option>
 				    </select>
 				  </div>
 				  <div class="form-group">
-				    <label for="estado">Cidade</label>
+				    <label for="cidade">Cidade</label>
 				    <select class="form-control" name="cidade" id="cidade">
 				    	<option>Selecione uma Cidade</option>
 				    </select>
 				  </div>
+				  <div class="form-group">
+				    <label for="planta">Selecione seu apartamento ideal</label>
+				    <select class="form-control" name="cidade" id="planta">
+				    	<option>Selecione uma planta</option>
+				    	<option value="Apto 48m²">Apto 48m²</option>
+				    	<option value="Apto 62m²">Apto 62m²</option>
+				    	<option value="Duplex 101m²">Duplex 101m²</option>
+				    	<option value="Duplex 129m²">Duplex 129m²</option>
+				    </select>
+				  </div>
  					<div class="form-group">
-				    <label for="estado">Dúvidas e informações adicionais</label>
-				    <textarea rows="3" class="form-control"></textarea>
+				    <label for="mensagem">Dúvidas e informações adicionais</label>
+				    <textarea rows="3" class="form-control" id="mensagem"></textarea>
 					</div>
 					<button type="submit" class="btn btn-cta">Enviar mensagem</button>
+					<label for="autorizo"><input type="checkbox" name="autorizacao" id="autorizo">Autorizo receber informações de CRB Construtora. Nunca enviamos spam.</label>
+
 				</form>
 			</div>
 		</div>

@@ -15,7 +15,7 @@
 	<!-- HERO -->
 	<div class="hero hero-apto hero-101">
 		<div class="hero-info">
-			<h1>Apartamento 101m²</h1>
+			<h1>Duplex 101m²</h1>
 			<span class="line line-green"></span>
 			<p class="lead lead-hero">Ideal para quem vive momentos especiais.</p>
 		</div>
@@ -48,9 +48,12 @@
 
 		<div class="row banner-wrap">
 			<div class="col-md-6">
+				<h2 class="apto-subtitle">Viver acima de qualquer padrão</h2>
 				<p class="text-spot">
-Modernidade e aconchego para atender as suas necessidades.
-Projetado para atender quem busca praticidade, mas não quer abrir mão da comodidade. Bem-vindo ao seu novo lar.
+As plantas dos apartamentos duplex foram projetadas para ser uma casa nas alturas. O pavimento inferior é dedicado aos ambientes sociais com integração da sala, sala de jantar, cozinha com varanda gourmet e lavabo.
+				</p>
+				<p class="text-spot">
+Perfeito para receber amigos e família com tranquilidade, além de desfrutar da exclusiva vista livre permanente do ponto mais alto da cidade. Enquanto no pavimento superior, ficam os três quartos e a suíte master, reservando maior privacidade dos moradores. 
 				</p>
 			</div>
 			<div class="col-md-6">
@@ -93,6 +96,37 @@ Projetado para atender quem busca praticidade, mas não quer abrir mão da comod
 		</div>
 	</div>
 	
+
+
+	<div class="container-fluid">
+
+		<div class="row ficha-tecnica ficha-tecnica_apto d-flex justify-content-center">
+			<div class="col-md-12 text-center">
+				<h3 class="h2 ficha-title">Características</h3>
+				<span class="line line-green"></span>
+			</div>
+			<div class="col-md-3">
+				<ul class="ficha-list">
+					<li>3 Dorms. (1 suíte master)</li>
+					<li>2 Vagas cobertas</li>
+					<li>Depósito privativo (5m²)</li>
+					<li>Sala com 2 ambientes e lavabo</li>
+					<li>Varanda gourmet com churrasqueira a carvão</li>
+				</ul>
+			</div>
+			<div class="col-md-3">
+				<ul class="ficha-list">
+					<li>Personalização de pisos inclusa</li>
+					<li>Preparação completa para ar-condicionado</li>
+					<li>Medição individual de água e energia</li>
+					<li>Isolamento acústico para redução de ruídos</li>
+					<li>Acabamentos finos e materiais de alta qualidade</li>
+				</ul>
+			</div>
+
+		</div>
+	</div>
+
 	<div class="container-fluid">
 		<div class="row no-gutter download-plantas">
 
@@ -126,32 +160,6 @@ Projetado para atender quem busca praticidade, mas não quer abrir mão da comod
 	</div>
 
 	<div class="container">
-
-		<div class="row ficha-tecnica d-flex justify-content-around">
-			<div class="col-md-12 text-center">
-				<h3 class="h2 ficha-title">Características</h3>
-				<span class="line line-green"></span>
-			</div>
-			<div class="col-md-5">
-				<ul class="ficha-list">
-					<li>Sala com 2 ambientes e lavabo</li>
-					<li>3 suítes (1 master)</li>
-					<li>Preparação completa para ar condicionado*</li>
-					<li>Personalização de piso inclusa*</li>
-					<li>Medição individual de água e energia</li>
-				</ul>
-			</div>
-			<div class="col-md-5">
-				<ul class="ficha-list">
-					<li>Isolamento acústico para redução de ruídos</li>
-					<li>Varanda gourmet com churrasqueira a carvão</li>
-					<li>3 Vagas cobertas</li>
-					<li>Depósito privativo</li>
-					<li>Laje técnica sem exposição</li>
-				</ul>
-			</div>
-
-		</div>
 
 		<div class="row justify-content-center">
 			<div class="title-group title-group-slider">
@@ -230,7 +238,7 @@ Projetado para atender quem busca praticidade, mas não quer abrir mão da comod
 				<span class="bar-color bar-color_small bar-color_360"></span>
 				<div class="img-360_caption">
 
-					Clique e arraste para ver o living por todos os ângulos.
+					Perspectiva do pavimento inferior do duplex 101m²
 				</div>
 				</div>
 		</div>
