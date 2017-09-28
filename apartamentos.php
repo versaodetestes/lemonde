@@ -67,8 +67,9 @@
 			<div class="row plantas-small">
 				<div class="col-md-4">
 					<div class="card card-planta reveal-noscale">
-						<img src="assets/img/card-planta-129.jpg" class="img-fluid">
 						<span class="card-small-title">DUPLEX<span class="card-small-title-number">129</span>m²</span>
+						<img src="assets/img/card-planta-129.jpg" class="img-fluid">
+						
 						<div class="card-planta-body">
 							<ul class="card-planta-list">
 								<li>• 3 Dormitórios (3 suítes)</li>
@@ -82,8 +83,8 @@
 				</div>
 				<div class="col-md-4">
 					<div class="card card-planta reveal-noscale">
-						<img src="assets/img/card-planta-101.jpg" class="img-fluid">
 						<span class="card-small-title">DUPLEX<span class="card-small-title-number">101</span>m²</span>
+						<img src="assets/img/card-planta-101.jpg" class="img-fluid">						
 						<div class="card-planta-body">
 							<ul class="card-planta-list">
 								<li>• 3 Dormitórios (1 suíte)</li>
@@ -97,8 +98,8 @@
 				</div>
 				<div class="col-md-4">
 					<div class="card card-planta reveal-noscale">
-						<img src="assets/img/card-planta-62.jpg" class="img-fluid">
 						<span class="card-small-title">APTO<span class="card-small-title-number">62</span>m²</span>
+						<img src="assets/img/card-planta-62.jpg" class="img-fluid">		
 						<div class="card-planta-body">
 							<ul class="card-planta-list">
 								<li>• 2 Dormitórios  (1 suíte)</li>
