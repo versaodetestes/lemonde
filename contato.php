@@ -71,7 +71,7 @@
 				    <label for="mensagem">Dúvidas e informações adicionais</label>
 				    <textarea rows="2" class="form-control" id="mensagem"></textarea>
 					</div>
-				  <label>Deseja receber contato via:</label><br>
+				  <label style="margin-right: 10px;">Deseja receber contato via:</label><br class="visible-xs">
 				  <label style="margin-right: 20px;" for="emailcheck" style="margin-top: 5px;"><input type="checkbox" name="emailcheck" value="Email" id="emailcheck" checked="checked">
 						Email
 					</label>
@@ -100,7 +100,7 @@
 					se envolver ainda mais com esse projeto,
 					conhecendo o DECORADO.
 				</p>
-				<img src="assets/img/decorado-le-monde.jpg" class="img-fluid rounded reveal">
+				<img src="assets/img/decorado-le-monde.jpg" class="img-fluid rounded reveal" style="margin-bottom: 20px;">
 			</div>
 			<div class="col-md-6">
 				<img src="assets/img/maquete.jpg" class="img-fluid rounded reveal">
