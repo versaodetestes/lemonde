@@ -69,7 +69,7 @@
 
  					<div class="form-group">
 				    <label for="mensagem">Dúvidas e informações adicionais</label>
-				    <textarea rows="2" class="form-control" id="mensagem"></textarea>
+				    <textarea rows="2" class="form-control" id="mensagem" name="mensagem"></textarea>
 					</div>
 				  <label style="margin-right: 10px;">Deseja receber contato via:</label><br class="visible-xs">
 				  <label style="margin-right: 20px;" for="emailcheck" style="margin-top: 5px;"><input type="checkbox" name="emailcheck" value="Email" id="emailcheck" checked="checked">

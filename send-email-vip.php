@@ -149,9 +149,9 @@ $headers .= 'From: CRB Construtora - Le Monde <$email>';
  
 $enviaremail = mail($destino, $assunto, $emailbody, $headers);
 if($enviaremail) {
-	die("<script>location.href='https://preview.crbconstrutora.com.br/obrigado'</script>");
+	die("<script>location.href='https://lemonde.crbconstrutora.com.br/obrigado-vip'</script>");
 }else {
 	echo "Erro ao enviar a mensagem";
-	header("location:http://preview.crbconstrutora.com.br");
+	header("location:http://lemonde.crbconstrutora.com.br");
 }
 ?>
