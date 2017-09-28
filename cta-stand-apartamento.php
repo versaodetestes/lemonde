@@ -8,7 +8,7 @@
 				<h3 class="cta-apto_title">Agende uma visita vip</h3>
 				<span class="line line-green"></span>
 				<p class="decorado-info">
-					Conheça de forma única todos os detalhes do empreendimento em uma visita VIP com um de nossos corretores especialistas.
+					Conheça de forma única todos os detalhes do empreendimento em uma visita VIP com um de nossos corretores.
 				</p>
 				<p class="decorado-info">
 					Veja a dimensão do projeto em uma maquete detalhista e sonhe com cada detalhe no apartamento decorado.
