@@ -479,6 +479,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#302b6c', end
 }
 
 // DECORADO 
+
 .decorado {
 	background: $color-primary;
 	padding-bottom: 50px;
@@ -504,4 +505,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#302b6c', end
 	padding-left: 10px;
 	display: inline-block;
 	margin-top: 15px;
+}
+
+.cta-apto_image {
+	margin-top: 50px;
+}
+.cta-apto_title {
+	color: $white;
+	font-family: $font-regular;
+	text-transform: uppercase;
 }

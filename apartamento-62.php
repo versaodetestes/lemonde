@@ -150,16 +150,19 @@ Uma planta na medida para quem deseja viver bem e com conforto, sem abrir mão d
 
 				</div>
 				<div class="download-form">
-					<form class="form">
+					<form class="form" action="https://www.rdstation.com.br/api/1.2/conversions"  method="POST" onSubmit=" swal('Sucesso!', 'Email enviado com sucesso! Em breve você receberá um email com o link para download.', 'success');" id="plantasdownload">
+						<input type="hidden" name="token_rdstation" value="4928a2b2f6bbc166823f44e7f99295c2" />
+						<input type="hidden" name="identificador" value="LP - Le Monde - Apto. 62m² Planta" />
 						<div class="form-down-input">
 						<label for="nome">Nome</label><br>
-						<input type="text" name="nome" id="nome">
+						<input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
 						</div>
 						<div class="form-down-input">
 						<label for="email">Email</label> <br>
-						<input type="email" name="email" id="email">
+						<input type="email" name="email" id="email" placeholder="Digite seu email" required>
 						</div>
-						<button type="submit" class="btn btn-cta btn-download" id="plantasdownload">Download plantas</button>
+						<input type="hidden" name="redirect_to" value="https://lemonde.crbconstrutora.com.br/apartamento-62" />
+						<button type="submit" class="btn btn-cta btn-download">Download plantas</button>
 					</form>
 				</div>
 			</div>
@@ -235,39 +238,10 @@ Uma planta na medida para quem deseja viver bem e com conforto, sem abrir mão d
 
 	</div>
 
-	<div class="container-fluid">
-		<div class="row no-gutter decorado d-flex align-items-center justify-content-center">
 
-			<div class="col-md-12">
-				<div class="title-group title-group-decorado">
-					<h3 class="h2 decorado-title">Decorado</h3>
-					<p class="lead lead-decorado">Conheça o projeto de perto</p>
-					<span class="line line-green"></span>
-				</div>
-			</div>
-			<div class="col-md-4">
-				<img src="assets/img/decorado-le-monde.jpg" class="img-fluid">
-			</div>
-			<div class="col-md-3">
-				<p class="decorado-info">
-					Agora ficou mais fácil imaginar viver 
-					no empreendimento que é a nova definição
-					de morar bem em Sorocaba.
-					O decorado Le Monde Campolim está pronto
-					para você conhecer de perto.
-				</p>
-				<h4 class="decorado-agendar">Agende uma visita com seu corretor</h4>
-				<span class="decorado-endereco">
-					STAND LE MONDE CAMPOLIM<br>
-					Rua Antônio Perez Hernandez, 333
-				</span>
-			</div>
 
-		</div>
-	</div>
-	</div>
 	<!-- CTA -->
-	<?php include ("cta-stand.php"); ?>
+	<?php include ("cta-stand-apartamento.php"); ?>
 	<!-- FIM CTA -->
 	<!-- FOOTER -->
 	<?php include ("footer.php"); ?>

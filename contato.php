@@ -25,7 +25,7 @@
 				<img src="assets/img/stand-vendas.jpg" class="img-fluid reveal">
 			</div>
 			<div class="col-md-6">
-				<form class="form-contact">
+				<form class="form-contact" role="form" id="form-email" action="send-email.php" method="POST">
 				  <div class="form-group">
 				    <label for="nome">Nome</label>
 				    <input type="text" class="form-control" id="nome" name="nome"  placeholder="Digite seu nome">
@@ -64,12 +64,25 @@
 				    	<option value="Duplex 129m²">Duplex 129m²</option>
 				    </select>
 				  </div>
+
  					<div class="form-group">
 				    <label for="mensagem">Dúvidas e informações adicionais</label>
-				    <textarea rows="3" class="form-control" id="mensagem"></textarea>
+				    <textarea rows="2" class="form-control" id="mensagem"></textarea>
 					</div>
+				  <label>Deseja receber contato via:</label><br>
+				  <label style="margin-right: 20px;" for="emailcheck" style="margin-top: 5px;"><input type="checkbox" name="emailcheck" id="emailcheck" checked="checked">
+						Email
+					</label>
+				  <label style="margin-right: 20px;" for="whatsappcheck" style="margin-top: 5px;"><input type="checkbox" name="whatsappcheck" id="whatsappcheck">
+						WhatsApp
+					</label>
+				  <label style="margin-right: 20px;" for="telefonecheck" style="margin-top: 5px;"><input type="checkbox" name="telefonecheck" id="telefonecheck">
+						Telefone
+					</label><br>
 					<button type="submit" class="btn btn-cta">Enviar mensagem</button>
-					<label for="autorizo"><input type="checkbox" name="autorizacao" id="autorizo">Autorizo receber informações de CRB Construtora. Nunca enviamos spam.</label>
+					<label for="autorizo" style="margin-top: 5px;"><input type="checkbox" name="autorizacao" id="autorizo" checked="checked">
+						<small>Autorizo receber informações de CRB Construtora. Nunca enviamos spam.</small>
+					</label>
 
 				</form>
 			</div>

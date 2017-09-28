@@ -50,10 +50,6 @@ $('#ytplayerlazer').append('<iframe class="ytplayer" src="https://www.youtube.co
 $('#youtubelazer').hide();
 });
 
-$('#plantasdownload').click(function (){
-  event.preventDefault();
-  swal("Sucesso!", "O arquivo em pdf foi enviado para seu e-mail", "success");
-});
 
 	// SLIDERS
   $(function() {
