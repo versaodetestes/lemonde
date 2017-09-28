@@ -113,6 +113,23 @@
 		<!-- FIM FOOTER -->
 
 <script type="text/javascript" src="assets/js/jquery-1.9.1.min.js"></script>
+<script src="assets/js/cidades-estados.js" charset='iso-8859-1'></script>
+<script type="text/javascript">
+	
+// CIDADE E ESTADO
+    $(document).ready(function(){
+        new dgCidadesEstados( 
+            document.getElementById('estado'), 
+            document.getElementById('cidade'), 
+            true
+        );
+        new dgCidadesEstados( 
+            document.getElementById('estado-2'), 
+            document.getElementById('cidade-2'), 
+            true
+        );
+    });
+</script>
 <script type="text/javascript" src="assets/js/main-script.js"></script>
 </body>
 </html>	
