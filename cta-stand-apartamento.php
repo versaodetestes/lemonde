@@ -8,10 +8,10 @@
 				<h3 class="cta-apto_title">Agende uma visita vip</h3>
 				<span class="line line-green"></span>
 				<p class="decorado-info">
-					Conheça de forma única todos os detalhes do projeto do Le Monde Campolim em uma visita VIP com um de nossos corretores.
+					Conheça de forma única todos os detalhes do empreendimento em uma visita VIP com um de nossos corretores especialistas.
 				</p>
 				<p class="decorado-info">
-					Veja a dimensão do projeto em uma maquete detalhista e sonhe com cada detalhe em uma unidade decorada.
+					Veja a dimensão do projeto em uma maquete detalhista e sonhe com cada detalhe no apartamento decorado.
 				</p>
 				<a href="./visita-vip.php" class="btn btn-inverse">Agendar visita VIP</a>
 			</div>

@@ -50,7 +50,7 @@ $font-bold-italic: 'supermolotbold_italic';
 h1, .h1{
 	font-family: $font-bold-italic;
 	font-size: 50px;
-	color: $grey-light;
+	color: #8e919a;
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	@media #{$mobile-l} {

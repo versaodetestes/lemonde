@@ -6,7 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<link rel="stylesheet" type="text/css" href="assets/css/style-apartamentos.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/swiper.min.css">
-
+	<!-- HEAD -->
+	<?php include ("head.php"); ?>
 </head>
 <body>
 	<!-- HEADER -->
@@ -55,6 +56,7 @@ As plantas dos apartamentos duplex foram projetadas para ser uma casa nas altura
 				<p class="text-spot">
 Perfeito para receber amigos e família com tranquilidade, além de desfrutar da exclusiva vista livre permanente do ponto mais alto da cidade. Enquanto no pavimento superior, ficam os três quartos e a suíte master, reservando maior privacidade dos moradores. 
 				</p>
+				<span class="apto-desc-line"></span>
 			</div>
 			<div class="col-md-6">
 				<div class="banner banner-pet banner-pet_3">

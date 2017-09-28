@@ -6,6 +6,8 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/style-lazer.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<link rel="stylesheet" type="text/css" href="assets/css/swiper.min.css">
+	<!-- HEAD -->
+	<?php include ("head.php"); ?>
 </head>
 <body>
 	<!-- HEADER -->
@@ -29,13 +31,18 @@
 				</div>
 		</div>
 
+	
 		<div class="row justify-content-center">
 			<div class="col-md-8 text">
-				<h2>Lazer completíssimo</h2>
+				<div class="text-center">
+								<h2>Lazer completissímo</h2>
+				<span class="line line-blue"></span>	
+				</div>
+
 				<p>
 					A proposta do residencial Le Monde Campolim visa elevar ao máximo a qualidade de vida dos seus moradores. As áreas de uso comum são divididas em: Lazer Externo e Lazer individual por torre.
 				</p>
-				<h3>Lazer Externo</h3>
+				<h3 class="lazer-subtitle">Lazer Externo</h3>
 				<p>
 					A área de lazer externa está localizada estrategicamente no lado oposto aos apartamentos, para preservar a tranquilidade de quem prefere um bom sossego, sem limitar a diversão daqueles que não perdem um dia de sol.
 				</p>

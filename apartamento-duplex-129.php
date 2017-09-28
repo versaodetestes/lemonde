@@ -6,7 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<link rel="stylesheet" type="text/css" href="assets/css/style-apartamentos.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/swiper.min.css">
-
+	<!-- HEAD -->
+	<?php include ("head.php"); ?>
 </head>
 <body>
 	<!-- HEADER -->
@@ -47,6 +48,19 @@
 		</div>
 
 		<div class="row banner-wrap">
+
+			<div class="col-md-6 ">
+				<h2 class="apto-subtitle">Morar bem com amplitude de um duplex</h2>
+				<p class="text-spot">
+Para quem deseja viver com muito espaço e privacidade. A planta do duplex 129m² foi projetada para oferecer conforto extra. São três suítes no pavimento superior, sendo uma suíte máster com varanda e espaço para closet.
+				</p>
+				<p class="text-spot">
+
+No pavimento inferior fica a área social com cozinha e varanda gourmet integradas, ampla sala de jantar com lavabo, living reservado, ideal para relaxar e apreciar bons filmes.
+				</p>
+				<span class="apto-desc-line"></span>
+			</div>
+
 			<div class="col-md-6">
 				<div class="banner banner-pet banner-pet_4">
 					<div class="banner-pet_info">
@@ -62,16 +76,6 @@
 					</div>
 				</div>
 				
-			</div>
-			<div class="col-md-6">
-				<h2 class="apto-subtitle">Morar bem com amplitude de um duplex</h2>
-				<p class="text-spot">
-Para quem deseja viver com muito espaço e privacidade. A planta do duplex 129m² foi projetada para oferecer conforto extra. São três suítes no pavimento superior, sendo uma suíte máster com varanda e espaço para closet.
-				</p>
-				<p class="text-spot">
-
-No pavimento inferior fica a área social com cozinha e varanda gourmet integradas, ampla sala de jantar com lavabo, living reservado, ideal para relaxar e apreciar bons filmes.
-				</p>
 			</div>
 		</div>
 

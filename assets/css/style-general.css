@@ -2681,7 +2681,7 @@ a.text-dark:focus, a.text-dark:hover { color: #1d2124 !important; }
 
 @font-face { font-family: 'supermolotlight'; src: url("../fonts/supermolot_light-webfont.woff2") format("woff2"), url("../fonts/supermolot_light-webfont.woff") format("woff"); font-weight: normal; font-style: normal; }
 
-h1, .h1 { font-family: "supermolotbold_italic"; font-size: 50px; color: #e1e1e1; text-transform: uppercase; letter-spacing: 5px; }
+h1, .h1 { font-family: "supermolotbold_italic"; font-size: 50px; color: #8e919a; text-transform: uppercase; letter-spacing: 5px; }
 
 @media only screen and (max-width: 425px) { h1, .h1 { font-size: 30px; letter-spacing: 1px; } }
 

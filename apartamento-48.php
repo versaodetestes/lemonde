@@ -6,7 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<link rel="stylesheet" type="text/css" href="assets/css/style-apartamentos.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/swiper.min.css">
-
+	<!-- HEAD -->
+	<?php include ("head.php"); ?>
 </head>
 <body>
 	<!-- HEADER -->
@@ -52,11 +53,12 @@
 			<div class="col-md-6">
 				<h2 class="apto-subtitle">4 versões para você</h2>
 				<p class="text-spot">
-Closet ou Home Office? Mais um quarto para o bebê ou Ofurô Spa para relaxar? Você escolhe a planta ideal para o seu momento de vida.
-</p>
-<p class="text-spot">
-São quatro versões de plantas na mesma metragem, porque morar com inteligência é otimizar espaços com sofisticação.
+				Closet ou Home Office? Mais um quarto para o bebê ou Ofurô Spa para relaxar? Você escolhe a planta ideal para o seu momento de vida.
 				</p>
+				<p class="text-spot">
+				São quatro versões de plantas na mesma metragem, porque morar com inteligência é otimizar espaços com sofisticação.
+				</p>
+			<span class="apto-desc-line"></span>
 			</div>
 
 			<div class="col-md-6">

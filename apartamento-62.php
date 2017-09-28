@@ -6,7 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<link rel="stylesheet" type="text/css" href="assets/css/style-apartamentos.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/swiper.min.css">
-
+	<!-- HEAD -->
+	<?php include ("head.php"); ?>
 </head>
 <body>
 	<!-- HEADER -->
@@ -52,11 +53,12 @@
 			<div class="col-md-6">
 				<h2 class="apto-subtitle">Ideal para a família que começou a crescer</h2>
 				<p class="text-spot">
-O apartamento de 62m² possui dois dormitórios, sendo uma suíte do casal. E ainda, ambientes integrados da sala, cozinha e varanda gourmet. Distribuição de espaços que privilegiam o convívio social, incluindo o banheiro com lavatório externo.
-</p>
-<p class="text-spot">
-Uma planta na medida para quem deseja viver bem e com conforto, sem abrir mão do requinte.
+				O apartamento de 62m² possui dois dormitórios, sendo uma suíte do casal. E ainda, ambientes integrados da sala, cozinha e varanda gourmet. Distribuição de espaços que privilegiam o convívio social, incluindo o banheiro com lavatório externo.
 				</p>
+				<p class="text-spot">
+				Uma planta na medida para quem deseja viver bem e com conforto, sem abrir mão do requinte.
+								</p>
+				<span class="apto-desc-line"></span>
 			</div>
 
 			<div class="col-md-6">

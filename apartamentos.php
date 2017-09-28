@@ -5,6 +5,9 @@
 	<title>Apartamentos - Le Monde Campolim</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style-apartamentos.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<!-- HEAD -->
+	<?php include ("head.php"); ?>
 </head>
 <body>
 	<!-- HEADER -->

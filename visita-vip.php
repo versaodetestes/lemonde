@@ -2,7 +2,7 @@
 <html lang="pt_BR">
 <head>
 	<meta charset="UTF-8">
-	<title>Contato - Le Monde Campolim</title>
+	<title>Visita VIP - Le Monde Campolim</title>
 	<link rel="stylesheet" type="text/css" href="assets/css/style-contato.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<!-- HEAD -->
@@ -15,19 +15,19 @@
 	<div class="container">
 		<div class="row justify-content-center">
 				<div class="title-group text-center">
-					<h1>Contato</h1>
-					<p class="lead">Corretores Exclusivos</p>
+					<h1>Agendar visita VIP</h1>
+					<p class="lead">Uma experiência única</p>
 					<span class="line line-blue"></span><br>
 					<a href="tel:1533187999"><span class="icon-tel-contato"><img src="assets/img/telefone.svg"></span><span class="telefone">(15) 3318-7999</span></a>
 				</div>
 		</div>
-		<div class="row">
+				<div class="row">
 
 			<div class="col-md-6">
 				<img src="assets/img/stand-vendas.jpg" class="img-fluid reveal">
 			</div>
 			<div class="col-md-6">
-				<form class="form-contact" role="form" id="form-email" action="send-email.php" method="POST">
+				<form class="form-contact" role="form" id="form-email" action="send-email-vip.php" method="POST">
 				  <div class="form-group">
 				    <label for="nome">Nome</label>
 				    <input type="text" class="form-control" id="nome" name="nome"  placeholder="Digite seu nome">
@@ -90,23 +90,6 @@
 			</div>
 		</div>
 
-		<div class="row projeto d-flex align-items-center">
-			<div class="col-md-6">
-				<h4 class="projeto-title">Explore o projeto</h4>
-				<span class="line line-green"></span>
-				<p class="projeto-text">
-					Visite o Stand Le Monde e explore de perto a 
-					maquete do empreendimento, além de poder 
-					se envolver ainda mais com esse projeto,
-					conhecendo o DECORADO.
-				</p>
-				<img src="assets/img/decorado-le-monde.jpg" class="img-fluid rounded reveal">
-			</div>
-			<div class="col-md-6">
-				<img src="assets/img/maquete.jpg" class="img-fluid rounded reveal">
-			</div>
-		</div>
-
 	</div>
 
 
@@ -133,10 +116,10 @@
     });
 </script>
 <script type="text/javascript" src="assets/js/main-script.js"></script>
-<script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/integration/stable/rd-js-integration.min.js"></script> 
-<script type="text/javascript">
-RdIntegration.integrate('4928a2b2f6bbc166823f44e7f99295c2', 'LP - Le Monde'); 
-</script>
+	<script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/integration/stable/rd-js-integration.min.js"></script> 
+  <script type="text/javascript">
+  RdIntegration.integrate('4928a2b2f6bbc166823f44e7f99295c2', 'LP - Le Monde - Visita VIP'); 
+  </script>
 
 </body>
 </html>	
