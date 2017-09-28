@@ -13,7 +13,7 @@
 				<p class="decorado-info">
 					Veja a dimensão do projeto em uma maquete detalhista e sonhe com cada detalhe no apartamento decorado.
 				</p>
-				<a href="./visita-vip.php" class="btn btn-inverse">Agendar visita VIP</a>
+				<a href="./visita-vip" class="btn btn-inverse">Agendar visita VIP</a>
 			</div>
 
 		</div>

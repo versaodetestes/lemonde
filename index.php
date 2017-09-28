@@ -76,7 +76,7 @@
 
 			
 				<div class="cards col-md-4 reveal-noscale">
-					<a href="./apartamentos.php" class="card-link">
+					<a href="./apartamentos" class="card-link">
 						<div class="card-block card-apto">
 						  <div class="card-info">
 							<h3 class="card-title">Apartamentos</h3>
@@ -89,11 +89,11 @@
 
 
 			<div class="cards col-md-4 reveal-noscale">
-				<a href="./lazer.php" class="card-link">
+				<a href="./lazer" class="card-link">
 				<div class="card-block card-lazer">
 					<div class="card-info">
 						<h3 class="card-title">Lazer completo</h3>
-						<span class="btn btn-cta btn-inverse" href="./lazer">Um mundo de possibilidades</span>
+						<span class="btn btn-cta btn-inverse" >Um mundo de possibilidades</span>
 					</div>
 				</div>
  				<span class="bar-color bar-color_card"></span>
@@ -101,11 +101,11 @@
 			</div>
 
 			<div class="cards col-md-4 reveal-noscale">
-				<a href="./localizacao.php" class="card-link">
+				<a href="./localizacao" class="card-link">
 				<div class="card-block card-localizacao">
 				  <div class="card-info">
 					<h3 class="card-title">Localização</h3>
-					<span class="btn btn-cta btn-inverse" href="./localizacao">Explore seu novo endereço</span>
+					<span class="btn btn-cta btn-inverse">Explore seu novo endereço</span>
 				  </div>
 				 
 				</div>

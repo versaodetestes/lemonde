@@ -8,7 +8,7 @@
 						<p>
 							Entenda tudo sobre o projeto com a maquete física do empreendimento. Encante-se com cada detalhe do Apartamento Decorado.
 						</p>
-						<a href="./contato.php" class="btn btn-cta">Ver telefone e endereço</a>
+						<a href="./contato" class="btn btn-cta">Ver telefone e endereço</a>
 					</div>
 					
 				</div>

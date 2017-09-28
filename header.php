@@ -20,14 +20,14 @@
 		      
 				<div class="nav-header"  id="nav-header">
 					<ul>
-						<li><a href="./empreendimento.php">Empreendimento</a></li>
+						<li><a href="./empreendimento">Empreendimento</a></li>
 						<span class="nav-separator">|</span>
-						<li><a href="./apartamentos.php">Apartamentos</a></li>
+						<li><a href="./apartamentos">Apartamentos</a></li>
 						<span class="nav-separator">|</span>
-						<li><a href="./lazer.php">Lazer</a></li>
+						<li><a href="./lazer">Lazer</a></li>
 						<span class="nav-separator">|</span>
-						<li><a href="./localizacao.php">Localização</a></li>
-						<a class="btn btn-header" href="./contato.php">Contato</a>
+						<li><a href="./localizacao">Localização</a></li>
+						<a class="btn btn-header" href="./contato">Contato</a>
 					</ul>
 				</div>
 			</div>

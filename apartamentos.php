@@ -58,7 +58,7 @@
 							<li>• Varanda Gourmet Grill</li>
 							<li>• 1 vaga de garagem</li>
 						</ul>
-						<a href="./apartamento-48.php" class="btn btn-cta">Veja mais detalhes</a>
+						<a href="./apartamento-48" class="btn btn-cta">Veja mais detalhes</a>
 					</div>
 					
 				</div>
@@ -77,7 +77,7 @@
 								<li>• 3 vagas de garagem</li>
 							</ul>
 						</div>
-						<a href="./apartamento-duplex-129.php" class="btn btn-cta btn-card">Veja mais detalhes</a>
+						<a href="./apartamento-duplex-129" class="btn btn-cta btn-card">Veja mais detalhes</a>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -92,7 +92,7 @@
 								<li>• 2 vagas de garagem</li>
 							</ul>
 						</div>
-						<a href="./apartamento-duplex-101.php" class="btn btn-cta btn-card">Veja mais detalhes</a>
+						<a href="./apartamento-duplex-101" class="btn btn-cta btn-card">Veja mais detalhes</a>
 					</div>
 				</div>
 				<div class="col-md-4">
@@ -107,7 +107,7 @@
 								<li>• 2 vagas de garagem</li>
 							</ul>
 						</div>
-						<a href="./apartamento-62.php" class="btn btn-cta btn-card">Veja mais detalhes</a>
+						<a href="./apartamento-62" class="btn btn-cta btn-card">Veja mais detalhes</a>
 					</div>
 				</div>
 			</div>

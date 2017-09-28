@@ -93,7 +93,7 @@
 						<span class="implantacao-item"><span>4-</span> Vagas de Visitantes e portaria</span>
 					</div>
 					<div class="col-md-4">
-						<a href="./lazer.php" class="btn btn-inverse">Conheça mais sobre o lazer</a>
+						<a href="./lazer" class="btn btn-inverse">Conheça mais sobre o lazer</a>
 					</div>
 				</div>
 			</div>
@@ -166,7 +166,7 @@
 					<li>Acabamentos finos e materiais de alta qualidade</li>
 					<li>Medição individual de água e energia elétrica</li>
 				</ul>
-				<a href="./apartamentos.php" class="btn btn-inverse">Apartamentos: conheça as plantas inteligentes</a>
+				<a href="./apartamentos" class="btn btn-inverse">Apartamentos: conheça as plantas inteligentes</a>
 			</div>
 
 		</div>
