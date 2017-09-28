@@ -56,7 +56,7 @@
 				  </div>
 				  <div class="form-group">
 				    <label for="planta">Selecione seu apartamento ideal</label>
-				    <select class="form-control" name="cidade" id="planta">
+				    <select class="form-control" name="planta" id="planta">
 				    	<option>Selecione uma planta</option>
 				    	<option value="Apto 48m²">Apto 48m²</option>
 				    	<option value="Apto 62m²">Apto 62m²</option>
@@ -70,13 +70,13 @@
 				    <textarea rows="2" class="form-control" id="mensagem"></textarea>
 					</div>
 				  <label>Deseja receber contato via:</label><br>
-				  <label style="margin-right: 20px;" for="emailcheck" style="margin-top: 5px;"><input type="checkbox" name="emailcheck" id="emailcheck" checked="checked">
+				  <label style="margin-right: 20px;" for="emailcheck" style="margin-top: 5px;"><input type="checkbox" name="emailcheck" value="Email" id="emailcheck" checked="checked">
 						Email
 					</label>
-				  <label style="margin-right: 20px;" for="whatsappcheck" style="margin-top: 5px;"><input type="checkbox" name="whatsappcheck" id="whatsappcheck">
+				  <label style="margin-right: 20px;" for="whatsappcheck" style="margin-top: 5px;"><input type="checkbox" value="WhatsApp" name="whatsappcheck" id="whatsappcheck">
 						WhatsApp
 					</label>
-				  <label style="margin-right: 20px;" for="telefonecheck" style="margin-top: 5px;"><input type="checkbox" name="telefonecheck" id="telefonecheck">
+				  <label style="margin-right: 20px;" for="telefonecheck" style="margin-top: 5px;"><input type="checkbox" value="Telefone" name="telefonecheck" id="telefonecheck">
 						Telefone
 					</label><br>
 					<button type="submit" class="btn btn-cta">Enviar mensagem</button>

@@ -7,6 +7,7 @@ $telefone = $_POST['telefone'];
 $celular = $_POST['celular'];
 $cidade = $_POST['cidade'];
 $estado = $_POST['estado'];
+$planta = $_POST['planta'];
 $mensagem = $_POST['mensagem'];
 $emailcheck = $_POST['emailcheck'];
 $whatsappcheck = $_POST['whatsappcheck'];
@@ -94,6 +95,12 @@ $emailbody = "
 		<strong>Cidade:</strong>
 	</td>
 	<td style='padding:3px;border-bottom:1px solid #E6E6E6;color:#666666;'> $cidade</td>
+</tr>
+<tr>
+	<td style='padding:3px;border-bottom:1px solid #E6E6E6;color:#2D2D2D;'>
+		<strong>Planta ideal:</strong>
+	</td>
+	<td style='padding:3px;border-bottom:1px solid #E6E6E6;color:#666666;'> $planta</td>
 </tr>
 <tr>
 	<td style='padding:3px;border-bottom:1px solid #E6E6E6;color:#2D2D2D;'>
