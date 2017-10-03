@@ -6,24 +6,26 @@
 
 <div class="float-cta">
 
-	<!-- EMAIL -->
-		<a href="./contato.php" onclick="ga('send', 'event', 'float-cta', 'clique', 'email');">
-		<div class="float-button">
-			<img src="assets/img/email.svg">
-		</div>
-	</a>
+
 
 	<!-- CHAT -->
 		<a href="http://crb.hypnobox.com.br/?controle=Atendimento&acao=index&produto=10" onclick="return !window.open(this.href, 'Chat', 'width=500,height=550');" >
-		<div class="float-button">
+		<div class="float-button" onclick="ga('send', 'event', 'float-cta', 'clique', 'chat-mobile');">
 			<img src="assets/img/chat.svg">
 		</div>
 	</a>
 
 		<!-- TELEFONE -->
-	<a href="tel:1533187999" onclick="ga('send', 'event', 'float-cta', 'clique', 'telefone');">
+	<a href="tel:1532110970" onclick="ga('send', 'event', 'float-cta', 'clique', 'telefone');">
 		<div class="float-button">
 			<img src="assets/img/telefone.svg">
+		</div>
+	</a>
+
+	<!-- EMAIL -->
+		<a href="./contato" onclick="ga('send', 'event', 'float-cta', 'clique', 'email');">
+		<div class="float-button">
+			<img src="assets/img/email.svg">
 		</div>
 	</a>
 
@@ -40,7 +42,7 @@
 					<li><a href="./">Home</a></li>
 					<li><a href="./empreendimentos">Empreendimento</a></li>
 					<li><a href="./lazer">Lazer</a></li>
-					<li><a href="./localização">Localização</a></li>
+					<li><a href="./localizacao">Localização</a></li>
 					<li><a href="./contato">Contato</a></li>
 				</ul>
 			</div>
@@ -96,3 +98,15 @@ var google_remarketing_only = true;
 <img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/882192095/?value=1.00&amp;currency_code=BRL&amp;label=t6y9COXCp3AQ393UpAM&amp;guid=ON&amp;script=0"/>
 </div>
 </noscript>
+
+<!-- Hotjar Tracking Code for crbconstrutora.com.br -->
+<script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:511515,hjsv:5};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
