@@ -86,6 +86,12 @@ $emailbody = "
 </tr>
 <tr>
 	<td style='padding:3px;border-bottom:1px solid #E6E6E6;color:#2D2D2D;'>
+		<strong>Celular:</strong>
+	</td>
+	<td style='padding:3px;border-bottom:1px solid #E6E6E6;color:#666666;'> $celular</td>
+</tr>
+<tr>
+	<td style='padding:3px;border-bottom:1px solid #E6E6E6;color:#2D2D2D;'>
 		<strong>Estado:</strong>
 	</td>
 	<td style='padding:3px;border-bottom:1px solid #E6E6E6;color:#666666;'> $estado</td>

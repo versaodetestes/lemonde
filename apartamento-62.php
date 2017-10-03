@@ -37,7 +37,7 @@
 			</div>
 			<div class="col-md-3 col-6">
 				<div class="feature feature-apto">
-					2 Vagas cobertas
+					Depósito Privativo 5m²
 				</div>
 			</div>
 

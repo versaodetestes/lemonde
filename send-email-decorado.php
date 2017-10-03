@@ -3,16 +3,10 @@ include("config.php");
 
 $nome = $_POST['nome'];
 $email = $_POST['email'];
-$telefone = $_POST['telefone'];
 $celular = $_POST['celular'];
-$cidade = $_POST['cidade'];
-$estado = $_POST['estado'];
-$planta = $_POST['planta'];
+$data = $_POST['data'];
+$horario = $_POST['horario'];
 $mensagem = $_POST['mensagem'];
-$emailcheck = $_POST['emailcheck'];
-$whatsappcheck = $_POST['whatsappcheck'];
-$telefonecheck = $_POST['telefonecheck'];
-$autorizacao = $_POST['autorizacao'];
 $dataHora = date('d/m/Y h:i:s');
 $dia = date('d');
 $mes = date('m');
@@ -80,51 +74,27 @@ $emailbody = "
 </tr>
 <tr>
 	<td style='padding:3px;border-bottom:1px solid #E6E6E6;color:#2D2D2D;'>
-		<strong>Telefone:</strong>
-	</td>
-	<td style='padding:3px;border-bottom:1px solid #E6E6E6;color:#666666;'> $telefone</td>
-</tr>
-<tr>
-	<td style='padding:3px;border-bottom:1px solid #E6E6E6;color:#2D2D2D;'>
 		<strong>Celular:</strong>
 	</td>
 	<td style='padding:3px;border-bottom:1px solid #E6E6E6;color:#666666;'> $celular</td>
 </tr>
 <tr>
 	<td style='padding:3px;border-bottom:1px solid #E6E6E6;color:#2D2D2D;'>
-		<strong>Estado:</strong>
+		<strong>Data:</strong>
 	</td>
-	<td style='padding:3px;border-bottom:1px solid #E6E6E6;color:#666666;'> $estado</td>
+	<td style='padding:3px;border-bottom:1px solid #E6E6E6;color:#666666;'> $data</td>
 </tr>
 <tr>
 	<td style='padding:3px;border-bottom:1px solid #E6E6E6;color:#2D2D2D;'>
-		<strong>Cidade:</strong>
+		<strong>Horario:</strong>
 	</td>
-	<td style='padding:3px;border-bottom:1px solid #E6E6E6;color:#666666;'> $cidade</td>
-</tr>
-<tr>
-	<td style='padding:3px;border-bottom:1px solid #E6E6E6;color:#2D2D2D;'>
-		<strong>Planta ideal:</strong>
-	</td>
-	<td style='padding:3px;border-bottom:1px solid #E6E6E6;color:#666666;'> $planta</td>
+	<td style='padding:3px;border-bottom:1px solid #E6E6E6;color:#666666;'> $horario</td>
 </tr>
 <tr>
 	<td style='padding:3px;border-bottom:1px solid #E6E6E6;color:#2D2D2D;'>
 		<strong>Mensagem:</strong>
 	</td>
 	<td style='padding:3px;border-bottom:1px solid #E6E6E6;color:#666666;'> $mensagem</td>
-</tr>
-<tr>
-	<td style='padding:3px;border-bottom:1px solid #E6E6E6;color:#2D2D2D;'>
-		<strong>Atendimento Via:</strong>
-	</td>
-	<td style='padding:3px;border-bottom:1px solid #E6E6E6;color:#666666;'> $emailcheck / $whatsappcheck / $telefonecheck </td>
-</tr>
-<tr>
-	<td style='padding:3px;border-bottom:1px solid #E6E6E6;color:#2D2D2D;'>
-		<strong>Autoriza recebimento de email:</strong>
-	</td>
-	<td style='padding:3px;border-bottom:1px solid #E6E6E6;color:#666666;'>	$autorizacao</td>
 </tr>
 <tr>
 	<td style='padding:3px;border-bottom:1px solid #E6E6E6;color:#2D2D2D;'>
@@ -145,7 +115,7 @@ $emailbody = "
 
 $emailenviar = "roberta@crbimoveis.com.br,corretoronline@crbimoveis.com.br,corretoronline1@crbimoveis.com.br,corretoronline2@crbimoveis.com.br,leads@crbconstrutora.com.br";
 $destino = $emailenviar;
-$assunto = "★ Landing Page Le Monde - Visita VIP";
+$assunto = "★ Landing Page Le Monde - Visita ao Decorado ★";
 
 // É necessário indicar que o formato do e-mail é html
 $headers  = 'MIME-Version: 1.0' . "\r\n";
