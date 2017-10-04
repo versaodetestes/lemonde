@@ -1,4 +1,5 @@
 
+
 $(window).scroll(function(e){ 
   if ($(this).scrollTop() > 45){ 
    $(".main-header").addClass("header-fixed");

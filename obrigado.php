@@ -37,8 +37,8 @@
 
 <script type="text/javascript" src="assets/js/jquery-1.9.1.min.js"></script>
 <script type="text/javascript" src="assets/js/main-script.js"></script>
-<div style="display:none;">
+<!-- Google Code for Le Monde Conversion Page -->
 <img height="1" width="1" style="border-style:none;" alt="" src="//www.googleadservices.com/pagead/conversion/882192095/?label=E5CVCM-U82kQ393UpAM&amp;guid=ON&amp;script=0"/>
-</div>
+
 </body>
 </html>	
