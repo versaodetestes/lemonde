@@ -22,7 +22,6 @@
 					<ul>
 						<li><a href="./empreendimento">Empreendimento</a></li>
 						<span class="nav-separator">|</span>
-						<div class="dropdown">
 						<li><a href="./apartamentos">Apartamentos</a></li>
 						<span class="nav-separator">|</span>
 						<li><a href="./lazer">Lazer</a></li>
