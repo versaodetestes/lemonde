@@ -24,12 +24,6 @@
 						<span class="nav-separator">|</span>
 						<div class="dropdown">
 						<li><a href="./apartamentos" class="dropmenu">Apartamentos</a></li>
-							 <ul class="dropmenu_content">
-				                <li><a href="./apartamento-48">Apto 48m²</a></li>
-				                <li><a href="./apartamento-62">Apto 62m²</a></li>
-				                <li><a href="./apartamento-duplex-101">Duplex 101m²</a></li>
-				                <li><a href="./apartamento-duplex-129">Duplex 129m²</a></li>
-				            </ul>
 						<span class="nav-separator">|</span>
 						<li><a href="./lazer">Lazer</a></li>
 						<span class="nav-separator">|</span>
