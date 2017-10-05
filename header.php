@@ -22,7 +22,18 @@
 					<ul>
 						<li><a href="./empreendimento">Empreendimento</a></li>
 						<span class="nav-separator">|</span>
-						<li><a href="./apartamentos">Apartamentos</a></li>
+						<div class="dropmenu">
+							<li><a href="./apartamentos" class="dropitem">Apartamentos</a></li>
+							<div class="droplist">
+								<ul>
+									<li>Apto. 48m²</li>
+									<li>Apto. 62m²</li>
+									<li>Duplex 101m²</li>
+									<li>Duplex 129m²</li>
+								</ul>
+							</div>
+						</div>
+						
 						<span class="nav-separator">|</span>
 						<li><a href="./lazer">Lazer</a></li>
 						<span class="nav-separator">|</span>
