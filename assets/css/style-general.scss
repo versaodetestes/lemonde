@@ -439,6 +439,15 @@ $shadow: 2px 2px 12px 3px rgba(48, 43, 108, 0.15);
     display: block;
 }
 
+.caret {
+	display: inline-block;
+	background: url("../img/caret.svg");
+	width: 8px;
+	height: 8px;
+	@media #{$mobile-l} {
+		display: none;
+	}
+}
 // HEROS
 .hero {
 	background: -moz-linear-gradient(45deg, rgb(48,43,108) 0%, rgb(83,227,175) 100%); /* FF3.6-15 */

@@ -23,7 +23,7 @@
 						<li><a href="./empreendimento">Empreendimento</a></li>
 						<span class="nav-separator">|</span>
 						<div class="dropmenu">
-							<li><a href="./apartamentos" class="dropitem">Apartamentos <span class="caret"></span></a></li>
+							<li><a href="./apartamentos" class="dropitem">Apartamentos <span class="caret"></span></a>  </li>
 							<div class="droplist">
 									<a href="./aprtamento-48">Apto. 48m²</a>
 									<a href="./aprtamento-62">Apto. 62m²</a>
