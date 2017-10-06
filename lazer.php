@@ -24,7 +24,7 @@
 		</div>
 		<div class="row justify-content-center">
 				<div class="midia-player">
-					<img src="assets/img/cover-yt-lazer.jpg" class="img-fluid" id="youtubelazer">
+					<img src="assets/img/cover-yt-lazer.jpg" class="img-fluid" id="youtubelazer" onclick="ga('send', 'event', 'video', 'clique', 'video-lazer');">
 					<div id="ytplayerlazer" style="display:none;">
 					</div>
 				<span class="bar-color"></span>
@@ -292,4 +292,4 @@
 <script type="text/javascript" src="assets/js/main-script.js"></script>
 <script type="text/javascript" src="assets/js/slider-lazer.js"></script>
 </body>
-</html>	
+</html>

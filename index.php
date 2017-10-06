@@ -57,7 +57,7 @@
 		<div class="row justify-content-center text-center">
 			<div class="midia">
 				<div class="midia-player">
-					<img src="assets/img/youtube-cover.jpg" class="img-fluid" id="youtubecover">
+					<img src="assets/img/youtube-cover.jpg" class="img-fluid" id="youtubecover" onclick="ga('send', 'event', 'video', 'clique', 'video-home');">
 					<div id="ytplayer" style="display:none;">
 					</div>
 				<span class="bar-color"></span>

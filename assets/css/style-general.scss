@@ -404,6 +404,50 @@ $shadow: 2px 2px 12px 3px rgba(48, 43, 108, 0.15);
   transform: rotate(-135deg);
 }
 
+.dropmenu {
+	position: relative;
+	display: inline-block;
+	@media #{$mobile-l} {
+		height: 250px;
+		li {
+			list-style-type: none;
+		}
+	}
+}
+.droplist {
+	display: none;
+    position: absolute;
+    width: 200px;
+    background: $color-primary;
+    color: $white;
+    z-index: 500;
+    	a {
+    		margin-bottom: 15px;
+    		display: block;
+    		color: $white;
+    		text-decoration: none;
+    		font-family: $font-regular;
+    		padding: 10px 0 0px 25px;
+    	}
+    @media #{$mobile-l} {
+    	display: block;
+    	margin-top: -20px;
+    	margin-left: 20px;
+    }
+ }
+.dropmenu:hover .droplist{
+    display: block;
+}
+
+.caret {
+	display: inline-block;
+	background: url("../img/caret.svg");
+	width: 8px;
+	height: 8px;
+	@media #{$mobile-l} {
+		display: none;
+	}
+}
 // HEROS
 .hero {
 	background: -moz-linear-gradient(45deg, rgb(48,43,108) 0%, rgb(83,227,175) 100%); /* FF3.6-15 */
