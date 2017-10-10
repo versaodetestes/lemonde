@@ -17,7 +17,7 @@
 	<div class="container">
 		<div class="row justify-content-center">
 				<div class="title-group text-center">
-					<h1>Visite o decorado</h1>
+					<h1>Visite VIP</h1>
 					<p>Rua Antônio Perez Hernandez, 333<br>
 						Campolim, Sorocaba/SP
 					</p>
