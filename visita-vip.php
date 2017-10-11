@@ -22,6 +22,7 @@
 					<p>Rua Antônio Perez Hernandez, 333<br>
 						Campolim, Sorocaba/SP
 					</p>
+					<span class="line line-green"></span>
 				</div>
 			</div>
 
@@ -45,7 +46,7 @@
 			<div class="media media-vantagens">
 			  <img class="d-flex mr-3" src="assets/img/icon-maquete.png">
 			  <div class="media-body">
-			    <p><strong>Maquete:</strong> Conhecer a maquete física é essencial pra compreender em três dimensões a totalidade do empreendimento. Tenha uma visão geral da implantação, das áreas de lazer, garagens e fluxo de carros.
+			    <p><strong>Maquete:</strong> Conhecer a maquete física é essencial pra compreender em três dimensões a totalidade do empreendimento. Tenha uma visão geral da implantação,<br> das áreas de lazer, garagens e fluxo de carros.
 			    </p>
 			  </div>
 			</div>
@@ -76,7 +77,9 @@
 
 		</div>
 	</div>
+				<hr style="margin-top: 50px;">
 		<div class="row justify-content-center">
+
 			<div class="col-md-12 text-center">
 				<img src="assets/img/visita-vip-title.png" class="img-fluid" style="margin-top: 50px;">
 
