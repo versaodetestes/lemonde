@@ -18,22 +18,13 @@
 		<div class="row justify-content-center">
 			<div class="col-md-7">
 				<div class="title-group text-center">
-					<h1>Agendar Visita VIP</h1>
-					<p>Rua Antônio Perez Hernandez, 333<br>
-						Campolim, Sorocaba/SP
+					<h1>Visita VIP</h1>
+					<p>Quando você agenda uma Visita VIP ao stand do Le Monde Campolim, você reserva um horário exclusivo para uma experiência completa de atendimento.  É uma oportunidade para conhecer o empreendimento em sua totalidade, analisar e entender cada detalhe que é importante para você. E ainda, garantir uma condição especial para adquirir o seu apartamento.
 					</p>
 					<span class="line line-green"></span>
 				</div>
 			</div>
 
-		</div>
-	</div>
-	<div class="container-fluid">
-		<div class="row">
-			<div class="col-md-12  text-center">
-				<img src="assets/img/visite-decorado-1.jpg" class="img-fluid rounded" style="margin-bottom: 50px;">
-			</div>
-			
 		</div>
 	</div>
 
