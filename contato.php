@@ -18,7 +18,7 @@
 					<h1>Contato</h1>
 					<p class="lead">Corretores Exclusivos</p>
 					<span class="line line-blue"></span><br>
-					<a href="tel:1532110970"><span class="icon-tel-contato"><img src="assets/img/telefone.svg"></span><span class="telefone">(15) 3211-0970</span></a>
+					<a href="tel:1533187999"><span class="icon-tel-contato"><img src="assets/img/telefone.svg"></span><span class="telefone">(15) 3318-7999</span></a>
 				</div>
 		</div>
 		<div class="row">
