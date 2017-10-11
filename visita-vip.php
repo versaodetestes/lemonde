@@ -41,19 +41,39 @@
 	<div class="row justify-content-center">
 		<div class="col-md-6">
 			<h2>Vantagens da visita Vip</h2>
-			<p>
-			<span class="vip-vantagens"><strong>Maquete:</strong> Conhecer a maquete física é essencial pra compreender em três dimensões a totalidade do empreendimento. Tenha uma visão geral da implantação, das áreas de lazer, garagens e fluxo de carros.</span>	
-			</p>
-			<p>
-			<span class="vip-vantagens"><strong>Decorado:</strong> O imóvel decorado é uma grande fonte de ideias para você aplicar no seu novo apartamento. Aproveitamento de espaço, truques de decoração e outros insights podem vir da sua visita ao stand.</span>
-			</p>
-			<p>
-			<span class="vip-vantagens"><strong>Apresentação Multimídia:</strong> Uma apresentação detalhista criada para que você entenda nos mínimos detalhes todos os aspectos do projeto.</span>
-			</p>
 
-			<p>
-			<span class="vip-vantagens"><strong>Dúvidas:</strong> É importante que, durante sua visita, você tire todas as dúvidas com o corretor. Medidas, memorial descritivo, possibilidades de alteração de estrutura, vista do apartamento, etc. </span>
-			</p>
+			<div class="media media-vantagens">
+			  <img class="d-flex mr-3" src="assets/img/icon-maquete.png">
+			  <div class="media-body">
+			    <p><strong>Maquete:</strong> Conhecer a maquete física é essencial pra compreender em três dimensões a totalidade do empreendimento. Tenha uma visão geral da implantação, das áreas de lazer, garagens e fluxo de carros.
+			    </p>
+			  </div>
+			</div>
+
+			<div class="media media-vantagens">
+			  <img class="d-flex mr-3" src="assets/img/icon-decorado.png">
+			  <div class="media-body">
+			    <p><strong>Decorado:</strong> O imóvel decorado é uma grande fonte de ideias para você aplicar no seu novo apartamento. Aproveitamento de espaço, truques de decoração e outros insights podem vir da sua visita ao stand.
+			    </p>
+			  </div>
+			</div>
+
+			<div class="media media-vantagens">
+			  <img class="d-flex mr-3" src="assets/img/icon-projetor.png">
+			  <div class="media-body">
+			    <p><strong>Apresentação Multimídia:</strong> Uma apresentação detalhista criada para que você entenda nos mínimos detalhes todos os aspectos do projeto.
+			    </p>
+			  </div>
+			</div>
+
+			<div class="media media-vantagens">
+			  <img class="d-flex mr-3" src="assets/img/icon-duvida.png">
+			  <div class="media-body">
+			    <p><strong>Dúvidas:</strong> É importante que, durante sua visita, você tire todas as dúvidas com o corretor. Medidas, memorial descritivo, possibilidades de alteração de estrutura, vista do apartamento, etc.
+			    </p>
+			  </div>
+			</div>
+
 		</div>
 	</div>
 		<div class="row justify-content-center">
