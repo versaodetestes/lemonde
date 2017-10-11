@@ -12,12 +12,12 @@
 </head>
 <body>
 	<!-- HEADER -->
-	<?php include ("header-nonav.php"); ?>
+	<?php include ("header.php"); ?>
 	<!-- FIM HEADER -->
 	<div class="container">
 		<div class="row justify-content-center">
 				<div class="title-group text-center">
-					<h1>Visite o decorado</h1>
+					<h1>Visita VIP</h1>
 					<p>Rua Antônio Perez Hernandez, 333<br>
 						Campolim, Sorocaba/SP
 					</p>
@@ -89,7 +89,7 @@
 
 
 		<!-- FOOTER -->
-		<?php include ("footer-nonav.php"); ?>
+		<?php include ("footer.php"); ?>
 		<!-- FIM FOOTER -->
 
 <script type="text/javascript" src="assets/js/jquery-1.9.1.min.js"></script>

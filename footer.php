@@ -1,6 +1,6 @@
-<a href="http://crb.hypnobox.com.br/?controle=Atendimento&acao=index&produto=10" onclick="return !window.open(this.href, 'Chat', 'width=500,height=550');" >
-	<div class="float-chat" onclick="ga('send', 'event', 'float-cta', 'clique', 'chat');">
-	<img src="assets/img/chat.svg"> Fale com um corretor
+<a href="./visita-vip">
+	<div class="float-chat" onclick="ga('send', 'event', 'float-cta', 'clique', 'visita-vip');">
+	<img src="assets/img/chat.svg"> Agende uma visita VIP
 </div>
 </a>
 
