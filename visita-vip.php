@@ -2,7 +2,7 @@
 <html lang="pt_BR">
 <head>
 	<meta charset="UTF-8">
-	<title>Visita ao Decorado - Le Monde Campolim</title>
+	<title>Visita VIP - Le Monde Campolim</title>
 
 	<link rel="stylesheet" type="text/css" href="assets/css/style-contato.css">
 	<link rel="stylesheet" type="text/css" href="assets/css/datedropper.css">
