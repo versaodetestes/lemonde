@@ -16,7 +16,7 @@
 	</a>
 
 		<!-- TELEFONE -->
-	<a href="tel:1533187999" onclick="ga('send', 'event', 'float-cta', 'clique', 'telefone');">
+	<a href="tel:1532110970" onclick="ga('send', 'event', 'float-cta', 'clique', 'telefone');">
 		<div class="float-button">
 			<img src="assets/img/telefone.svg">
 		</div>
