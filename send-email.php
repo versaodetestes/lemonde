@@ -37,6 +37,7 @@ $fields = array(
    'nome' => $nome,
    'email' => $email,
    'id_produto' => $produto,
+   'tel_residencial' => $celular;
    'midia' => $midia,
    'mensagem' => $mensagem,
 );
